@@ -1,0 +1,6 @@
+\form#0:$ \pi $
+\form#1:$ \sigma_c $
+\form#2:$ \sigma_s $
+\form#3:$ \mathbf{x}\times \mathbf{y} $
+\form#4:$ \frac{\mathbf{x}\times \mathbf{y}}{\|\mathbf{x}\times \mathbf{y}\|_2} $
+\form#5:$ \mathbf{n}_f $

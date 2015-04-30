@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$structmesh__color.html" title="mesh_color" alt="" coords="5,5,95,32"/>
+<area shape="rect" id="node3" href="$structmesh__vface.html" title="mesh_vface" alt="" coords="119,5,210,32"/>
+<area shape="rect" id="node4" href="$structmesh__face.html" title="mesh_face" alt="" coords="234,5,319,32"/>
+<area shape="rect" id="node5" href="$structmesh__vector3.html" title="mesh_vector3" alt="" coords="344,5,447,32"/>
+</map>

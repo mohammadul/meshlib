@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$meshlib_8h.html#a4e00579ab3c9986cb115c784e49a009c" title="Removes triangles with area smaller than a given value." alt="" coords="220,5,379,47"/>
+<area shape="rect" id="node3" href="$meshlib_8h.html#a31827c8c149de0a425f4a01273e6649f" title="Removes triangles with zero area." alt="" coords="427,5,593,47"/>
+<area shape="rect" id="node4" href="$meshlib_8h.html#a64ea7e69fd4e877c4dd1f6def430f8bf" title="Removes close vertices." alt="" coords="641,13,832,39"/>
+</map>
