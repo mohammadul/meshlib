@@ -3,6 +3,7 @@ var searchData=
   ['intdata',['INTDATA',['../meshlib_8h.html#af420236be7cf0f6bfbf5490b3cb10a5d',1,'meshlib.h']]],
   ['intdata2',['INTDATA2',['../meshlib_8h.html#af4a4de856063b98556b6e970e6f08534',1,'meshlib.h']]],
   ['is_5ffaces',['is_faces',['../structmesh.html#aa27e0f57c8902081af3be9234934fbb7',1,'mesh']]],
+  ['is_5ffareas',['is_fareas',['../structmesh.html#a8a9ccd43851ce9a9c14c8ec6b19d50c5',1,'mesh']]],
   ['is_5ffcolors',['is_fcolors',['../structmesh.html#af115e2a1adda2ba8eb933a948ae13fa0',1,'mesh']]],
   ['is_5ffnormals',['is_fnormals',['../structmesh.html#a284dcf2f8616efd2be34afe6cc559a82',1,'mesh']]],
   ['is_5floaded',['is_loaded',['../structmesh.html#ae33579ea08ac323c98fe24ab93cd4c50',1,'mesh']]],

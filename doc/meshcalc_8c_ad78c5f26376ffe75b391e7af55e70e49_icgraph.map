@@ -1,13 +1,13 @@
 <map id="G" name="G">
-<area shape="rect" id="node2" href="$meshlib_8h.html#aa0509db908476112994079289963184d" title="Computes vertex normals of a given mesh." alt="" coords="247,63,426,90"/>
-<area shape="rect" id="node3" href="$meshlib_8h.html#aba5939a212e5f499ca645b375ed9bdee" title="Restricted Mesh Laplacian filter." alt="" coords="476,5,649,47"/>
-<area shape="rect" id="node5" href="$meshlib_8h.html#a06e10c143dceded0ee4831fbcb80c901" title="Upsamples a given mesh." alt="" coords="278,114,395,141"/>
-<area shape="rect" id="node6" href="$meshlib_8h.html#a4e00579ab3c9986cb115c784e49a009c" title="Removes triangles with area smaller than a given value." alt="" coords="257,165,416,207"/>
-<area shape="rect" id="node8" href="$meshlib_8h.html#a64ea7e69fd4e877c4dd1f6def430f8bf" title="Removes close vertices." alt="" coords="697,231,888,258"/>
-<area shape="rect" id="node9" href="$meshlib_8h.html#ab61a5ef5bc07cf16f1c76fa7433e842e" title="Removes unreferenced vertices." alt="" coords="245,283,428,324"/>
-<area shape="rect" id="node10" href="$meshlib_8h.html#ac6d62e107ff0c8b94daebd40c471b963" title="Removes ear faces and connecting vertices." alt="" coords="480,345,645,371"/>
-<area shape="rect" id="node11" href="$meshlib_8h.html#a67a42af2e201c092cab659766179c92a" title="Mesh bilateral filter." alt="" coords="268,399,405,426"/>
-<area shape="rect" id="node12" href="$meshlib_8h.html#a8c84a773b3679c6c18bde80bb9570e38" title="Mesh Laplacian filter." alt="" coords="265,450,408,477"/>
-<area shape="rect" id="node4" href="$meshlib_8h.html#a2158fccfd52f0d78b8c00f8c7e45b43b" title="Rotates a mesh by a given rotation." alt="" coords="515,71,610,98"/>
-<area shape="rect" id="node7" href="$meshlib_8h.html#a31827c8c149de0a425f4a01273e6649f" title="Removes triangles with zero area." alt="" coords="479,165,646,207"/>
+<area shape="rect" id="node2" href="$meshlib_8h.html#aa0509db908476112994079289963184d" title="Computes vertex normals of a given mesh." alt="" coords="247,56,426,83"/>
+<area shape="rect" id="node3" href="$meshlib_8h.html#a67a42af2e201c092cab659766179c92a" title="Mesh bilateral filter." alt="" coords="494,5,631,32"/>
+<area shape="rect" id="node4" href="$meshlib_8h.html#aba5939a212e5f499ca645b375ed9bdee" title="Restricted Mesh Laplacian filter." alt="" coords="476,107,649,149"/>
+<area shape="rect" id="node6" href="$meshlib_8h.html#a06e10c143dceded0ee4831fbcb80c901" title="Upsamples a given mesh." alt="" coords="278,157,395,184"/>
+<area shape="rect" id="node7" href="$meshlib_8h.html#a4e00579ab3c9986cb115c784e49a009c" title="Removes triangles with area smaller than a given value." alt="" coords="257,209,416,250"/>
+<area shape="rect" id="node9" href="$meshlib_8h.html#a64ea7e69fd4e877c4dd1f6def430f8bf" title="Removes close vertices." alt="" coords="697,275,888,301"/>
+<area shape="rect" id="node10" href="$meshlib_8h.html#ab61a5ef5bc07cf16f1c76fa7433e842e" title="Removes unreferenced vertices." alt="" coords="245,326,428,367"/>
+<area shape="rect" id="node11" href="$meshlib_8h.html#ac6d62e107ff0c8b94daebd40c471b963" title="Removes ear faces and connecting vertices." alt="" coords="480,388,645,415"/>
+<area shape="rect" id="node12" href="$meshlib_8h.html#a8c84a773b3679c6c18bde80bb9570e38" title="Mesh Laplacian filter." alt="" coords="265,443,408,469"/>
+<area shape="rect" id="node5" href="$meshlib_8h.html#a2158fccfd52f0d78b8c00f8c7e45b43b" title="Rotates a mesh by a given rotation." alt="" coords="515,56,610,83"/>
+<area shape="rect" id="node8" href="$meshlib_8h.html#a31827c8c149de0a425f4a01273e6649f" title="Removes triangles with zero area." alt="" coords="479,209,646,250"/>
 </map>
