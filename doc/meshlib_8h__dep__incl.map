@@ -9,4 +9,5 @@
 <area shape="rect" id="node9" href="$meshload_8c.html" title="This file contains functions pertaining to loading different mesh file types." alt="" coords="827,80,916,107"/>
 <area shape="rect" id="node10" href="$meshtext_8c.html" title="This file contains functions pertaining to different text routines." alt="" coords="940,80,1027,107"/>
 <area shape="rect" id="node11" href="$meshtransform_8c.html" title="This file contains functions pertaining to different mesh transformations." alt="" coords="1051,80,1169,107"/>
+<area shape="rect" id="node12" href="$meshops_8c.html" title="This file contains functions pertaining to mesh combinatorial operations." alt="" coords="1193,80,1280,107"/>
 </map>

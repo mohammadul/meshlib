@@ -1,6 +1,18 @@
 var searchData=
 [
+  ['mesh_5fclone_5fall_5fprops',['MESH_CLONE_ALL_PROPS',['../meshlib_8h.html#ae840f4b6fb7cd33eff76a43541fec584',1,'meshlib.h']]],
+  ['mesh_5fclone_5ff_5fall_5fprops',['MESH_CLONE_F_ALL_PROPS',['../meshlib_8h.html#afd2e42b4ec1711d116bd47a055bfc09c',1,'meshlib.h']]],
+  ['mesh_5fclone_5ffaces',['MESH_CLONE_FACES',['../meshlib_8h.html#a2ed6eb0a7b95b9d8620fd62eb3fa245e',1,'meshlib.h']]],
+  ['mesh_5fclone_5ffareas',['MESH_CLONE_FAREAS',['../meshlib_8h.html#a5f52016cec9ad8a2b2bc94de4456d387',1,'meshlib.h']]],
+  ['mesh_5fclone_5ffcolors',['MESH_CLONE_FCOLORS',['../meshlib_8h.html#a9b2560dbe54ea4858149d2bb57dc1fc8',1,'meshlib.h']]],
+  ['mesh_5fclone_5ffnormals',['MESH_CLONE_FNORMALS',['../meshlib_8h.html#abc32ae2076219dfacbe06231dd5c7c67',1,'meshlib.h']]],
+  ['mesh_5fclone_5fv_5fall_5fprops',['MESH_CLONE_V_ALL_PROPS',['../meshlib_8h.html#a48c9aba82f4dc179c985ceb8a971b378',1,'meshlib.h']]],
+  ['mesh_5fclone_5fvcolors',['MESH_CLONE_VCOLORS',['../meshlib_8h.html#ace617bb2e0d9ec5207429e884dc0e696',1,'meshlib.h']]],
+  ['mesh_5fclone_5fvertices',['MESH_CLONE_VERTICES',['../meshlib_8h.html#a7e01830a3f4154d7b6b36be6d876c8f0',1,'meshlib.h']]],
+  ['mesh_5fclone_5fvfaces',['MESH_CLONE_VFACES',['../meshlib_8h.html#af7a5f766cab8a9857e8ac2ce8e061e4a',1,'meshlib.h']]],
+  ['mesh_5fclone_5fvnormals',['MESH_CLONE_VNORMALS',['../meshlib_8h.html#a2d1695ab2c87387e9f7686911dd85928',1,'meshlib.h']]],
   ['mesh_5ferr_5ffnotopen',['MESH_ERR_FNOTOPEN',['../meshlib_8h.html#a55824a2f9a9533c728d9e61ba4245401',1,'meshlib.h']]],
+  ['mesh_5ferr_5fincompatible',['MESH_ERR_INCOMPATIBLE',['../meshlib_8h.html#a38e1f31166e660374a4008e3d79ebc39',1,'meshlib.h']]],
   ['mesh_5ferr_5fmalloc',['MESH_ERR_MALLOC',['../meshlib_8h.html#a767e00bd4b90d5f1195aaea1bb2720b0',1,'meshlib.h']]],
   ['mesh_5ferr_5fsize_5fmismatch',['MESH_ERR_SIZE_MISMATCH',['../meshlib_8h.html#aec5050be34446745120b23ba80a6dfcd',1,'meshlib.h']]],
   ['mesh_5ferr_5funknown',['MESH_ERR_UNKNOWN',['../meshlib_8h.html#a9083e58b43e7e8529337b67c192afb68',1,'meshlib.h']]],
@@ -15,5 +27,6 @@ var searchData=
   ['mesh_5forigin_5ftype_5fply_5fbinary_5fbig_5fendian',['MESH_ORIGIN_TYPE_PLY_BINARY_BIG_ENDIAN',['../meshlib_8h.html#a475d6be544faf221e4a80c0da1c081d7',1,'meshlib.h']]],
   ['mesh_5forigin_5ftype_5fply_5fbinary_5flittle_5fendian',['MESH_ORIGIN_TYPE_PLY_BINARY_LITTLE_ENDIAN',['../meshlib_8h.html#a545866b60be53f74dfbce1fe1e3265ae',1,'meshlib.h']]],
   ['mesh_5forigin_5ftype_5fxyz',['MESH_ORIGIN_TYPE_XYZ',['../meshlib_8h.html#a3709522587aa367c8002716a6d17768a',1,'meshlib.h']]],
-  ['mesh_5fpi',['MESH_PI',['../meshlib_8h.html#a0250cf76369cb83a8635e090f5040807',1,'meshlib.h']]]
+  ['mesh_5fpi',['MESH_PI',['../meshlib_8h.html#a0250cf76369cb83a8635e090f5040807',1,'meshlib.h']]],
+  ['mesh_5ftwopi',['MESH_TWOPI',['../meshlib_8h.html#a5e58b6921287fa9b679a87f78c2d3ffa',1,'meshlib.h']]]
 ];
