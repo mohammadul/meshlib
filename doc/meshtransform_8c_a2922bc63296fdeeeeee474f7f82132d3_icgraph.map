@@ -1,6 +1,6 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$meshlib_8h.html#a95ad08fb9ab6a6357a37f26abdfa23b6" title="Creates a cuboid mesh." alt="" coords="223,5,389,47"/>
-<area shape="rect" id="node3" href="$meshlib_8h.html#a03655a48821a87b88533b167b4231a10" title="Creates an ellipsoid mesh." alt="" coords="223,71,389,112"/>
-<area shape="rect" id="node4" href="$meshlib_8h.html#a8133aaea0158d9185bbb8a710310dace" title="Creates a cylinder mesh." alt="" coords="223,136,389,177"/>
-<area shape="rect" id="node5" href="$meshlib_8h.html#ab28b1f47fa656e768a7e32dddd609a1a" title="Creates a cone mesh." alt="" coords="205,202,407,229"/>
+<map id="mesh_translate_vector" name="mesh_translate_vector">
+<area shape="rect" id="node2" href="$meshlib_8h.html#a95ad08fb9ab6a6357a37f26abdfa23b6" title="Creates a cuboid mesh. " alt="" coords="223,5,389,47"/>
+<area shape="rect" id="node3" href="$meshlib_8h.html#a03655a48821a87b88533b167b4231a10" title="Creates an ellipsoid mesh. " alt="" coords="223,71,389,112"/>
+<area shape="rect" id="node4" href="$meshlib_8h.html#a8133aaea0158d9185bbb8a710310dace" title="Creates a cylinder mesh. " alt="" coords="223,136,389,177"/>
+<area shape="rect" id="node5" href="$meshlib_8h.html#ab28b1f47fa656e768a7e32dddd609a1a" title="Creates a cone mesh. " alt="" coords="205,202,407,229"/>
 </map>

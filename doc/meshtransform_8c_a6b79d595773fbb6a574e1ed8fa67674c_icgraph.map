@@ -1,4 +1,4 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$meshlib_8h.html#a59d5fdfa40e0dd73606ac136fdc5485c" title="Sets rotation from a matrix." alt="" coords="209,5,381,32"/>
-<area shape="rect" id="node3" href="$meshlib_8h.html#a2e273243f268fc5bf52f71cbb9e50935" title="Sets rotation from angle axis." alt="" coords="200,56,391,83"/>
+<map id="mesh_rotation_create" name="mesh_rotation_create">
+<area shape="rect" id="node2" href="$meshlib_8h.html#a59d5fdfa40e0dd73606ac136fdc5485c" title="Sets rotation from a matrix. " alt="" coords="209,5,381,32"/>
+<area shape="rect" id="node3" href="$meshlib_8h.html#a2e273243f268fc5bf52f71cbb9e50935" title="Sets rotation from angle axis. " alt="" coords="200,56,391,83"/>
 </map>

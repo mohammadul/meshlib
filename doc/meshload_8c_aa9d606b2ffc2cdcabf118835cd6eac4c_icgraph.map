@@ -1,3 +1,3 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$meshlib_8h.html#a9ab21849ad22b76fa1e6990953d1c0c9" title="Reads a mesh from an OFF/PLY/ASC/XYZ file." alt="" coords="167,5,275,32"/>
+<map id="mesh_load_xyz" name="mesh_load_xyz">
+<area shape="rect" id="node2" href="$meshlib_8h.html#a9ab21849ad22b76fa1e6990953d1c0c9" title="Reads a mesh from an OFF/PLY/ASC/XYZ file. " alt="" coords="167,5,275,32"/>
 </map>

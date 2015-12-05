@@ -1,5 +1,6 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$meshlib_8h.html#a67a42af2e201c092cab659766179c92a" title="Mesh bilateral filter." alt="" coords="250,5,387,32"/>
-<area shape="rect" id="node3" href="$meshlib_8h.html#aba5939a212e5f499ca645b375ed9bdee" title="Restricted Mesh Laplacian filter." alt="" coords="232,57,405,98"/>
-<area shape="rect" id="node4" href="$meshlib_8h.html#a2158fccfd52f0d78b8c00f8c7e45b43b" title="Rotates a mesh by a given rotation." alt="" coords="271,123,366,149"/>
+<map id="mesh_calc_vertex_normals" name="mesh_calc_vertex_normals">
+<area shape="rect" id="node2" href="$meshlib_8h.html#a29f020492919c45fdf7074b50b210e72" title="Draws a given mesh in OpenGL context in smoothing shading. " alt="" coords="232,5,409,32"/>
+<area shape="rect" id="node3" href="$meshlib_8h.html#a67a42af2e201c092cab659766179c92a" title="Mesh bilateral filter. " alt="" coords="252,56,389,83"/>
+<area shape="rect" id="node4" href="$meshlib_8h.html#aba5939a212e5f499ca645b375ed9bdee" title="Restricted Mesh Laplacian filter. " alt="" coords="234,107,407,149"/>
+<area shape="rect" id="node5" href="$meshlib_8h.html#a2158fccfd52f0d78b8c00f8c7e45b43b" title="Rotates a mesh by a given rotation. " alt="" coords="273,173,368,200"/>
 </map>

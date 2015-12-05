@@ -1,0 +1,729 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a411c46599e926f8cdf49c63957255359"><param name="Name" value="_CRT_SECURE_NO_DEPRECATE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__color.html#a6b4c4f51277e55f446d391c37cddefb5"><param name="Name" value="a"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__color.html#a2e7c049f67d83f9256689499081402c3"><param name="Name" value="b"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__rotation.html#a13731ab661fae38245e9f085e4177cbb"><param name="Name" value="data"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__rotation.html#a13731ab661fae38245e9f085e4177cbb"><param name="Name" value="mesh_rotation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__transform.html#af1b28804575f07c5e2fc2c125172e986"><param name="Name" value="mesh_transform"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#aff7b59f569ec689a7580bd6911daafd5"><param name="Name" value="dummy"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#abe8d6e831d427c62e4f3d02e2f27d47c"><param name="Name" value="edges"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a6ddbe9302abd0de6cdb7ff2bd1cbc762"><param name="Name" value="faces"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a6ddbe9302abd0de6cdb7ff2bd1cbc762"><param name="Name" value="mesh"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__adjface.html#ae73e1c1ed47da9e3f34ce57a26adca6b"><param name="Name" value="mesh_adjface"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__edge.html#aeeceb69e996daf39b137c12667c81e2d"><param name="Name" value="mesh_edge"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a28d2668235cf7318d120fbf6b0a386c8"><param name="Name" value="fareas"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#acd7f9368ad93aa1ea16710ffd9c53f61"><param name="Name" value="fcolors"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#aeb84d1c86cade096c2b9b5f2c18c56c7"><param name="Name" value="ffaces"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aee4e9e705f4ff0947ee2631af7653631"><param name="Name" value="FILEPOINTER"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ac8fa5737ce74c0ed2b9b07431a76528b"><param name="Name" value="FLOATDATA"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a7aaeea581e2e69c71bd2f5fb16f45085"><param name="Name" value="fnormals"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__color.html#a6516fb078d0fbc28038c853f0e13fd0b"><param name="Name" value="g"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af4a4de856063b98556b6e970e6f08534"><param name="Name" value="INTDATA2"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ac6d0c51b811e288b54edaeb5ab1013cd"><param name="Name" value="INTDATA3"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af420236be7cf0f6bfbf5490b3cb10a5d"><param name="Name" value="INTDATA"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a40454cd7cd59526a349c9627799ffc7b"><param name="Name" value="is_edges"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#aa27e0f57c8902081af3be9234934fbb7"><param name="Name" value="is_faces"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a8a9ccd43851ce9a9c14c8ec6b19d50c5"><param name="Name" value="is_fareas"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#af115e2a1adda2ba8eb933a948ae13fa0"><param name="Name" value="is_fcolors"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a7eaf6e5270bfb0bd2ba76703c9154e97"><param name="Name" value="is_ffaces"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a284dcf2f8616efd2be34afe6cc559a82"><param name="Name" value="is_fnormals"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#ae33579ea08ac323c98fe24ab93cd4c50"><param name="Name" value="is_loaded"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a3d16e435a8e8c2cad24b3811777e8549"><param name="Name" value="is_trimesh"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a13ca8b6a41388306691a86ee01eeecd4"><param name="Name" value="is_vcolors"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a711a322e9ba3142c8e122805c2a3a0b7"><param name="Name" value="is_vertices"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#aed4a0722a3725183179dfcf5846ca409"><param name="Name" value="is_vfaces"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#aa82f137786583830088e4092eb4de09b"><param name="Name" value="is_vnormals"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct.html#a7220b149559158d139f37c264ce8da1c"><param name="Name" value="items"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct.html#a7220b149559158d139f37c264ce8da1c"><param name="Name" value="mesh_struct"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct2.html#ab850cb13e0a2cca0133be77af1c69bc3"><param name="Name" value="mesh_struct2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct3.html#a16d15100ebb5c38286f2b5ee73e998af"><param name="Name" value="mesh_struct3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html"><param name="Name" value="mesh"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#aff7b59f569ec689a7580bd6911daafd5"><param name="Name" value="dummy"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#abe8d6e831d427c62e4f3d02e2f27d47c"><param name="Name" value="edges"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a6ddbe9302abd0de6cdb7ff2bd1cbc762"><param name="Name" value="faces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a28d2668235cf7318d120fbf6b0a386c8"><param name="Name" value="fareas"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#acd7f9368ad93aa1ea16710ffd9c53f61"><param name="Name" value="fcolors"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#aeb84d1c86cade096c2b9b5f2c18c56c7"><param name="Name" value="ffaces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a7aaeea581e2e69c71bd2f5fb16f45085"><param name="Name" value="fnormals"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a40454cd7cd59526a349c9627799ffc7b"><param name="Name" value="is_edges"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#aa27e0f57c8902081af3be9234934fbb7"><param name="Name" value="is_faces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a8a9ccd43851ce9a9c14c8ec6b19d50c5"><param name="Name" value="is_fareas"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#af115e2a1adda2ba8eb933a948ae13fa0"><param name="Name" value="is_fcolors"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a7eaf6e5270bfb0bd2ba76703c9154e97"><param name="Name" value="is_ffaces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a284dcf2f8616efd2be34afe6cc559a82"><param name="Name" value="is_fnormals"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#ae33579ea08ac323c98fe24ab93cd4c50"><param name="Name" value="is_loaded"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a3d16e435a8e8c2cad24b3811777e8549"><param name="Name" value="is_trimesh"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a13ca8b6a41388306691a86ee01eeecd4"><param name="Name" value="is_vcolors"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a711a322e9ba3142c8e122805c2a3a0b7"><param name="Name" value="is_vertices"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#aed4a0722a3725183179dfcf5846ca409"><param name="Name" value="is_vfaces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#aa82f137786583830088e4092eb4de09b"><param name="Name" value="is_vnormals"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ae66c461fcee2e9e588ead04f54df256a"><param name="Name" value="MESH"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9413491d19cf2a99664383897225b9bb"><param name="Name" value="mesh"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9413491d19cf2a99664383897225b9bb"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a8e749d42d785bf5e8a554a3668a2c6a5"><param name="Name" value="num_edges"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a9c8c612b2b6b55f3e7731cdcebb2fc5b"><param name="Name" value="num_faces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a9c29fd6fe8b23cffbe97ffb523dc115e"><param name="Name" value="num_vertices"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a5ecfb894a818c6ec501848f5433c47af"><param name="Name" value="origin_type"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a232c6d20b115bf9c944471d57003bc71"><param name="Name" value="vcolors"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#ade532794944a152f01dfdaa1ade3a499"><param name="Name" value="vertices"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#aa07e0eaff6ec7c7b3493638778b5468a"><param name="Name" value="vfaces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a0a1ea95ce492b8671594948278be8103"><param name="Name" value="vnormals"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__adjface.html"><param name="Name" value="mesh_adjface"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__adjface.html#ae73e1c1ed47da9e3f34ce57a26adca6b"><param name="Name" value="faces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af05f990f741a51b46d624863bfd0dcb0"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__adjface.html#a9c8c612b2b6b55f3e7731cdcebb2fc5b"><param name="Name" value="num_faces"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshfilter_8c.html#a67a42af2e201c092cab659766179c92a"><param name="Name" value="mesh_bilateral_filter"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshfilter_8c.html#a67a42af2e201c092cab659766179c92a"><param name="Name" value="meshfilter.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a67a42af2e201c092cab659766179c92a"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a33344dbe1f237324724722258b425d8a"><param name="Name" value="mesh_calc_edges"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a33344dbe1f237324724722258b425d8a"><param name="Name" value="meshcalc.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a33344dbe1f237324724722258b425d8a"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a9045bc76d71af1b7c5e3e87cd5d0287f"><param name="Name" value="mesh_calc_face_adjacency"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a9045bc76d71af1b7c5e3e87cd5d0287f"><param name="Name" value="meshcalc.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9045bc76d71af1b7c5e3e87cd5d0287f"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#afa342d3221c0a418394b1a6cc6a6f0dd"><param name="Name" value="mesh_calc_face_normal"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#afa342d3221c0a418394b1a6cc6a6f0dd"><param name="Name" value="meshcalc.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#afa342d3221c0a418394b1a6cc6a6f0dd"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a1951454adfa3fbf3890e78a74376460b"><param name="Name" value="mesh_calc_face_normals"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a1951454adfa3fbf3890e78a74376460b"><param name="Name" value="meshcalc.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a1951454adfa3fbf3890e78a74376460b"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#aef39a14ecf45fc9b784784c65e71bd24"><param name="Name" value="mesh_calc_triangle_area"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#aef39a14ecf45fc9b784784c65e71bd24"><param name="Name" value="meshcalc.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aef39a14ecf45fc9b784784c65e71bd24"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49"><param name="Name" value="mesh_calc_vertex_adjacency"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49"><param name="Name" value="meshcalc.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ad78c5f26376ffe75b391e7af55e70e49"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#aa0509db908476112994079289963184d"><param name="Name" value="mesh_calc_vertex_normals"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#aa0509db908476112994079289963184d"><param name="Name" value="meshcalc.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa0509db908476112994079289963184d"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ae840f4b6fb7cd33eff76a43541fec584"><param name="Name" value="MESH_CLONE_ALL_PROPS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ac9de25cb22e0d202329fb58565547fda"><param name="Name" value="MESH_CLONE_EDGES"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#afd2e42b4ec1711d116bd47a055bfc09c"><param name="Name" value="MESH_CLONE_F_ALL_PROPS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2ed6eb0a7b95b9d8620fd62eb3fa245e"><param name="Name" value="MESH_CLONE_FACES"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5f52016cec9ad8a2b2bc94de4456d387"><param name="Name" value="MESH_CLONE_FAREAS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9b2560dbe54ea4858149d2bb57dc1fc8"><param name="Name" value="MESH_CLONE_FCOLORS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa3d3165384fbb8188887536f342cece6"><param name="Name" value="MESH_CLONE_FFACES"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#abc32ae2076219dfacbe06231dd5c7c67"><param name="Name" value="MESH_CLONE_FNORMALS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a69f3ba1af27dcbf10d386d27a3b44ebe"><param name="Name" value="mesh_clone_mesh"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a69f3ba1af27dcbf10d386d27a3b44ebe"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshops_8c.html#a69f3ba1af27dcbf10d386d27a3b44ebe"><param name="Name" value="meshops.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a48c9aba82f4dc179c985ceb8a971b378"><param name="Name" value="MESH_CLONE_V_ALL_PROPS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ace617bb2e0d9ec5207429e884dc0e696"><param name="Name" value="MESH_CLONE_VCOLORS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a7e01830a3f4154d7b6b36be6d876c8f0"><param name="Name" value="MESH_CLONE_VERTICES"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af7a5f766cab8a9857e8ac2ce8e061e4a"><param name="Name" value="MESH_CLONE_VFACES"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2d1695ab2c87387e9f7686911dd85928"><param name="Name" value="MESH_CLONE_VNORMALS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__color.html"><param name="Name" value="mesh_color"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__color.html#a6b4c4f51277e55f446d391c37cddefb5"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__color.html#a2e7c049f67d83f9256689499081402c3"><param name="Name" value="b"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__color.html#a6516fb078d0fbc28038c853f0e13fd0b"><param name="Name" value="g"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ab7a7e8df440ef5af95d7281522238a42"><param name="Name" value="MESH_COLOR"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a08b43c438233143d8d59e2e054b81656"><param name="Name" value="mesh_color"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a08b43c438233143d8d59e2e054b81656"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__color.html#a17f5d51d709dc9e127433d2adfa9db39"><param name="Name" value="r"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa94db2c3e1e6d343053b625cf365b667"><param name="Name" value="mesh_combine_mesh"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa94db2c3e1e6d343053b625cf365b667"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshops_8c.html#aa94db2c3e1e6d343053b625cf365b667"><param name="Name" value="meshops.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a4c1106f7aa136657ef0f5788148c454b"><param name="Name" value="mesh_count_words_in_line"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a4c1106f7aa136657ef0f5788148c454b"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtext_8c.html#a4c1106f7aa136657ef0f5788148c454b"><param name="Name" value="meshtext.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#ac84ad979c868a2fb0f1a89aa2c56e2a7"><param name="Name" value="mesh_create_mesh_new"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#ac84ad979c868a2fb0f1a89aa2c56e2a7"><param name="Name" value="meshcreate.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ac84ad979c868a2fb0f1a89aa2c56e2a7"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#ab28b1f47fa656e768a7e32dddd609a1a"><param name="Name" value="mesh_create_mesh_new_cone"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#ab28b1f47fa656e768a7e32dddd609a1a"><param name="Name" value="meshcreate.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ab28b1f47fa656e768a7e32dddd609a1a"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#a95ad08fb9ab6a6357a37f26abdfa23b6"><param name="Name" value="mesh_create_mesh_new_cuboid"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#a95ad08fb9ab6a6357a37f26abdfa23b6"><param name="Name" value="meshcreate.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a95ad08fb9ab6a6357a37f26abdfa23b6"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#a8133aaea0158d9185bbb8a710310dace"><param name="Name" value="mesh_create_mesh_new_cylinder"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#a8133aaea0158d9185bbb8a710310dace"><param name="Name" value="meshcreate.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a8133aaea0158d9185bbb8a710310dace"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#a03655a48821a87b88533b167b4231a10"><param name="Name" value="mesh_create_mesh_new_ellipsoid"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#a03655a48821a87b88533b167b4231a10"><param name="Name" value="meshcreate.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a03655a48821a87b88533b167b4231a10"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#ae9d034f71e466e55380390f3b90d90eb"><param name="Name" value="mesh_cross_normal"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#ae9d034f71e466e55380390f3b90d90eb"><param name="Name" value="meshcalc.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ae9d034f71e466e55380390f3b90d90eb"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a0549a35b7d8e1eed4e896d172cff42ce"><param name="Name" value="mesh_cross_vector3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a0549a35b7d8e1eed4e896d172cff42ce"><param name="Name" value="meshcalc.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a0549a35b7d8e1eed4e896d172cff42ce"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshdraw_8c.html#a405c87043523042797a9bf50956b2946"><param name="Name" value="mesh_draw_mesh"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshdraw_8c.html#a405c87043523042797a9bf50956b2946"><param name="Name" value="meshdraw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a405c87043523042797a9bf50956b2946"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshdraw_8c.html#a29f020492919c45fdf7074b50b210e72"><param name="Name" value="mesh_draw_mesh_smooth"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshdraw_8c.html#a29f020492919c45fdf7074b50b210e72"><param name="Name" value="meshdraw.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a29f020492919c45fdf7074b50b210e72"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__edge.html"><param name="Name" value="mesh_edge"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__edge.html#aeeceb69e996daf39b137c12667c81e2d"><param name="Name" value="faces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a09602fafe0e3d7c0d4aa643deae08ba9"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a1d2df7f960c8a7db2266c99cad94bf7d"><param name="Name" value="MESH_EDGE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__edge.html"><param name="Name" value="mesh_edge"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a55824a2f9a9533c728d9e61ba4245401"><param name="Name" value="MESH_ERR_FNOTOPEN"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a38e1f31166e660374a4008e3d79ebc39"><param name="Name" value="MESH_ERR_INCOMPATIBLE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a767e00bd4b90d5f1195aaea1bb2720b0"><param name="Name" value="MESH_ERR_MALLOC"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aec5050be34446745120b23ba80a6dfcd"><param name="Name" value="MESH_ERR_SIZE_MISMATCH"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9083e58b43e7e8529337b67c192afb68"><param name="Name" value="MESH_ERR_UNKNOWN"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a"><param name="Name" value="mesh_error"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a"><param name="Name" value="mesherror.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ae7b8a7a865a69704e4ed00410111749a"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__face.html"><param name="Name" value="mesh_face"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a24785a2d26c428dfff5597a8e95db348"><param name="Name" value="MESH_FACE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a1fb7073b21e39f3c678dc00946227130"><param name="Name" value="mesh_face"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a1fb7073b21e39f3c678dc00946227130"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__face.html#a9c29fd6fe8b23cffbe97ffb523dc115e"><param name="Name" value="num_vertices"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__face.html#afad1537444969f303a406dc60677d5a7"><param name="Name" value="vertices"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a6890baa869c286b307ff0f0b35b141e4"><param name="Name" value="mesh_fface"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a55fc043737effbaf7ddac844bc37f3b0"><param name="Name" value="MESH_FFACE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#aeaebe5f81ad3e5b63c95ba0c439915eb"><param name="Name" value="mesh_find2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#aeaebe5f81ad3e5b63c95ba0c439915eb"><param name="Name" value="meshcalc.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aeaebe5f81ad3e5b63c95ba0c439915eb"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a869eb0946ce7dc06e072d3467b00f139"><param name="Name" value="mesh_find3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a869eb0946ce7dc06e072d3467b00f139"><param name="Name" value="meshcalc.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a869eb0946ce7dc06e072d3467b00f139"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a5315609898ff753ce007e8e849f30d45"><param name="Name" value="mesh_find"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a5315609898ff753ce007e8e849f30d45"><param name="Name" value="meshcalc.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5315609898ff753ce007e8e849f30d45"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2dbc7cdcd5cb3a736df16b131e5bff91"><param name="Name" value="MESH_FLOATDATA_TYPE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#a1ba27c7bc0013170910d8305cb28d1e7"><param name="Name" value="mesh_free_mesh"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#a1ba27c7bc0013170910d8305cb28d1e7"><param name="Name" value="meshcreate.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a1ba27c7bc0013170910d8305cb28d1e7"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ae0d372759f6946fcf6655b2dfb08c7ad"><param name="Name" value="mesh_go_next_word"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ae0d372759f6946fcf6655b2dfb08c7ad"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtext_8c.html#ae0d372759f6946fcf6655b2dfb08c7ad"><param name="Name" value="meshtext.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#adb3cf1c26280d108e09e66827c2800aa"><param name="Name" value="MESH_INTDATA_TYPE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a8fbb37c1c406fa61c214dfa00b19a72e"><param name="Name" value="mesh_isnumeric"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a8fbb37c1c406fa61c214dfa00b19a72e"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtext_8c.html#a8fbb37c1c406fa61c214dfa00b19a72e"><param name="Name" value="meshtext.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshfilter_8c.html#a8c84a773b3679c6c18bde80bb9570e38"><param name="Name" value="mesh_laplacian_filter"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshfilter_8c.html#a8c84a773b3679c6c18bde80bb9570e38"><param name="Name" value="meshfilter.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a8c84a773b3679c6c18bde80bb9570e38"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9ab21849ad22b76fa1e6990953d1c0c9"><param name="Name" value="mesh_load_file"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9ab21849ad22b76fa1e6990953d1c0c9"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshload_8c.html#a9ab21849ad22b76fa1e6990953d1c0c9"><param name="Name" value="meshload.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ad7ed7c1491a7e936e2abe3b7b70e7604"><param name="Name" value="mesh_load_off"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ad7ed7c1491a7e936e2abe3b7b70e7604"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshload_8c.html#ad7ed7c1491a7e936e2abe3b7b70e7604"><param name="Name" value="meshload.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a7fd576f15ed99a38c622fe0bd67ae941"><param name="Name" value="mesh_load_ply"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa9d606b2ffc2cdcabf118835cd6eac4c"><param name="Name" value="mesh_load_xyz"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa9d606b2ffc2cdcabf118835cd6eac4c"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshload_8c.html#aa9d606b2ffc2cdcabf118835cd6eac4c"><param name="Name" value="meshload.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a335696d2580260ecc5024a42d4e53107"><param name="Name" value="mesh_normal"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aeafdc252967e7dd01193ecba35bb3e4c"><param name="Name" value="MESH_NORMAL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a88de69a3a6f428d0a349b70a996ad1d7"><param name="Name" value="MESH_ORIGIN_TYPE_BUILD"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#adcac32b0585df5ecf68469cc44362bdb"><param name="Name" value="MESH_ORIGIN_TYPE_COFF"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5ce901ef2bfb4f6007295403fd618688"><param name="Name" value="MESH_ORIGIN_TYPE_NCOFF"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ad28ff982ef6157f68cdae386a9c0a741"><param name="Name" value="MESH_ORIGIN_TYPE_NOFF"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa8ac30e12b3f2f1cf5c3be5f5a58a782"><param name="Name" value="MESH_ORIGIN_TYPE_OFF"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a6f671d7d8e86dd6c9669726e505f8116"><param name="Name" value="MESH_ORIGIN_TYPE_PLY_ASCII"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a475d6be544faf221e4a80c0da1c081d7"><param name="Name" value="MESH_ORIGIN_TYPE_PLY_BINARY_BIG_ENDIAN"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a545866b60be53f74dfbce1fe1e3265ae"><param name="Name" value="MESH_ORIGIN_TYPE_PLY_BINARY_LITTLE_ENDIAN"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a3709522587aa367c8002716a6d17768a"><param name="Name" value="MESH_ORIGIN_TYPE_XYZ"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a0250cf76369cb83a8635e090f5040807"><param name="Name" value="MESH_PI"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa8f584bacb2bfffb8195fa0c340abcd8"><param name="Name" value="mesh_read_word"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa8f584bacb2bfffb8195fa0c340abcd8"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtext_8c.html#aa8f584bacb2bfffb8195fa0c340abcd8"><param name="Name" value="meshtext.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a463e7a8f2e6ef7d70894150bf4205d40"><param name="Name" value="mesh_read_word_only"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a463e7a8f2e6ef7d70894150bf4205d40"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtext_8c.html#a463e7a8f2e6ef7d70894150bf4205d40"><param name="Name" value="meshtext.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#aa0b039d809b08622cefeba9e7a091a05"><param name="Name" value="mesh_remove_boundary_faces"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#aa0b039d809b08622cefeba9e7a091a05"><param name="Name" value="meshclean.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa0b039d809b08622cefeba9e7a091a05"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#a73e603171346670dd4cf530c823a4c82"><param name="Name" value="mesh_remove_boundary_vertices"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#a73e603171346670dd4cf530c823a4c82"><param name="Name" value="meshclean.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a73e603171346670dd4cf530c823a4c82"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#a64ea7e69fd4e877c4dd1f6def430f8bf"><param name="Name" value="mesh_remove_close_vertices"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#a64ea7e69fd4e877c4dd1f6def430f8bf"><param name="Name" value="meshclean.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a64ea7e69fd4e877c4dd1f6def430f8bf"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#ac6d62e107ff0c8b94daebd40c471b963"><param name="Name" value="mesh_remove_ear_faces"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#ac6d62e107ff0c8b94daebd40c471b963"><param name="Name" value="meshclean.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ac6d62e107ff0c8b94daebd40c471b963"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#a4e00579ab3c9986cb115c784e49a009c"><param name="Name" value="mesh_remove_triangles_with_small_area"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#a4e00579ab3c9986cb115c784e49a009c"><param name="Name" value="meshclean.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a4e00579ab3c9986cb115c784e49a009c"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#ab61a5ef5bc07cf16f1c76fa7433e842e"><param name="Name" value="mesh_remove_unreferenced_vertices"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#ab61a5ef5bc07cf16f1c76fa7433e842e"><param name="Name" value="meshclean.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ab61a5ef5bc07cf16f1c76fa7433e842e"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#a31827c8c149de0a425f4a01273e6649f"><param name="Name" value="mesh_remove_zero_area_faces"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#a31827c8c149de0a425f4a01273e6649f"><param name="Name" value="meshclean.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a31827c8c149de0a425f4a01273e6649f"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshfilter_8c.html#aba5939a212e5f499ca645b375ed9bdee"><param name="Name" value="mesh_restricted_laplacian_filter"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshfilter_8c.html#aba5939a212e5f499ca645b375ed9bdee"><param name="Name" value="meshfilter.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aba5939a212e5f499ca645b375ed9bdee"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2158fccfd52f0d78b8c00f8c7e45b43b"><param name="Name" value="mesh_rotate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2158fccfd52f0d78b8c00f8c7e45b43b"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a2158fccfd52f0d78b8c00f8c7e45b43b"><param name="Name" value="meshtransform.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__rotation.html"><param name="Name" value="mesh_rotation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__rotation.html#a13731ab661fae38245e9f085e4177cbb"><param name="Name" value="data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa2f56b0537cb5c74e85941b97fb0900f"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a694dfc36540505ddbff168f6a3e1139a"><param name="Name" value="MESH_ROTATION"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a6b79d595773fbb6a574e1ed8fa67674c"><param name="Name" value="mesh_rotation_create"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a6b79d595773fbb6a574e1ed8fa67674c"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a6b79d595773fbb6a574e1ed8fa67674c"><param name="Name" value="meshtransform.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a324714477b0e712312b9de480f9cabab"><param name="Name" value="mesh_rotation_free"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a324714477b0e712312b9de480f9cabab"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a324714477b0e712312b9de480f9cabab"><param name="Name" value="meshtransform.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2e273243f268fc5bf52f71cbb9e50935"><param name="Name" value="mesh_rotation_set_angleaxis"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2e273243f268fc5bf52f71cbb9e50935"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a2e273243f268fc5bf52f71cbb9e50935"><param name="Name" value="meshtransform.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a59d5fdfa40e0dd73606ac136fdc5485c"><param name="Name" value="mesh_rotation_set_matrix"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a59d5fdfa40e0dd73606ac136fdc5485c"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a59d5fdfa40e0dd73606ac136fdc5485c"><param name="Name" value="meshtransform.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a8e0581288a873837118b83af4c726d54"><param name="Name" value="mesh_scale"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a8e0581288a873837118b83af4c726d54"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a8e0581288a873837118b83af4c726d54"><param name="Name" value="meshtransform.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af66fdd34570fb6e7c76efab62264e251"><param name="Name" value="mesh_skip_line"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af66fdd34570fb6e7c76efab62264e251"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtext_8c.html#af66fdd34570fb6e7c76efab62264e251"><param name="Name" value="meshtext.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct.html"><param name="Name" value="mesh_struct"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct2.html"><param name="Name" value="mesh_struct2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct2.html#ab850cb13e0a2cca0133be77af1c69bc3"><param name="Name" value="items"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a46646f436f6694748212ecebb9624fab"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a0b2caff7c119e584d6375c9ce2e212d0"><param name="Name" value="MESH_STRUCT2"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct2.html"><param name="Name" value="mesh_struct2"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct3.html"><param name="Name" value="mesh_struct3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct3.html#a16d15100ebb5c38286f2b5ee73e998af"><param name="Name" value="items"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#abe194aa562df1e4054289239edfbbd01"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa29739a323e87b2a0dccda8e88c01ff8"><param name="Name" value="MESH_STRUCT3"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct3.html"><param name="Name" value="mesh_struct3"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct.html"><param name="Name" value="mesh_struct"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct.html#a7220b149559158d139f37c264ce8da1c"><param name="Name" value="items"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5b394608b01c8d182355b717338fd6c6"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2837a9c9710c4e17183123d242cce610"><param name="Name" value="MESH_STRUCT"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct.html"><param name="Name" value="mesh_struct"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__transform.html"><param name="Name" value="mesh_transform"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__transform.html#af1b28804575f07c5e2fc2c125172e986"><param name="Name" value="data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aee11e15f007c66eabfbf6cdf38b31c37"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ad020327b499f8823e045aa4d7f3a81d9"><param name="Name" value="MESH_TRANSFORM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5518adcc0f841186e58faf26b2dc2f44"><param name="Name" value="mesh_translate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5518adcc0f841186e58faf26b2dc2f44"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a5518adcc0f841186e58faf26b2dc2f44"><param name="Name" value="meshtransform.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a537d8f9891947f3ba511bee8e91c6c37"><param name="Name" value="mesh_translate_vector"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a537d8f9891947f3ba511bee8e91c6c37"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a2922bc63296fdeeeeee474f7f82132d3"><param name="Name" value="meshtransform.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5e58b6921287fa9b679a87f78c2d3ffa"><param name="Name" value="MESH_TWOPI"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a06e10c143dceded0ee4831fbcb80c901"><param name="Name" value="mesh_upsample"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a06e10c143dceded0ee4831fbcb80c901"><param name="Name" value="meshcalc.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a06e10c143dceded0ee4831fbcb80c901"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__vector3.html"><param name="Name" value="mesh_vector3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a3fb99cc117da45c20ee4c780067c6e6d"><param name="Name" value="meshlib.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9f8771fbad11c2c820fa9edfaa2f785a"><param name="Name" value="MESH_VECTOR3"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__vector3.html"><param name="Name" value="mesh_vector3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__vector3.html#ab56639c5d219c7b41bf1dcb1c6d65b1e"><param name="Name" value="x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__vector3.html#a5de616af7aed82ac72281dda3068d921"><param name="Name" value="y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__vector3.html#ae168b6fc55fdbdec5f17115b90953e3d"><param name="Name" value="z"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a7d34f64cd039e9d792583b151ef929a4"><param name="Name" value="mesh_vertex"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#acf60bd292ae446dbed84cd352e29e876"><param name="Name" value="MESH_VERTEX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa7f930546a505bb966e3ed85e8e5a176"><param name="Name" value="mesh_vertex_rotate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa7f930546a505bb966e3ed85e8e5a176"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#aa7f930546a505bb966e3ed85e8e5a176"><param name="Name" value="meshtransform.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9a605289ad71c4d427a7fb6f220e8dc9"><param name="Name" value="mesh_vface"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a700f0a8e376a3a2a006d7cda397611d9"><param name="Name" value="MESH_VFACE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a1f043cb0fb01d7685a480c995d1bdd7a"><param name="Name" value="mesh_write_file"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a1f043cb0fb01d7685a480c995d1bdd7a"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshwrite_8c.html#a1f043cb0fb01d7685a480c995d1bdd7a"><param name="Name" value="meshwrite.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a99f4a6724ea07424ab16f28de628816d"><param name="Name" value="mesh_write_off"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a99f4a6724ea07424ab16f28de628816d"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshwrite_8c.html#a99f4a6724ea07424ab16f28de628816d"><param name="Name" value="meshwrite.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a3416e45fffcc287df6be33a2b60eb694"><param name="Name" value="mesh_write_ply"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a3416e45fffcc287df6be33a2b60eb694"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshwrite_8c.html#a3416e45fffcc287df6be33a2b60eb694"><param name="Name" value="meshwrite.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a8af48a03b82f119eb880af77aa3100f5"><param name="Name" value="mesh_write_xyz"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a8af48a03b82f119eb880af77aa3100f5"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshwrite_8c.html#a8af48a03b82f119eb880af77aa3100f5"><param name="Name" value="meshwrite.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html"><param name="Name" value="meshcalc.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a33344dbe1f237324724722258b425d8a"><param name="Name" value="mesh_calc_edges"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a9045bc76d71af1b7c5e3e87cd5d0287f"><param name="Name" value="mesh_calc_face_adjacency"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#afa342d3221c0a418394b1a6cc6a6f0dd"><param name="Name" value="mesh_calc_face_normal"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a1951454adfa3fbf3890e78a74376460b"><param name="Name" value="mesh_calc_face_normals"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#aef39a14ecf45fc9b784784c65e71bd24"><param name="Name" value="mesh_calc_triangle_area"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49"><param name="Name" value="mesh_calc_vertex_adjacency"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#aa0509db908476112994079289963184d"><param name="Name" value="mesh_calc_vertex_normals"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#ae9d034f71e466e55380390f3b90d90eb"><param name="Name" value="mesh_cross_normal"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a0549a35b7d8e1eed4e896d172cff42ce"><param name="Name" value="mesh_cross_vector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a5315609898ff753ce007e8e849f30d45"><param name="Name" value="mesh_find"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#aeaebe5f81ad3e5b63c95ba0c439915eb"><param name="Name" value="mesh_find2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a869eb0946ce7dc06e072d3467b00f139"><param name="Name" value="mesh_find3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcalc_8c.html#a06e10c143dceded0ee4831fbcb80c901"><param name="Name" value="mesh_upsample"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html"><param name="Name" value="meshclean.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#aa0b039d809b08622cefeba9e7a091a05"><param name="Name" value="mesh_remove_boundary_faces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#a73e603171346670dd4cf530c823a4c82"><param name="Name" value="mesh_remove_boundary_vertices"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#a64ea7e69fd4e877c4dd1f6def430f8bf"><param name="Name" value="mesh_remove_close_vertices"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#ac6d62e107ff0c8b94daebd40c471b963"><param name="Name" value="mesh_remove_ear_faces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#a4e00579ab3c9986cb115c784e49a009c"><param name="Name" value="mesh_remove_triangles_with_small_area"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#ab61a5ef5bc07cf16f1c76fa7433e842e"><param name="Name" value="mesh_remove_unreferenced_vertices"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshclean_8c.html#a31827c8c149de0a425f4a01273e6649f"><param name="Name" value="mesh_remove_zero_area_faces"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html"><param name="Name" value="meshcreate.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#ac84ad979c868a2fb0f1a89aa2c56e2a7"><param name="Name" value="mesh_create_mesh_new"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#ab28b1f47fa656e768a7e32dddd609a1a"><param name="Name" value="mesh_create_mesh_new_cone"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#a95ad08fb9ab6a6357a37f26abdfa23b6"><param name="Name" value="mesh_create_mesh_new_cuboid"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#a8133aaea0158d9185bbb8a710310dace"><param name="Name" value="mesh_create_mesh_new_cylinder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#a03655a48821a87b88533b167b4231a10"><param name="Name" value="mesh_create_mesh_new_ellipsoid"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshcreate_8c.html#a1ba27c7bc0013170910d8305cb28d1e7"><param name="Name" value="mesh_free_mesh"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshdraw_8c.html"><param name="Name" value="meshdraw.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshdraw_8c.html#a405c87043523042797a9bf50956b2946"><param name="Name" value="mesh_draw_mesh"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshdraw_8c.html#a29f020492919c45fdf7074b50b210e72"><param name="Name" value="mesh_draw_mesh_smooth"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mesherror_8c.html"><param name="Name" value="mesherror.c"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshfilter_8c.html"><param name="Name" value="meshfilter.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshfilter_8c.html#a67a42af2e201c092cab659766179c92a"><param name="Name" value="mesh_bilateral_filter"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshfilter_8c.html#a8c84a773b3679c6c18bde80bb9570e38"><param name="Name" value="mesh_laplacian_filter"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshfilter_8c.html#aba5939a212e5f499ca645b375ed9bdee"><param name="Name" value="mesh_restricted_laplacian_filter"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html"><param name="Name" value="meshlib.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a411c46599e926f8cdf49c63957255359"><param name="Name" value="_CRT_SECURE_NO_DEPRECATE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aee4e9e705f4ff0947ee2631af7653631"><param name="Name" value="FILEPOINTER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ac8fa5737ce74c0ed2b9b07431a76528b"><param name="Name" value="FLOATDATA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af420236be7cf0f6bfbf5490b3cb10a5d"><param name="Name" value="INTDATA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af4a4de856063b98556b6e970e6f08534"><param name="Name" value="INTDATA2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ac6d0c51b811e288b54edaeb5ab1013cd"><param name="Name" value="INTDATA3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9413491d19cf2a99664383897225b9bb"><param name="Name" value="mesh"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ae66c461fcee2e9e588ead04f54df256a"><param name="Name" value="MESH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af05f990f741a51b46d624863bfd0dcb0"><param name="Name" value="mesh_adjface"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a67a42af2e201c092cab659766179c92a"><param name="Name" value="mesh_bilateral_filter"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a33344dbe1f237324724722258b425d8a"><param name="Name" value="mesh_calc_edges"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9045bc76d71af1b7c5e3e87cd5d0287f"><param name="Name" value="mesh_calc_face_adjacency"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#afa342d3221c0a418394b1a6cc6a6f0dd"><param name="Name" value="mesh_calc_face_normal"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a1951454adfa3fbf3890e78a74376460b"><param name="Name" value="mesh_calc_face_normals"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aef39a14ecf45fc9b784784c65e71bd24"><param name="Name" value="mesh_calc_triangle_area"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ad78c5f26376ffe75b391e7af55e70e49"><param name="Name" value="mesh_calc_vertex_adjacency"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa0509db908476112994079289963184d"><param name="Name" value="mesh_calc_vertex_normals"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ae840f4b6fb7cd33eff76a43541fec584"><param name="Name" value="MESH_CLONE_ALL_PROPS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ac9de25cb22e0d202329fb58565547fda"><param name="Name" value="MESH_CLONE_EDGES"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#afd2e42b4ec1711d116bd47a055bfc09c"><param name="Name" value="MESH_CLONE_F_ALL_PROPS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2ed6eb0a7b95b9d8620fd62eb3fa245e"><param name="Name" value="MESH_CLONE_FACES"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5f52016cec9ad8a2b2bc94de4456d387"><param name="Name" value="MESH_CLONE_FAREAS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9b2560dbe54ea4858149d2bb57dc1fc8"><param name="Name" value="MESH_CLONE_FCOLORS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa3d3165384fbb8188887536f342cece6"><param name="Name" value="MESH_CLONE_FFACES"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#abc32ae2076219dfacbe06231dd5c7c67"><param name="Name" value="MESH_CLONE_FNORMALS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a69f3ba1af27dcbf10d386d27a3b44ebe"><param name="Name" value="mesh_clone_mesh"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a48c9aba82f4dc179c985ceb8a971b378"><param name="Name" value="MESH_CLONE_V_ALL_PROPS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ace617bb2e0d9ec5207429e884dc0e696"><param name="Name" value="MESH_CLONE_VCOLORS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a7e01830a3f4154d7b6b36be6d876c8f0"><param name="Name" value="MESH_CLONE_VERTICES"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af7a5f766cab8a9857e8ac2ce8e061e4a"><param name="Name" value="MESH_CLONE_VFACES"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2d1695ab2c87387e9f7686911dd85928"><param name="Name" value="MESH_CLONE_VNORMALS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a08b43c438233143d8d59e2e054b81656"><param name="Name" value="mesh_color"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ab7a7e8df440ef5af95d7281522238a42"><param name="Name" value="MESH_COLOR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa94db2c3e1e6d343053b625cf365b667"><param name="Name" value="mesh_combine_mesh"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a4c1106f7aa136657ef0f5788148c454b"><param name="Name" value="mesh_count_words_in_line"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ac84ad979c868a2fb0f1a89aa2c56e2a7"><param name="Name" value="mesh_create_mesh_new"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ab28b1f47fa656e768a7e32dddd609a1a"><param name="Name" value="mesh_create_mesh_new_cone"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a95ad08fb9ab6a6357a37f26abdfa23b6"><param name="Name" value="mesh_create_mesh_new_cuboid"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a8133aaea0158d9185bbb8a710310dace"><param name="Name" value="mesh_create_mesh_new_cylinder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a03655a48821a87b88533b167b4231a10"><param name="Name" value="mesh_create_mesh_new_ellipsoid"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ae9d034f71e466e55380390f3b90d90eb"><param name="Name" value="mesh_cross_normal"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a0549a35b7d8e1eed4e896d172cff42ce"><param name="Name" value="mesh_cross_vector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a405c87043523042797a9bf50956b2946"><param name="Name" value="mesh_draw_mesh"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a29f020492919c45fdf7074b50b210e72"><param name="Name" value="mesh_draw_mesh_smooth"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a09602fafe0e3d7c0d4aa643deae08ba9"><param name="Name" value="mesh_edge"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a1d2df7f960c8a7db2266c99cad94bf7d"><param name="Name" value="MESH_EDGE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a55824a2f9a9533c728d9e61ba4245401"><param name="Name" value="MESH_ERR_FNOTOPEN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a38e1f31166e660374a4008e3d79ebc39"><param name="Name" value="MESH_ERR_INCOMPATIBLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a767e00bd4b90d5f1195aaea1bb2720b0"><param name="Name" value="MESH_ERR_MALLOC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aec5050be34446745120b23ba80a6dfcd"><param name="Name" value="MESH_ERR_SIZE_MISMATCH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9083e58b43e7e8529337b67c192afb68"><param name="Name" value="MESH_ERR_UNKNOWN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ae7b8a7a865a69704e4ed00410111749a"><param name="Name" value="mesh_error"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a1fb7073b21e39f3c678dc00946227130"><param name="Name" value="mesh_face"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a24785a2d26c428dfff5597a8e95db348"><param name="Name" value="MESH_FACE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a6890baa869c286b307ff0f0b35b141e4"><param name="Name" value="mesh_fface"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a55fc043737effbaf7ddac844bc37f3b0"><param name="Name" value="MESH_FFACE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5315609898ff753ce007e8e849f30d45"><param name="Name" value="mesh_find"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aeaebe5f81ad3e5b63c95ba0c439915eb"><param name="Name" value="mesh_find2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a869eb0946ce7dc06e072d3467b00f139"><param name="Name" value="mesh_find3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2dbc7cdcd5cb3a736df16b131e5bff91"><param name="Name" value="MESH_FLOATDATA_TYPE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a1ba27c7bc0013170910d8305cb28d1e7"><param name="Name" value="mesh_free_mesh"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ae0d372759f6946fcf6655b2dfb08c7ad"><param name="Name" value="mesh_go_next_word"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#adb3cf1c26280d108e09e66827c2800aa"><param name="Name" value="MESH_INTDATA_TYPE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a8fbb37c1c406fa61c214dfa00b19a72e"><param name="Name" value="mesh_isnumeric"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a8c84a773b3679c6c18bde80bb9570e38"><param name="Name" value="mesh_laplacian_filter"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9ab21849ad22b76fa1e6990953d1c0c9"><param name="Name" value="mesh_load_file"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ad7ed7c1491a7e936e2abe3b7b70e7604"><param name="Name" value="mesh_load_off"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a7fd576f15ed99a38c622fe0bd67ae941"><param name="Name" value="mesh_load_ply"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa9d606b2ffc2cdcabf118835cd6eac4c"><param name="Name" value="mesh_load_xyz"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aeafdc252967e7dd01193ecba35bb3e4c"><param name="Name" value="MESH_NORMAL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a335696d2580260ecc5024a42d4e53107"><param name="Name" value="mesh_normal"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a88de69a3a6f428d0a349b70a996ad1d7"><param name="Name" value="MESH_ORIGIN_TYPE_BUILD"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#adcac32b0585df5ecf68469cc44362bdb"><param name="Name" value="MESH_ORIGIN_TYPE_COFF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5ce901ef2bfb4f6007295403fd618688"><param name="Name" value="MESH_ORIGIN_TYPE_NCOFF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ad28ff982ef6157f68cdae386a9c0a741"><param name="Name" value="MESH_ORIGIN_TYPE_NOFF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa8ac30e12b3f2f1cf5c3be5f5a58a782"><param name="Name" value="MESH_ORIGIN_TYPE_OFF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a6f671d7d8e86dd6c9669726e505f8116"><param name="Name" value="MESH_ORIGIN_TYPE_PLY_ASCII"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a475d6be544faf221e4a80c0da1c081d7"><param name="Name" value="MESH_ORIGIN_TYPE_PLY_BINARY_BIG_ENDIAN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a545866b60be53f74dfbce1fe1e3265ae"><param name="Name" value="MESH_ORIGIN_TYPE_PLY_BINARY_LITTLE_ENDIAN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a3709522587aa367c8002716a6d17768a"><param name="Name" value="MESH_ORIGIN_TYPE_XYZ"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a0250cf76369cb83a8635e090f5040807"><param name="Name" value="MESH_PI"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa8f584bacb2bfffb8195fa0c340abcd8"><param name="Name" value="mesh_read_word"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a463e7a8f2e6ef7d70894150bf4205d40"><param name="Name" value="mesh_read_word_only"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa0b039d809b08622cefeba9e7a091a05"><param name="Name" value="mesh_remove_boundary_faces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a73e603171346670dd4cf530c823a4c82"><param name="Name" value="mesh_remove_boundary_vertices"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a64ea7e69fd4e877c4dd1f6def430f8bf"><param name="Name" value="mesh_remove_close_vertices"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ac6d62e107ff0c8b94daebd40c471b963"><param name="Name" value="mesh_remove_ear_faces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a4e00579ab3c9986cb115c784e49a009c"><param name="Name" value="mesh_remove_triangles_with_small_area"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ab61a5ef5bc07cf16f1c76fa7433e842e"><param name="Name" value="mesh_remove_unreferenced_vertices"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a31827c8c149de0a425f4a01273e6649f"><param name="Name" value="mesh_remove_zero_area_faces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aba5939a212e5f499ca645b375ed9bdee"><param name="Name" value="mesh_restricted_laplacian_filter"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2158fccfd52f0d78b8c00f8c7e45b43b"><param name="Name" value="mesh_rotate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa2f56b0537cb5c74e85941b97fb0900f"><param name="Name" value="mesh_rotation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a694dfc36540505ddbff168f6a3e1139a"><param name="Name" value="MESH_ROTATION"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a6b79d595773fbb6a574e1ed8fa67674c"><param name="Name" value="mesh_rotation_create"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a324714477b0e712312b9de480f9cabab"><param name="Name" value="mesh_rotation_free"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2e273243f268fc5bf52f71cbb9e50935"><param name="Name" value="mesh_rotation_set_angleaxis"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a59d5fdfa40e0dd73606ac136fdc5485c"><param name="Name" value="mesh_rotation_set_matrix"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a8e0581288a873837118b83af4c726d54"><param name="Name" value="mesh_scale"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af66fdd34570fb6e7c76efab62264e251"><param name="Name" value="mesh_skip_line"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5b394608b01c8d182355b717338fd6c6"><param name="Name" value="mesh_struct"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2837a9c9710c4e17183123d242cce610"><param name="Name" value="MESH_STRUCT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a46646f436f6694748212ecebb9624fab"><param name="Name" value="mesh_struct2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a0b2caff7c119e584d6375c9ce2e212d0"><param name="Name" value="MESH_STRUCT2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#abe194aa562df1e4054289239edfbbd01"><param name="Name" value="mesh_struct3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa29739a323e87b2a0dccda8e88c01ff8"><param name="Name" value="MESH_STRUCT3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ad020327b499f8823e045aa4d7f3a81d9"><param name="Name" value="MESH_TRANSFORM"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aee11e15f007c66eabfbf6cdf38b31c37"><param name="Name" value="mesh_transform"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5518adcc0f841186e58faf26b2dc2f44"><param name="Name" value="mesh_translate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a537d8f9891947f3ba511bee8e91c6c37"><param name="Name" value="mesh_translate_vector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5e58b6921287fa9b679a87f78c2d3ffa"><param name="Name" value="MESH_TWOPI"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a06e10c143dceded0ee4831fbcb80c901"><param name="Name" value="mesh_upsample"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a3fb99cc117da45c20ee4c780067c6e6d"><param name="Name" value="mesh_vector3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9f8771fbad11c2c820fa9edfaa2f785a"><param name="Name" value="MESH_VECTOR3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#acf60bd292ae446dbed84cd352e29e876"><param name="Name" value="MESH_VERTEX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a7d34f64cd039e9d792583b151ef929a4"><param name="Name" value="mesh_vertex"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa7f930546a505bb966e3ed85e8e5a176"><param name="Name" value="mesh_vertex_rotate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9a605289ad71c4d427a7fb6f220e8dc9"><param name="Name" value="mesh_vface"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a700f0a8e376a3a2a006d7cda397611d9"><param name="Name" value="MESH_VFACE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a1f043cb0fb01d7685a480c995d1bdd7a"><param name="Name" value="mesh_write_file"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a99f4a6724ea07424ab16f28de628816d"><param name="Name" value="mesh_write_off"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a3416e45fffcc287df6be33a2b60eb694"><param name="Name" value="mesh_write_ply"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a8af48a03b82f119eb880af77aa3100f5"><param name="Name" value="mesh_write_xyz"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshload_8c.html"><param name="Name" value="meshload.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshload_8c.html#a9ab21849ad22b76fa1e6990953d1c0c9"><param name="Name" value="mesh_load_file"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshload_8c.html#ad7ed7c1491a7e936e2abe3b7b70e7604"><param name="Name" value="mesh_load_off"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshload_8c.html#aa9d606b2ffc2cdcabf118835cd6eac4c"><param name="Name" value="mesh_load_xyz"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshops_8c.html"><param name="Name" value="meshops.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshops_8c.html#a69f3ba1af27dcbf10d386d27a3b44ebe"><param name="Name" value="mesh_clone_mesh"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshops_8c.html#aa94db2c3e1e6d343053b625cf365b667"><param name="Name" value="mesh_combine_mesh"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtext_8c.html"><param name="Name" value="meshtext.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtext_8c.html#a4c1106f7aa136657ef0f5788148c454b"><param name="Name" value="mesh_count_words_in_line"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtext_8c.html#ae0d372759f6946fcf6655b2dfb08c7ad"><param name="Name" value="mesh_go_next_word"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtext_8c.html#a8fbb37c1c406fa61c214dfa00b19a72e"><param name="Name" value="mesh_isnumeric"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtext_8c.html#aa8f584bacb2bfffb8195fa0c340abcd8"><param name="Name" value="mesh_read_word"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtext_8c.html#a463e7a8f2e6ef7d70894150bf4205d40"><param name="Name" value="mesh_read_word_only"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtext_8c.html#af66fdd34570fb6e7c76efab62264e251"><param name="Name" value="mesh_skip_line"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html"><param name="Name" value="meshtransform.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a2158fccfd52f0d78b8c00f8c7e45b43b"><param name="Name" value="mesh_rotate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a6b79d595773fbb6a574e1ed8fa67674c"><param name="Name" value="mesh_rotation_create"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a324714477b0e712312b9de480f9cabab"><param name="Name" value="mesh_rotation_free"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a2e273243f268fc5bf52f71cbb9e50935"><param name="Name" value="mesh_rotation_set_angleaxis"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a59d5fdfa40e0dd73606ac136fdc5485c"><param name="Name" value="mesh_rotation_set_matrix"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a8e0581288a873837118b83af4c726d54"><param name="Name" value="mesh_scale"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a5518adcc0f841186e58faf26b2dc2f44"><param name="Name" value="mesh_translate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#a2922bc63296fdeeeeee474f7f82132d3"><param name="Name" value="mesh_translate_vector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshtransform_8c.html#aa7f930546a505bb966e3ed85e8e5a176"><param name="Name" value="mesh_vertex_rotate"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshwrite_8c.html"><param name="Name" value="meshwrite.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshwrite_8c.html#a1f043cb0fb01d7685a480c995d1bdd7a"><param name="Name" value="mesh_write_file"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshwrite_8c.html#a99f4a6724ea07424ab16f28de628816d"><param name="Name" value="mesh_write_off"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshwrite_8c.html#a3416e45fffcc287df6be33a2b60eb694"><param name="Name" value="mesh_write_ply"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshwrite_8c.html#a8af48a03b82f119eb880af77aa3100f5"><param name="Name" value="mesh_write_xyz"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a8e749d42d785bf5e8a554a3668a2c6a5"><param name="Name" value="num_edges"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a9c8c612b2b6b55f3e7731cdcebb2fc5b"><param name="Name" value="num_faces"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a9c8c612b2b6b55f3e7731cdcebb2fc5b"><param name="Name" value="mesh"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__adjface.html#a9c8c612b2b6b55f3e7731cdcebb2fc5b"><param name="Name" value="mesh_adjface"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct.html#a85485300e86b1a94884da2a529c2a942"><param name="Name" value="num_items"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct.html#a85485300e86b1a94884da2a529c2a942"><param name="Name" value="mesh_struct"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct2.html#a85485300e86b1a94884da2a529c2a942"><param name="Name" value="mesh_struct2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__struct3.html#a85485300e86b1a94884da2a529c2a942"><param name="Name" value="mesh_struct3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a9c29fd6fe8b23cffbe97ffb523dc115e"><param name="Name" value="num_vertices"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a9c29fd6fe8b23cffbe97ffb523dc115e"><param name="Name" value="mesh"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__face.html#a9c29fd6fe8b23cffbe97ffb523dc115e"><param name="Name" value="mesh_face"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a5ecfb894a818c6ec501848f5433c47af"><param name="Name" value="origin_type"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__color.html#a17f5d51d709dc9e127433d2adfa9db39"><param name="Name" value="r"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a232c6d20b115bf9c944471d57003bc71"><param name="Name" value="vcolors"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#ade532794944a152f01dfdaa1ade3a499"><param name="Name" value="vertices"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#ade532794944a152f01dfdaa1ade3a499"><param name="Name" value="mesh"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__edge.html#afd5e7c2b8dc8587237571756edca42be"><param name="Name" value="mesh_edge"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__face.html#afad1537444969f303a406dc60677d5a7"><param name="Name" value="mesh_face"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#aa07e0eaff6ec7c7b3493638778b5468a"><param name="Name" value="vfaces"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh.html#a0a1ea95ce492b8671594948278be8103"><param name="Name" value="vnormals"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__vector3.html#ab56639c5d219c7b41bf1dcb1c6d65b1e"><param name="Name" value="x"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__vector3.html#a5de616af7aed82ac72281dda3068d921"><param name="Name" value="y"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__vector3.html#ae168b6fc55fdbdec5f17115b90953e3d"><param name="Name" value="z"></OBJECT>
+</UL>
+</BODY>
+</HTML>

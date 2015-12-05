@@ -1,9 +1,11 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh." alt="" coords="689,86,881,113"/>
-<area shape="rect" id="node3" href="$mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits." alt="" coords="957,61,1043,87"/>
-<area shape="rect" id="node4" href="$meshclean_8c.html#a31827c8c149de0a425f4a01273e6649f" title="Removes triangles with zero area." alt="" coords="244,145,411,187"/>
-<area shape="rect" id="node8" href="$meshclean_8c.html#ab61a5ef5bc07cf16f1c76fa7433e842e" title="Removes unreferenced vertices." alt="" coords="459,28,641,69"/>
-<area shape="rect" id="node5" href="$meshclean_8c.html#a4e00579ab3c9986cb115c784e49a009c" title="Removes triangles with area smaller than a given value." alt="" coords="471,145,629,187"/>
-<area shape="rect" id="node6" href="$meshcalc_8c.html#aef39a14ecf45fc9b784784c65e71bd24" title="Computes area of a triangle." alt="" coords="702,187,869,214"/>
-<area shape="rect" id="node7" href="$meshcalc_8c.html#a0549a35b7d8e1eed4e896d172cff42ce" title="Computes the cross product of two 3&#45;d vectors." alt="" coords="929,187,1071,214"/>
+<map id="mesh_remove_close_vertices" name="mesh_remove_close_vertices">
+<area shape="rect" id="node2" href="$meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="1085,245,1277,272"/>
+<area shape="rect" id="node3" href="$mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="1325,169,1412,196"/>
+<area shape="rect" id="node4" href="$meshclean_8c.html#a31827c8c149de0a425f4a01273e6649f" title="Removes triangles with zero area. " alt="" coords="244,213,411,254"/>
+<area shape="rect" id="node10" href="$meshclean_8c.html#ab61a5ef5bc07cf16f1c76fa7433e842e" title="Removes unreferenced vertices. " alt="" coords="665,297,848,338"/>
+<area shape="rect" id="node5" href="$meshclean_8c.html#a4e00579ab3c9986cb115c784e49a009c" title="Removes triangles with area smaller than a given value. " alt="" coords="459,162,617,203"/>
+<area shape="rect" id="node6" href="$meshcalc_8c.html#aef39a14ecf45fc9b784784c65e71bd24" title="Computes area of a triangle. " alt="" coords="673,43,840,69"/>
+<area shape="rect" id="node8" href="$meshcalc_8c.html#a9045bc76d71af1b7c5e3e87cd5d0287f" title="Computes face adjacent faces of a given mesh. " alt="" coords="665,169,848,196"/>
+<area shape="rect" id="node7" href="$meshcalc_8c.html#a0549a35b7d8e1eed4e896d172cff42ce" title="Computes the cross product of two 3&#45;d vectors. " alt="" coords="896,43,1037,69"/>
+<area shape="rect" id="node9" href="$meshcalc_8c.html#a33344dbe1f237324724722258b425d8a" title="Computes edges of a given mesh. " alt="" coords="903,195,1030,221"/>
 </map>

@@ -1,0 +1,9 @@
+<map id="mesh_calc_edges" name="mesh_calc_edges">
+<area shape="rect" id="node2" href="$meshlib_8h.html#a9045bc76d71af1b7c5e3e87cd5d0287f" title="Computes face adjacent faces of a given mesh. " alt="" coords="180,64,363,91"/>
+<area shape="rect" id="node3" href="$meshlib_8h.html#a06e10c143dceded0ee4831fbcb80c901" title="Upsamples a given mesh. " alt="" coords="435,5,552,32"/>
+<area shape="rect" id="node7" href="$meshlib_8h.html#ac6d62e107ff0c8b94daebd40c471b963" title="Removes ear faces and connecting vertices. " alt="" coords="411,123,576,149"/>
+<area shape="rect" id="node8" href="$meshlib_8h.html#ab61a5ef5bc07cf16f1c76fa7433e842e" title="Removes unreferenced vertices. " alt="" coords="180,166,363,207"/>
+<area shape="rect" id="node4" href="$meshlib_8h.html#a4e00579ab3c9986cb115c784e49a009c" title="Removes triangles with area smaller than a given value. " alt="" coords="414,57,573,98"/>
+<area shape="rect" id="node5" href="$meshlib_8h.html#a31827c8c149de0a425f4a01273e6649f" title="Removes triangles with zero area. " alt="" coords="624,82,791,123"/>
+<area shape="rect" id="node6" href="$meshlib_8h.html#a64ea7e69fd4e877c4dd1f6def430f8bf" title="Removes close vertices. " alt="" coords="839,132,1029,159"/>
+</map>

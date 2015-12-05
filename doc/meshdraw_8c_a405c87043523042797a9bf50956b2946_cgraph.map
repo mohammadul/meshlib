@@ -1,5 +1,5 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$meshcalc_8c.html#a1951454adfa3fbf3890e78a74376460b" title="Computes face normals of a given mesh." alt="" coords="180,5,349,32"/>
-<area shape="rect" id="node4" href="$meshcalc_8c.html#afa342d3221c0a418394b1a6cc6a6f0dd" title="Computes the face normal given 3 vertices." alt="" coords="183,56,346,83"/>
-<area shape="rect" id="node3" href="$mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits." alt="" coords="397,5,484,32"/>
+<map id="mesh_draw_mesh" name="mesh_draw_mesh">
+<area shape="rect" id="node2" href="$meshcalc_8c.html#a1951454adfa3fbf3890e78a74376460b" title="Computes face normals of a given mesh. " alt="" coords="180,5,349,32"/>
+<area shape="rect" id="node4" href="$meshcalc_8c.html#afa342d3221c0a418394b1a6cc6a6f0dd" title="Computes the face normal given 3 vertices. " alt="" coords="183,56,346,83"/>
+<area shape="rect" id="node3" href="$mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="397,5,484,32"/>
 </map>
