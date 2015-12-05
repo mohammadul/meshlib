@@ -1,36 +1,37 @@
 <map id="mesh_error" name="mesh_error">
-<area shape="rect" id="node2" href="$meshlib_8h.html#aa0509db908476112994079289963184d" title="Computes vertex normals of a given mesh. " alt="" coords="391,173,570,200"/>
-<area shape="rect" id="node4" href="$meshlib_8h.html#a67a42af2e201c092cab659766179c92a" title="Mesh bilateral filter. " alt="" coords="652,21,789,48"/>
-<area shape="rect" id="node5" href="$meshlib_8h.html#aba5939a212e5f499ca645b375ed9bdee" title="Restricted Mesh Laplacian filter. " alt="" coords="634,224,807,266"/>
-<area shape="rect" id="node7" href="$meshlib_8h.html#a1951454adfa3fbf3890e78a74376460b" title="Computes face normals of a given mesh. " alt="" coords="396,122,565,149"/>
-<area shape="rect" id="node9" href="$meshlib_8h.html#a33344dbe1f237324724722258b425d8a" title="Computes edges of a given mesh. " alt="" coords="417,680,544,706"/>
-<area shape="rect" id="node10" href="$meshlib_8h.html#a9045bc76d71af1b7c5e3e87cd5d0287f" title="Computes face adjacent faces of a given mesh. " alt="" coords="629,578,812,605"/>
-<area shape="rect" id="node11" href="$meshlib_8h.html#a06e10c143dceded0ee4831fbcb80c901" title="Upsamples a given mesh. " alt="" coords="884,553,1001,580"/>
-<area shape="rect" id="node12" href="$meshlib_8h.html#a4e00579ab3c9986cb115c784e49a009c" title="Removes triangles with area smaller than a given value. " alt="" coords="863,427,1022,468"/>
-<area shape="rect" id="node14" href="$meshlib_8h.html#a64ea7e69fd4e877c4dd1f6def430f8bf" title="Removes close vertices. " alt="" coords="1288,682,1479,709"/>
-<area shape="rect" id="node15" href="$meshlib_8h.html#ac6d62e107ff0c8b94daebd40c471b963" title="Removes ear faces and connecting vertices. " alt="" coords="860,730,1025,757"/>
-<area shape="rect" id="node16" href="$meshlib_8h.html#ab61a5ef5bc07cf16f1c76fa7433e842e" title="Removes unreferenced vertices. " alt="" coords="629,782,812,823"/>
-<area shape="rect" id="node17" href="$meshlib_8h.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="140,477,332,504"/>
-<area shape="rect" id="node18" href="$meshlib_8h.html#a8c84a773b3679c6c18bde80bb9570e38" title="Mesh Laplacian filter. " alt="" coords="409,781,552,808"/>
-<area shape="rect" id="node19" href="$meshlib_8h.html#ac84ad979c868a2fb0f1a89aa2c56e2a7" title="Creates a new mesh. " alt="" coords="153,1136,319,1162"/>
-<area shape="rect" id="node20" href="$meshlib_8h.html#a95ad08fb9ab6a6357a37f26abdfa23b6" title="Creates a cuboid mesh. " alt="" coords="397,984,564,1026"/>
-<area shape="rect" id="node21" href="$meshlib_8h.html#a03655a48821a87b88533b167b4231a10" title="Creates an ellipsoid mesh. " alt="" coords="397,1050,564,1091"/>
-<area shape="rect" id="node22" href="$meshlib_8h.html#a8133aaea0158d9185bbb8a710310dace" title="Creates a cylinder mesh. " alt="" coords="397,1116,564,1158"/>
-<area shape="rect" id="node23" href="$meshlib_8h.html#ab28b1f47fa656e768a7e32dddd609a1a" title="Creates a cone mesh. " alt="" coords="380,1185,581,1212"/>
-<area shape="rect" id="node24" href="$meshlib_8h.html#ad7ed7c1491a7e936e2abe3b7b70e7604" title="Reads a mesh from an OFF file. " alt="" coords="428,1288,533,1314"/>
-<area shape="rect" id="node25" href="$meshlib_8h.html#a9ab21849ad22b76fa1e6990953d1c0c9" title="Reads a mesh from an OFF/PLY/ASC/XYZ file. " alt="" coords="667,1288,775,1314"/>
-<area shape="rect" id="node26" href="$meshlib_8h.html#aa9d606b2ffc2cdcabf118835cd6eac4c" title="Read a mesh from an ASC/XYZ file. " alt="" coords="424,1237,537,1264"/>
-<area shape="rect" id="node27" href="$meshops_8c.html#a69f3ba1af27dcbf10d386d27a3b44ebe" title="Clones a given mesh into another mesh. " alt="" coords="415,1389,546,1416"/>
-<area shape="rect" id="node28" href="$meshops_8c.html#aa94db2c3e1e6d343053b625cf365b667" title="Combines a given mesh with another given mesh. " alt="" coords="646,1414,795,1441"/>
-<area shape="rect" id="node29" href="$meshlib_8h.html#a6b79d595773fbb6a574e1ed8fa67674c" title="Creates a new rotation. " alt="" coords="163,1490,309,1517"/>
-<area shape="rect" id="node32" href="$meshlib_8h.html#a99f4a6724ea07424ab16f28de628816d" title="Write a mesh to an OFF file. " alt="" coords="182,1541,290,1568"/>
-<area shape="rect" id="node34" href="$meshlib_8h.html#a8af48a03b82f119eb880af77aa3100f5" title="Write a mesh to an XYZ file. " alt="" coords="178,1592,294,1618"/>
-<area shape="rect" id="node35" href="$meshlib_8h.html#a3416e45fffcc287df6be33a2b60eb694" title="Write a mesh to an PLY file. " alt="" coords="180,1642,292,1669"/>
-<area shape="rect" id="node3" href="$meshlib_8h.html#a29f020492919c45fdf7074b50b210e72" title="Draws a given mesh in OpenGL context in smoothing shading. " alt="" coords="632,173,809,200"/>
-<area shape="rect" id="node6" href="$meshlib_8h.html#a2158fccfd52f0d78b8c00f8c7e45b43b" title="Rotates a mesh by a given rotation. " alt="" coords="673,122,768,149"/>
-<area shape="rect" id="node8" href="$meshlib_8h.html#a405c87043523042797a9bf50956b2946" title="Draws a given mesh in OpenGL context in flat shading. " alt="" coords="657,72,784,98"/>
-<area shape="rect" id="node13" href="$meshlib_8h.html#a31827c8c149de0a425f4a01273e6649f" title="Removes triangles with zero area. " alt="" coords="1073,572,1240,614"/>
-<area shape="rect" id="node30" href="$meshlib_8h.html#a59d5fdfa40e0dd73606ac136fdc5485c" title="Sets rotation from a matrix. " alt="" coords="395,1490,567,1517"/>
-<area shape="rect" id="node31" href="$meshlib_8h.html#a2e273243f268fc5bf52f71cbb9e50935" title="Sets rotation from angle axis. " alt="" coords="385,1541,576,1568"/>
-<area shape="rect" id="node33" href="$meshlib_8h.html#a1f043cb0fb01d7685a480c995d1bdd7a" title="Write a mesh to an OFF/PLY/ASC/XYZ file. " alt="" coords="425,1592,536,1618"/>
+<area shape="rect" id="node2" href="$meshlib_8h.html#aa0509db908476112994079289963184d" title="Computes vertex normals of a given mesh. " alt="" coords="391,163,570,190"/>
+<area shape="rect" id="node4" href="$meshlib_8h.html#a67a42af2e201c092cab659766179c92a" title="Mesh bilateral filter. " alt="" coords="652,243,789,270"/>
+<area shape="rect" id="node5" href="$meshlib_8h.html#aba5939a212e5f499ca645b375ed9bdee" title="Restricted Mesh Laplacian filter. " alt="" coords="634,25,807,67"/>
+<area shape="rect" id="node7" href="$meshlib_8h.html#a1951454adfa3fbf3890e78a74376460b" title="Computes face normals of a given mesh. " alt="" coords="396,113,565,139"/>
+<area shape="rect" id="node9" href="$meshlib_8h.html#a33344dbe1f237324724722258b425d8a" title="Computes edges of a given mesh. " alt="" coords="417,670,544,697"/>
+<area shape="rect" id="node10" href="$meshlib_8h.html#a9045bc76d71af1b7c5e3e87cd5d0287f" title="Computes face adjacent faces of a given mesh. " alt="" coords="629,569,812,595"/>
+<area shape="rect" id="node11" href="$meshlib_8h.html#a06e10c143dceded0ee4831fbcb80c901" title="Upsamples a given mesh. " alt="" coords="884,543,1001,570"/>
+<area shape="rect" id="node12" href="$meshlib_8h.html#a4e00579ab3c9986cb115c784e49a009c" title="Removes triangles with area smaller than a given value. " alt="" coords="863,351,1022,392"/>
+<area shape="rect" id="node14" href="$meshlib_8h.html#a64ea7e69fd4e877c4dd1f6def430f8bf" title="Removes close vertices. " alt="" coords="1288,597,1479,623"/>
+<area shape="rect" id="node15" href="$meshlib_8h.html#ac6d62e107ff0c8b94daebd40c471b963" title="Removes ear faces and connecting vertices. " alt="" coords="860,721,1025,747"/>
+<area shape="rect" id="node16" href="$meshlib_8h.html#ab61a5ef5bc07cf16f1c76fa7433e842e" title="Removes unreferenced vertices. " alt="" coords="629,772,812,813"/>
+<area shape="rect" id="node17" href="$meshlib_8h.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="140,467,332,494"/>
+<area shape="rect" id="node18" href="$meshlib_8h.html#a8c84a773b3679c6c18bde80bb9570e38" title="Mesh Laplacian filter. " alt="" coords="409,771,552,798"/>
+<area shape="rect" id="node19" href="$meshlib_8h.html#ac84ad979c868a2fb0f1a89aa2c56e2a7" title="Creates a new mesh. " alt="" coords="153,1177,319,1203"/>
+<area shape="rect" id="node20" href="$meshlib_8h.html#a95ad08fb9ab6a6357a37f26abdfa23b6" title="Creates a cuboid mesh. " alt="" coords="397,975,564,1016"/>
+<area shape="rect" id="node21" href="$meshlib_8h.html#a03655a48821a87b88533b167b4231a10" title="Creates an ellipsoid mesh. " alt="" coords="397,1040,564,1081"/>
+<area shape="rect" id="node22" href="$meshlib_8h.html#a8133aaea0158d9185bbb8a710310dace" title="Creates a cylinder mesh. " alt="" coords="397,1107,564,1148"/>
+<area shape="rect" id="node23" href="$meshlib_8h.html#ab28b1f47fa656e768a7e32dddd609a1a" title="Creates a cone mesh. " alt="" coords="380,1175,581,1202"/>
+<area shape="rect" id="node24" href="$meshlib_8h.html#ad7ed7c1491a7e936e2abe3b7b70e7604" title="Reads a mesh from an OFF file. " alt="" coords="428,1227,533,1254"/>
+<area shape="rect" id="node25" href="$meshlib_8h.html#a9ab21849ad22b76fa1e6990953d1c0c9" title="Reads a mesh from an OFF/PLY/ASC/XYZ file. " alt="" coords="667,1303,775,1330"/>
+<area shape="rect" id="node26" href="$meshlib_8h.html#aa9d606b2ffc2cdcabf118835cd6eac4c" title="Read a mesh from an ASC/XYZ file. " alt="" coords="424,1278,537,1305"/>
+<area shape="rect" id="node27" href="$meshlib_8h.html#a7fd576f15ed99a38c622fe0bd67ae941" title="Reads a mesh from a PLY file. " alt="" coords="426,1329,535,1355"/>
+<area shape="rect" id="node28" href="$meshops_8c.html#a69f3ba1af27dcbf10d386d27a3b44ebe" title="Clones a given mesh into another mesh. " alt="" coords="415,1430,546,1457"/>
+<area shape="rect" id="node29" href="$meshops_8c.html#aa94db2c3e1e6d343053b625cf365b667" title="Combines a given mesh with another given mesh. " alt="" coords="646,1455,795,1482"/>
+<area shape="rect" id="node30" href="$meshlib_8h.html#a6b79d595773fbb6a574e1ed8fa67674c" title="Creates a new rotation. " alt="" coords="163,1531,309,1558"/>
+<area shape="rect" id="node33" href="$meshlib_8h.html#a99f4a6724ea07424ab16f28de628816d" title="Write a mesh to an OFF file. " alt="" coords="182,1582,290,1609"/>
+<area shape="rect" id="node35" href="$meshlib_8h.html#a8af48a03b82f119eb880af77aa3100f5" title="Write a mesh to an XYZ file. " alt="" coords="178,1633,294,1659"/>
+<area shape="rect" id="node36" href="$meshlib_8h.html#a3416e45fffcc287df6be33a2b60eb694" title="Write a mesh to an PLY file. " alt="" coords="180,1683,292,1710"/>
+<area shape="rect" id="node3" href="$meshlib_8h.html#a29f020492919c45fdf7074b50b210e72" title="Draws a given mesh in OpenGL context in smoothing shading. " alt="" coords="632,193,809,219"/>
+<area shape="rect" id="node6" href="$meshlib_8h.html#a2158fccfd52f0d78b8c00f8c7e45b43b" title="Rotates a mesh by a given rotation. " alt="" coords="673,142,768,169"/>
+<area shape="rect" id="node8" href="$meshlib_8h.html#a405c87043523042797a9bf50956b2946" title="Draws a given mesh in OpenGL context in flat shading. " alt="" coords="657,91,784,118"/>
+<area shape="rect" id="node13" href="$meshlib_8h.html#a31827c8c149de0a425f4a01273e6649f" title="Removes triangles with zero area. " alt="" coords="1073,351,1240,392"/>
+<area shape="rect" id="node31" href="$meshlib_8h.html#a59d5fdfa40e0dd73606ac136fdc5485c" title="Sets rotation from a matrix. " alt="" coords="395,1531,567,1558"/>
+<area shape="rect" id="node32" href="$meshlib_8h.html#a2e273243f268fc5bf52f71cbb9e50935" title="Sets rotation from angle axis. " alt="" coords="385,1582,576,1609"/>
+<area shape="rect" id="node34" href="$meshlib_8h.html#a1f043cb0fb01d7685a480c995d1bdd7a" title="Write a mesh to an OFF/PLY/ASC/XYZ file. " alt="" coords="425,1633,536,1659"/>
 </map>
