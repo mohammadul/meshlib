@@ -1,0 +1,7 @@
+<map id="mesh_calc_vertex_normals" name="mesh_calc_vertex_normals">
+<area shape="rect" id="node2" href="$meshlib_8h.html#add68bdf1873d73632658e6d9e754d23b" title="Draws a given mesh in OpenGL context in smoothing shading. " alt="" coords="232,5,409,32"/>
+<area shape="rect" id="node3" href="$meshlib_8h.html#a4b336e5fc521aaab154924258999d8bd" title="Draws a given mesh in OpenGL context as pointcloud. " alt="" coords="240,56,401,83"/>
+<area shape="rect" id="node4" href="$meshlib_8h.html#a4450e694fecd7e0ff24eea4b8c3c6e04" title="Mesh bilateral filter. " alt="" coords="252,107,389,133"/>
+<area shape="rect" id="node5" href="$meshlib_8h.html#a0dc7ff83680410b8d1e19ecb10a87f26" title="Restricted Mesh Laplacian filter. " alt="" coords="234,158,407,199"/>
+<area shape="rect" id="node6" href="$meshlib_8h.html#a1351f04d409c0a79d8eaad83accdf7e3" title="Rotates a mesh by a given rotation. " alt="" coords="273,224,368,251"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="mesh_calc_face_adjacency" name="mesh_calc_face_adjacency">
+<area shape="rect" id="node2" href="$meshlib_8h.html#a8ece88db914e1befbd892c0cd02b3ec0" title="Upsamples a given mesh. " alt="" coords="260,5,377,32"/>
+<area shape="rect" id="node3" href="$meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="239,57,398,98"/>
+<area shape="rect" id="node6" href="$meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955" title="Removes ear faces and connecting vertices. " alt="" coords="236,123,401,149"/>
+<area shape="rect" id="node4" href="$meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="449,57,616,98"/>
+<area shape="rect" id="node5" href="$meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="664,64,855,91"/>
+</map>

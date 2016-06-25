@@ -8,6 +8,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -61,6 +69,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('dir_68267d1309a1af8e8297ef4c3efbcdba.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,18 +98,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="contents">
 <h3>src &rarr; include Relation</h3><table class="dirtab"><tr class="dirtab"><th class="dirtab">File in src</th><th class="dirtab">Includes file in include</th></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="meshcalc_8c.html">meshcalc.c</a></td><td class="dirtab"><a class="el" href="meshlib_8h.html">meshlib.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="meshclean_8c.html">meshclean.c</a></td><td class="dirtab"><a class="el" href="meshlib_8h.html">meshlib.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="meshcreate_8c.html">meshcreate.c</a></td><td class="dirtab"><a class="el" href="meshlib_8h.html">meshlib.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="meshdraw_8c.html">meshdraw.c</a></td><td class="dirtab"><a class="el" href="meshlib_8h.html">meshlib.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="mesherror_8c.html">mesherror.c</a></td><td class="dirtab"><a class="el" href="meshlib_8h.html">meshlib.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="meshfilter_8c.html">meshfilter.c</a></td><td class="dirtab"><a class="el" href="meshlib_8h.html">meshlib.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="meshload_8c.html">meshload.c</a></td><td class="dirtab"><a class="el" href="meshlib_8h.html">meshlib.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="meshops_8c.html">meshops.c</a></td><td class="dirtab"><a class="el" href="meshlib_8h.html">meshlib.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="meshtext_8c.html">meshtext.c</a></td><td class="dirtab"><a class="el" href="meshlib_8h.html">meshlib.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="meshtransform_8c.html">meshtransform.c</a></td><td class="dirtab"><a class="el" href="meshlib_8h.html">meshlib.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="meshwrite_8c.html">meshwrite.c</a></td><td class="dirtab"><a class="el" href="meshlib_8h.html">meshlib.h</a></td></tr></table></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Sat Jun 25 2016 20:34:16 for MeshLib by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.9.1
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>
+    <li class="footer">Generated on Sat Jun 25 2016 21:07:06 for MeshLib by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
+  </ul>
+</div>
 </body>
 </html>

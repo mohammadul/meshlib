@@ -8,6 +8,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -67,6 +75,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('meshlib_8h.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -81,11 +104,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
@@ -100,7 +118,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>This header file contains declarations of all functions of meshlib.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
-<code>#include &lt;malloc.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;ctype.h&gt;</code><br />
@@ -1390,7 +1407,8 @@ Functions</h2></td></tr>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a4450e694fecd7e0ff24eea4b8c3c6e04_cgraph.png" border="0" usemap="#meshlib_8h_a4450e694fecd7e0ff24eea4b8c3c6e04_cgraph" alt=""/></div>
-<!-- MAP 0 -->
+<map name="meshlib_8h_a4450e694fecd7e0ff24eea4b8c3c6e04_cgraph" id="meshlib_8h_a4450e694fecd7e0ff24eea4b8c3c6e04_cgraph">
+<area shape="rect" id="node2" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="417,5,609,32"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="657,81,744,108"/><area shape="rect" id="node4" href="meshcalc_8c.html#aa0509db908476112994079289963184d" title="Computes vertex normals of a given mesh. " alt="" coords="191,56,369,83"/><area shape="rect" id="node5" href="meshcalc_8c.html#a1951454adfa3fbf3890e78a74376460b" title="Computes face normals of a given mesh. " alt="" coords="429,157,598,184"/></map>
 </div>
 </p>
 
@@ -1423,7 +1441,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a3ad22077dc3514557cff41dcff5d7684_cgraph.png" border="0" usemap="#meshlib_8h_a3ad22077dc3514557cff41dcff5d7684_cgraph" alt=""/></div>
-<!-- MAP 1 -->
+<map name="meshlib_8h_a3ad22077dc3514557cff41dcff5d7684_cgraph" id="meshlib_8h_a3ad22077dc3514557cff41dcff5d7684_cgraph">
+<area shape="rect" id="node2" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="180,5,372,32"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="420,31,507,57"/></map>
 </div>
 </p>
 
@@ -1431,7 +1450,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a3ad22077dc3514557cff41dcff5d7684_icgraph.png" border="0" usemap="#meshlib_8h_a3ad22077dc3514557cff41dcff5d7684_icgraph" alt=""/></div>
-<!-- MAP 2 -->
+<map name="meshlib_8h_a3ad22077dc3514557cff41dcff5d7684_icgraph" id="meshlib_8h_a3ad22077dc3514557cff41dcff5d7684_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#aa9bb55af4acb5abf0f24ed6779e4aef8" title="Computes face adjacent faces of a given mesh. " alt="" coords="180,64,363,91"/><area shape="rect" id="node3" href="meshlib_8h.html#a8ece88db914e1befbd892c0cd02b3ec0" title="Upsamples a given mesh. " alt="" coords="435,5,552,32"/><area shape="rect" id="node7" href="meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955" title="Removes ear faces and connecting vertices. " alt="" coords="411,123,576,149"/><area shape="rect" id="node8" href="meshlib_8h.html#a4379103b6a6f7bea892042e2835048af" title="Removes unreferenced vertices. " alt="" coords="180,166,363,207"/><area shape="rect" id="node4" href="meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="414,57,573,98"/><area shape="rect" id="node5" href="meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="624,82,791,123"/><area shape="rect" id="node6" href="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="839,132,1029,159"/></map>
 </div>
 </p>
 
@@ -1464,7 +1484,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_aa9bb55af4acb5abf0f24ed6779e4aef8_cgraph.png" border="0" usemap="#meshlib_8h_aa9bb55af4acb5abf0f24ed6779e4aef8_cgraph" alt=""/></div>
-<!-- MAP 3 -->
+<map name="meshlib_8h_aa9bb55af4acb5abf0f24ed6779e4aef8_cgraph" id="meshlib_8h_aa9bb55af4acb5abf0f24ed6779e4aef8_cgraph">
+<area shape="rect" id="node2" href="meshcalc_8c.html#a33344dbe1f237324724722258b425d8a" title="Computes edges of a given mesh. " alt="" coords="236,56,363,83"/><area shape="rect" id="node4" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="651,56,737,83"/><area shape="rect" id="node3" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="411,5,603,32"/></map>
 </div>
 </p>
 
@@ -1472,7 +1493,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_aa9bb55af4acb5abf0f24ed6779e4aef8_icgraph.png" border="0" usemap="#meshlib_8h_aa9bb55af4acb5abf0f24ed6779e4aef8_icgraph" alt=""/></div>
-<!-- MAP 4 -->
+<map name="meshlib_8h_aa9bb55af4acb5abf0f24ed6779e4aef8_icgraph" id="meshlib_8h_aa9bb55af4acb5abf0f24ed6779e4aef8_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#a8ece88db914e1befbd892c0cd02b3ec0" title="Upsamples a given mesh. " alt="" coords="260,5,377,32"/><area shape="rect" id="node3" href="meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="239,57,398,98"/><area shape="rect" id="node6" href="meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955" title="Removes ear faces and connecting vertices. " alt="" coords="236,123,401,149"/><area shape="rect" id="node4" href="meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="449,57,616,98"/><area shape="rect" id="node5" href="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="664,64,855,91"/></map>
 </div>
 </p>
 
@@ -1555,7 +1577,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a6ce06d5e268653eacb5e06d7cfd2245f_cgraph.png" border="0" usemap="#meshlib_8h_a6ce06d5e268653eacb5e06d7cfd2245f_cgraph" alt=""/></div>
-<!-- MAP 5 -->
+<map name="meshlib_8h_a6ce06d5e268653eacb5e06d7cfd2245f_cgraph" id="meshlib_8h_a6ce06d5e268653eacb5e06d7cfd2245f_cgraph">
+<area shape="rect" id="node2" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="223,5,309,32"/></map>
 </div>
 </p>
 
@@ -1563,7 +1586,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a6ce06d5e268653eacb5e06d7cfd2245f_icgraph.png" border="0" usemap="#meshlib_8h_a6ce06d5e268653eacb5e06d7cfd2245f_icgraph" alt=""/></div>
-<!-- MAP 6 -->
+<map name="meshlib_8h_a6ce06d5e268653eacb5e06d7cfd2245f_icgraph" id="meshlib_8h_a6ce06d5e268653eacb5e06d7cfd2245f_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#ad978f0782db8619aa40df569daa60163" title="Draws a given mesh in OpenGL context in flat shading. " alt="" coords="246,5,373,32"/><area shape="rect" id="node3" href="meshlib_8h.html#a4450e694fecd7e0ff24eea4b8c3c6e04" title="Mesh bilateral filter. " alt="" coords="241,56,378,83"/><area shape="rect" id="node4" href="meshlib_8h.html#a0dc7ff83680410b8d1e19ecb10a87f26" title="Restricted Mesh Laplacian filter. " alt="" coords="223,107,396,149"/><area shape="rect" id="node5" href="meshlib_8h.html#a1351f04d409c0a79d8eaad83accdf7e3" title="Rotates a mesh by a given rotation. " alt="" coords="262,173,357,200"/></map>
 </div>
 </p>
 
@@ -1614,7 +1638,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a6c3029f3728f53b2272ee96d5bda6c83_cgraph.png" border="0" usemap="#meshlib_8h_a6c3029f3728f53b2272ee96d5bda6c83_cgraph" alt=""/></div>
-<!-- MAP 7 -->
+<map name="meshlib_8h_a6c3029f3728f53b2272ee96d5bda6c83_cgraph" id="meshlib_8h_a6c3029f3728f53b2272ee96d5bda6c83_cgraph">
+<area shape="rect" id="node2" href="meshcalc_8c.html#a0549a35b7d8e1eed4e896d172cff42ce" title="Computes the cross product of two 3&#45;d vectors. " alt="" coords="220,5,361,32"/></map>
 </div>
 </p>
 
@@ -1622,7 +1647,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a6c3029f3728f53b2272ee96d5bda6c83_icgraph.png" border="0" usemap="#meshlib_8h_a6c3029f3728f53b2272ee96d5bda6c83_icgraph" alt=""/></div>
-<!-- MAP 8 -->
+<map name="meshlib_8h_a6c3029f3728f53b2272ee96d5bda6c83_icgraph" id="meshlib_8h_a6c3029f3728f53b2272ee96d5bda6c83_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="220,5,379,47"/><area shape="rect" id="node3" href="meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="427,5,593,47"/><area shape="rect" id="node4" href="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="641,13,832,39"/></map>
 </div>
 </p>
 
@@ -1655,7 +1681,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a8c226207891410dbc60108c649a1f63d_cgraph.png" border="0" usemap="#meshlib_8h_a8c226207891410dbc60108c649a1f63d_cgraph" alt=""/></div>
-<!-- MAP 9 -->
+<map name="meshlib_8h_a8c226207891410dbc60108c649a1f63d_cgraph" id="meshlib_8h_a8c226207891410dbc60108c649a1f63d_cgraph">
+<area shape="rect" id="node2" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="245,5,332,32"/></map>
 </div>
 </p>
 
@@ -1663,7 +1690,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a8c226207891410dbc60108c649a1f63d_icgraph.png" border="0" usemap="#meshlib_8h_a8c226207891410dbc60108c649a1f63d_icgraph" alt=""/></div>
-<!-- MAP 10 -->
+<map name="meshlib_8h_a8c226207891410dbc60108c649a1f63d_icgraph" id="meshlib_8h_a8c226207891410dbc60108c649a1f63d_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#a2a4546adf022e432511c0d4e3d04b800" title="Computes vertex normals of a given mesh. " alt="" coords="245,108,424,135"/><area shape="rect" id="node5" href="meshlib_8h.html#a4450e694fecd7e0ff24eea4b8c3c6e04" title="Mesh bilateral filter. " alt="" coords="495,157,632,184"/><area shape="rect" id="node6" href="meshlib_8h.html#a0dc7ff83680410b8d1e19ecb10a87f26" title="Restricted Mesh Laplacian filter. " alt="" coords="477,209,650,250"/><area shape="rect" id="node8" href="meshlib_8h.html#a3ad22077dc3514557cff41dcff5d7684" title="Computes edges of a given mesh. " alt="" coords="271,427,398,453"/><area shape="rect" id="node10" href="meshlib_8h.html#a8ece88db914e1befbd892c0cd02b3ec0" title="Upsamples a given mesh. " alt="" coords="727,376,844,403"/><area shape="rect" id="node11" href="meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="706,517,865,558"/><area shape="rect" id="node13" href="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="1131,583,1321,609"/><area shape="rect" id="node14" href="meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955" title="Removes ear faces and connecting vertices. " alt="" coords="703,440,868,467"/><area shape="rect" id="node15" href="meshlib_8h.html#a4379103b6a6f7bea892042e2835048af" title="Removes unreferenced vertices. " alt="" coords="472,529,655,570"/><area shape="rect" id="node16" href="meshlib_8h.html#a39f93b50de8e3700757c2f75e49d2004" title="Mesh Laplacian filter. " alt="" coords="263,696,406,723"/><area shape="rect" id="node3" href="meshlib_8h.html#add68bdf1873d73632658e6d9e754d23b" title="Draws a given mesh in OpenGL context in smoothing shading. " alt="" coords="475,5,652,32"/><area shape="rect" id="node4" href="meshlib_8h.html#a4b336e5fc521aaab154924258999d8bd" title="Draws a given mesh in OpenGL context as pointcloud. " alt="" coords="483,56,644,83"/><area shape="rect" id="node7" href="meshlib_8h.html#a1351f04d409c0a79d8eaad83accdf7e3" title="Rotates a mesh by a given rotation. " alt="" coords="516,107,611,133"/><area shape="rect" id="node9" href="meshlib_8h.html#aa9bb55af4acb5abf0f24ed6779e4aef8" title="Computes face adjacent faces of a given mesh. " alt="" coords="472,427,655,453"/><area shape="rect" id="node12" href="meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="916,517,1083,558"/></map>
 </div>
 </p>
 
@@ -1696,7 +1724,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a2a4546adf022e432511c0d4e3d04b800_cgraph.png" border="0" usemap="#meshlib_8h_a2a4546adf022e432511c0d4e3d04b800_cgraph" alt=""/></div>
-<!-- MAP 11 -->
+<map name="meshlib_8h_a2a4546adf022e432511c0d4e3d04b800_cgraph" id="meshlib_8h_a2a4546adf022e432511c0d4e3d04b800_cgraph">
+<area shape="rect" id="node2" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="232,5,424,32"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="472,31,559,57"/></map>
 </div>
 </p>
 
@@ -1704,7 +1733,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a2a4546adf022e432511c0d4e3d04b800_icgraph.png" border="0" usemap="#meshlib_8h_a2a4546adf022e432511c0d4e3d04b800_icgraph" alt=""/></div>
-<!-- MAP 12 -->
+<map name="meshlib_8h_a2a4546adf022e432511c0d4e3d04b800_icgraph" id="meshlib_8h_a2a4546adf022e432511c0d4e3d04b800_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#add68bdf1873d73632658e6d9e754d23b" title="Draws a given mesh in OpenGL context in smoothing shading. " alt="" coords="232,5,409,32"/><area shape="rect" id="node3" href="meshlib_8h.html#a4b336e5fc521aaab154924258999d8bd" title="Draws a given mesh in OpenGL context as pointcloud. " alt="" coords="240,56,401,83"/><area shape="rect" id="node4" href="meshlib_8h.html#a4450e694fecd7e0ff24eea4b8c3c6e04" title="Mesh bilateral filter. " alt="" coords="252,107,389,133"/><area shape="rect" id="node5" href="meshlib_8h.html#a0dc7ff83680410b8d1e19ecb10a87f26" title="Restricted Mesh Laplacian filter. " alt="" coords="234,158,407,199"/><area shape="rect" id="node6" href="meshlib_8h.html#a1351f04d409c0a79d8eaad83accdf7e3" title="Rotates a mesh by a given rotation. " alt="" coords="273,224,368,251"/></map>
 </div>
 </p>
 
@@ -1748,7 +1778,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a1bdaa4128ba93faf83b4af1e75ab9f10_cgraph.png" border="0" usemap="#meshlib_8h_a1bdaa4128ba93faf83b4af1e75ab9f10_cgraph" alt=""/></div>
-<!-- MAP 13 -->
+<map name="meshlib_8h_a1bdaa4128ba93faf83b4af1e75ab9f10_cgraph" id="meshlib_8h_a1bdaa4128ba93faf83b4af1e75ab9f10_cgraph">
+<area shape="rect" id="node2" href="meshcreate_8c.html#ac84ad979c868a2fb0f1a89aa2c56e2a7" title="Creates a new mesh. " alt="" coords="184,5,351,32"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="399,31,485,57"/></map>
 </div>
 </p>
 
@@ -1756,7 +1787,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a1bdaa4128ba93faf83b4af1e75ab9f10_icgraph.png" border="0" usemap="#meshlib_8h_a1bdaa4128ba93faf83b4af1e75ab9f10_icgraph" alt=""/></div>
-<!-- MAP 14 -->
+<map name="meshlib_8h_a1bdaa4128ba93faf83b4af1e75ab9f10_icgraph" id="meshlib_8h_a1bdaa4128ba93faf83b4af1e75ab9f10_icgraph">
+<area shape="rect" id="node2" href="meshops_8c.html#aa94db2c3e1e6d343053b625cf365b667" title="Combines a given mesh with another given mesh. " alt="" coords="184,5,333,32"/></map>
 </div>
 </p>
 
@@ -1800,7 +1832,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a8d26265382141322d44584acef63e596_cgraph.png" border="0" usemap="#meshlib_8h_a8d26265382141322d44584acef63e596_cgraph" alt=""/></div>
-<!-- MAP 15 -->
+<map name="meshlib_8h_a8d26265382141322d44584acef63e596_cgraph" id="meshlib_8h_a8d26265382141322d44584acef63e596_cgraph">
+<area shape="rect" id="node2" href="meshops_8c.html#a69f3ba1af27dcbf10d386d27a3b44ebe" title="Clones a given mesh into another mesh. " alt="" coords="203,56,333,83"/><area shape="rect" id="node4" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="596,56,683,83"/><area shape="rect" id="node5" href="meshcreate_8c.html#a1ba27c7bc0013170910d8305cb28d1e7" title="Frees a mesh. " alt="" coords="207,157,329,184"/><area shape="rect" id="node3" href="meshcreate_8c.html#ac84ad979c868a2fb0f1a89aa2c56e2a7" title="Creates a new mesh. " alt="" coords="381,5,548,32"/></map>
 </div>
 </p>
 
@@ -1862,7 +1895,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_aabf92aa2e7bfdd316c45a6fd529e1a4b_cgraph.png" border="0" usemap="#meshlib_8h_aabf92aa2e7bfdd316c45a6fd529e1a4b_cgraph" alt=""/></div>
-<!-- MAP 16 -->
+<map name="meshlib_8h_aabf92aa2e7bfdd316c45a6fd529e1a4b_cgraph" id="meshlib_8h_aabf92aa2e7bfdd316c45a6fd529e1a4b_cgraph">
+<area shape="rect" id="node2" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="220,5,307,32"/></map>
 </div>
 </p>
 
@@ -1870,7 +1904,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_aabf92aa2e7bfdd316c45a6fd529e1a4b_icgraph.png" border="0" usemap="#meshlib_8h_aabf92aa2e7bfdd316c45a6fd529e1a4b_icgraph" alt=""/></div>
-<!-- MAP 17 -->
+<map name="meshlib_8h_aabf92aa2e7bfdd316c45a6fd529e1a4b_icgraph" id="meshlib_8h_aabf92aa2e7bfdd316c45a6fd529e1a4b_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#a5fb992a4c6115aa8fbcbe1dfb4dfca57" title="Creates a cuboid mesh. " alt="" coords="237,5,404,47"/><area shape="rect" id="node3" href="meshlib_8h.html#a1352aa6157e2eeb135702f3eeb676a4c" title="Creates an ellipsoid mesh. " alt="" coords="237,71,404,112"/><area shape="rect" id="node4" href="meshlib_8h.html#a3122dbf2e31052b6ff79c788ce952d5e" title="Creates a cylinder mesh. " alt="" coords="237,136,404,177"/><area shape="rect" id="node5" href="meshlib_8h.html#ab3679d0b7a036ce633c0f8cc78975562" title="Creates a cone mesh. " alt="" coords="220,202,421,229"/><area shape="rect" id="node6" href="meshlib_8h.html#ae2124240e6a8a21b86d603c7e7556c23" title="Reads a mesh from an OFF file. " alt="" coords="268,253,373,279"/><area shape="rect" id="node8" href="meshlib_8h.html#a268e449d6ad74d76479f81787cc5a0d1" title="Read a mesh from an ASC/XYZ file. " alt="" coords="264,303,377,330"/><area shape="rect" id="node9" href="meshlib_8h.html#a868068a5187f98b5e9e08096accf6b51" title="Reads a mesh from a PLY file. " alt="" coords="266,354,375,381"/><area shape="rect" id="node10" href="meshops_8c.html#a69f3ba1af27dcbf10d386d27a3b44ebe" title="Clones a given mesh into another mesh. " alt="" coords="255,405,386,431"/><area shape="rect" id="node7" href="meshlib_8h.html#a5ec72a190e4d5e0af42897718babceb6" title="Reads a mesh from an OFF/PLY/ASC/XYZ file. " alt="" coords="490,303,598,330"/><area shape="rect" id="node11" href="meshops_8c.html#aa94db2c3e1e6d343053b625cf365b667" title="Combines a given mesh with another given mesh. " alt="" coords="469,405,619,431"/></map>
 </div>
 </p>
 
@@ -1914,7 +1949,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_ab3679d0b7a036ce633c0f8cc78975562_cgraph.png" border="0" usemap="#meshlib_8h_ab3679d0b7a036ce633c0f8cc78975562_cgraph" alt=""/></div>
-<!-- MAP 18 -->
+<map name="meshlib_8h_ab3679d0b7a036ce633c0f8cc78975562_cgraph" id="meshlib_8h_ab3679d0b7a036ce633c0f8cc78975562_cgraph">
+<area shape="rect" id="node2" href="meshcreate_8c.html#ac84ad979c868a2fb0f1a89aa2c56e2a7" title="Creates a new mesh. " alt="" coords="255,5,421,32"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="469,31,556,57"/><area shape="rect" id="node4" href="meshtransform_8c.html#a2922bc63296fdeeeeee474f7f82132d3" title="Translates a mesh by a given 3&#45;d vector. " alt="" coords="262,107,414,133"/></map>
 </div>
 </p>
 
@@ -1958,7 +1994,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a5fb992a4c6115aa8fbcbe1dfb4dfca57_cgraph.png" border="0" usemap="#meshlib_8h_a5fb992a4c6115aa8fbcbe1dfb4dfca57_cgraph" alt=""/></div>
-<!-- MAP 19 -->
+<map name="meshlib_8h_a5fb992a4c6115aa8fbcbe1dfb4dfca57_cgraph" id="meshlib_8h_a5fb992a4c6115aa8fbcbe1dfb4dfca57_cgraph">
+<area shape="rect" id="node2" href="meshcreate_8c.html#ac84ad979c868a2fb0f1a89aa2c56e2a7" title="Creates a new mesh. " alt="" coords="220,5,387,32"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="435,31,521,57"/><area shape="rect" id="node4" href="meshtransform_8c.html#a2922bc63296fdeeeeee474f7f82132d3" title="Translates a mesh by a given 3&#45;d vector. " alt="" coords="227,107,379,133"/></map>
 </div>
 </p>
 
@@ -2002,7 +2039,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a3122dbf2e31052b6ff79c788ce952d5e_cgraph.png" border="0" usemap="#meshlib_8h_a3122dbf2e31052b6ff79c788ce952d5e_cgraph" alt=""/></div>
-<!-- MAP 20 -->
+<map name="meshlib_8h_a3122dbf2e31052b6ff79c788ce952d5e_cgraph" id="meshlib_8h_a3122dbf2e31052b6ff79c788ce952d5e_cgraph">
+<area shape="rect" id="node2" href="meshcreate_8c.html#ac84ad979c868a2fb0f1a89aa2c56e2a7" title="Creates a new mesh. " alt="" coords="220,5,387,32"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="435,31,521,57"/><area shape="rect" id="node4" href="meshtransform_8c.html#a2922bc63296fdeeeeee474f7f82132d3" title="Translates a mesh by a given 3&#45;d vector. " alt="" coords="227,107,379,133"/></map>
 </div>
 </p>
 
@@ -2046,7 +2084,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a1352aa6157e2eeb135702f3eeb676a4c_cgraph.png" border="0" usemap="#meshlib_8h_a1352aa6157e2eeb135702f3eeb676a4c_cgraph" alt=""/></div>
-<!-- MAP 21 -->
+<map name="meshlib_8h_a1352aa6157e2eeb135702f3eeb676a4c_cgraph" id="meshlib_8h_a1352aa6157e2eeb135702f3eeb676a4c_cgraph">
+<area shape="rect" id="node2" href="meshcreate_8c.html#ac84ad979c868a2fb0f1a89aa2c56e2a7" title="Creates a new mesh. " alt="" coords="220,5,387,32"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="435,31,521,57"/><area shape="rect" id="node4" href="meshtransform_8c.html#a2922bc63296fdeeeeee474f7f82132d3" title="Translates a mesh by a given 3&#45;d vector. " alt="" coords="227,107,379,133"/></map>
 </div>
 </p>
 
@@ -2140,7 +2179,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a967c2ca067794d26e26fff51d1d53d46_icgraph.png" border="0" usemap="#meshlib_8h_a967c2ca067794d26e26fff51d1d53d46_icgraph" alt=""/></div>
-<!-- MAP 22 -->
+<map name="meshlib_8h_a967c2ca067794d26e26fff51d1d53d46_icgraph" id="meshlib_8h_a967c2ca067794d26e26fff51d1d53d46_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#a6c3029f3728f53b2272ee96d5bda6c83" title="Computes area of a triangle. " alt="" coords="195,13,361,39"/><area shape="rect" id="node3" href="meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="409,5,568,47"/><area shape="rect" id="node4" href="meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="616,5,783,47"/><area shape="rect" id="node5" href="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="831,13,1021,39"/></map>
 </div>
 </p>
 
@@ -2173,7 +2213,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_ad978f0782db8619aa40df569daa60163_cgraph.png" border="0" usemap="#meshlib_8h_ad978f0782db8619aa40df569daa60163_cgraph" alt=""/></div>
-<!-- MAP 23 -->
+<map name="meshlib_8h_ad978f0782db8619aa40df569daa60163_cgraph" id="meshlib_8h_ad978f0782db8619aa40df569daa60163_cgraph">
+<area shape="rect" id="node2" href="meshcalc_8c.html#a1951454adfa3fbf3890e78a74376460b" title="Computes face normals of a given mesh. " alt="" coords="180,5,349,32"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="397,5,484,32"/></map>
 </div>
 </p>
 
@@ -2206,7 +2247,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_add68bdf1873d73632658e6d9e754d23b_cgraph.png" border="0" usemap="#meshlib_8h_add68bdf1873d73632658e6d9e754d23b_cgraph" alt=""/></div>
-<!-- MAP 24 -->
+<map name="meshlib_8h_add68bdf1873d73632658e6d9e754d23b_cgraph" id="meshlib_8h_add68bdf1873d73632658e6d9e754d23b_cgraph">
+<area shape="rect" id="node2" href="meshcalc_8c.html#aa0509db908476112994079289963184d" title="Computes vertex normals of a given mesh. " alt="" coords="231,31,409,57"/><area shape="rect" id="node3" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="457,5,649,32"/><area shape="rect" id="node4" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="697,31,784,57"/></map>
 </div>
 </p>
 
@@ -2239,7 +2281,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a4b336e5fc521aaab154924258999d8bd_cgraph.png" border="0" usemap="#meshlib_8h_a4b336e5fc521aaab154924258999d8bd_cgraph" alt=""/></div>
-<!-- MAP 25 -->
+<map name="meshlib_8h_a4b336e5fc521aaab154924258999d8bd_cgraph" id="meshlib_8h_a4b336e5fc521aaab154924258999d8bd_cgraph">
+<area shape="rect" id="node2" href="meshcalc_8c.html#aa0509db908476112994079289963184d" title="Computes vertex normals of a given mesh. " alt="" coords="215,31,393,57"/><area shape="rect" id="node3" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="441,5,633,32"/><area shape="rect" id="node4" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="681,31,768,57"/></map>
 </div>
 </p>
 
@@ -2272,7 +2315,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_add64635926696ba714a7d9b1314b702d_icgraph.png" border="0" usemap="#meshlib_8h_add64635926696ba714a7d9b1314b702d_icgraph" alt=""/></div>
-<!-- MAP 26 -->
+<map name="meshlib_8h_add64635926696ba714a7d9b1314b702d_icgraph" id="meshlib_8h_add64635926696ba714a7d9b1314b702d_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#a2a4546adf022e432511c0d4e3d04b800" title="Computes vertex normals of a given mesh. " alt="" coords="391,238,570,264"/><area shape="rect" id="node5" href="meshlib_8h.html#a4450e694fecd7e0ff24eea4b8c3c6e04" title="Mesh bilateral filter. " alt="" coords="652,19,789,46"/><area shape="rect" id="node6" href="meshlib_8h.html#a0dc7ff83680410b8d1e19ecb10a87f26" title="Restricted Mesh Laplacian filter. " alt="" coords="634,172,807,213"/><area shape="rect" id="node8" href="meshlib_8h.html#a6ce06d5e268653eacb5e06d7cfd2245f" title="Computes face normals of a given mesh. " alt="" coords="396,120,565,147"/><area shape="rect" id="node10" href="meshlib_8h.html#a3ad22077dc3514557cff41dcff5d7684" title="Computes edges of a given mesh. " alt="" coords="417,643,544,670"/><area shape="rect" id="node11" href="meshlib_8h.html#aa9bb55af4acb5abf0f24ed6779e4aef8" title="Computes face adjacent faces of a given mesh. " alt="" coords="629,592,812,619"/><area shape="rect" id="node12" href="meshlib_8h.html#a8ece88db914e1befbd892c0cd02b3ec0" title="Upsamples a given mesh. " alt="" coords="884,487,1001,514"/><area shape="rect" id="node13" href="meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="863,632,1022,673"/><area shape="rect" id="node15" href="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="1288,744,1479,771"/><area shape="rect" id="node16" href="meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955" title="Removes ear faces and connecting vertices. " alt="" coords="860,744,1025,771"/><area shape="rect" id="node17" href="meshlib_8h.html#a4379103b6a6f7bea892042e2835048af" title="Removes unreferenced vertices. " alt="" coords="629,796,812,837"/><area shape="rect" id="node18" href="meshlib_8h.html#a8c226207891410dbc60108c649a1f63d" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="140,491,332,518"/><area shape="rect" id="node19" href="meshlib_8h.html#a39f93b50de8e3700757c2f75e49d2004" title="Mesh Laplacian filter. " alt="" coords="409,744,552,771"/><area shape="rect" id="node20" href="meshlib_8h.html#aabf92aa2e7bfdd316c45a6fd529e1a4b" title="Creates a new mesh. " alt="" coords="153,1251,319,1278"/><area shape="rect" id="node21" href="meshlib_8h.html#a5fb992a4c6115aa8fbcbe1dfb4dfca57" title="Creates a cuboid mesh. " alt="" coords="397,1049,564,1090"/><area shape="rect" id="node22" href="meshlib_8h.html#a1352aa6157e2eeb135702f3eeb676a4c" title="Creates an ellipsoid mesh. " alt="" coords="397,1114,564,1156"/><area shape="rect" id="node23" href="meshlib_8h.html#a3122dbf2e31052b6ff79c788ce952d5e" title="Creates a cylinder mesh. " alt="" coords="397,1180,564,1221"/><area shape="rect" id="node24" href="meshlib_8h.html#ab3679d0b7a036ce633c0f8cc78975562" title="Creates a cone mesh. " alt="" coords="380,1246,581,1272"/><area shape="rect" id="node25" href="meshlib_8h.html#ae2124240e6a8a21b86d603c7e7556c23" title="Reads a mesh from an OFF file. " alt="" coords="428,1296,533,1323"/><area shape="rect" id="node26" href="meshlib_8h.html#a5ec72a190e4d5e0af42897718babceb6" title="Reads a mesh from an OFF/PLY/ASC/XYZ file. " alt="" coords="667,1322,775,1348"/><area shape="rect" id="node27" href="meshlib_8h.html#a268e449d6ad74d76479f81787cc5a0d1" title="Read a mesh from an ASC/XYZ file. " alt="" coords="424,1347,537,1374"/><area shape="rect" id="node28" href="meshlib_8h.html#a868068a5187f98b5e9e08096accf6b51" title="Reads a mesh from a PLY file. " alt="" coords="426,1398,535,1424"/><area shape="rect" id="node29" href="meshops_8c.html#a69f3ba1af27dcbf10d386d27a3b44ebe" title="Clones a given mesh into another mesh. " alt="" coords="415,1454,546,1480"/><area shape="rect" id="node30" href="meshops_8c.html#aa94db2c3e1e6d343053b625cf365b667" title="Combines a given mesh with another given mesh. " alt="" coords="646,1479,795,1506"/><area shape="rect" id="node31" href="meshlib_8h.html#a6e0331552bd7f095fffad720fe970e28" title="Creates a new rotation. " alt="" coords="163,1555,309,1582"/><area shape="rect" id="node34" href="meshlib_8h.html#aa12f99c7d343b68c070a56cb6717bff0" title="Write a mesh to an OFF file. " alt="" coords="182,1656,290,1683"/><area shape="rect" id="node36" href="meshlib_8h.html#a346b5bf71edbe4d4fcf3ad4f5eedb57a" title="Write a mesh to an XYZ file. " alt="" coords="178,1707,294,1734"/><area shape="rect" id="node37" href="meshlib_8h.html#a720d89b615c369149b4bfe6998db8c19" title="Write a mesh to an PLY file. " alt="" coords="180,1606,292,1632"/><area shape="rect" id="node3" href="meshlib_8h.html#add68bdf1873d73632658e6d9e754d23b" title="Draws a given mesh in OpenGL context in smoothing shading. " alt="" coords="632,238,809,264"/><area shape="rect" id="node4" href="meshlib_8h.html#a4b336e5fc521aaab154924258999d8bd" title="Draws a given mesh in OpenGL context as pointcloud. " alt="" coords="640,288,801,315"/><area shape="rect" id="node7" href="meshlib_8h.html#a1351f04d409c0a79d8eaad83accdf7e3" title="Rotates a mesh by a given rotation. " alt="" coords="673,120,768,147"/><area shape="rect" id="node9" href="meshlib_8h.html#ad978f0782db8619aa40df569daa60163" title="Draws a given mesh in OpenGL context in flat shading. " alt="" coords="657,70,784,96"/><area shape="rect" id="node14" href="meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="1073,682,1240,724"/><area shape="rect" id="node32" href="meshlib_8h.html#a16c629a7d44254469d9a268913dd8bf6" title="Sets rotation from a matrix. " alt="" coords="395,1555,567,1582"/><area shape="rect" id="node33" href="meshlib_8h.html#ad77915392ebb41eb7aaebce626a896e5" title="Sets rotation from angle axis. " alt="" coords="385,1606,576,1632"/><area shape="rect" id="node35" href="meshlib_8h.html#ad367b48ff3342d3ae56aea6e2300afe4" title="Write a mesh to an OFF/PLY/ASC/XYZ file. " alt="" coords="425,1656,536,1683"/></map>
 </div>
 </p>
 
@@ -2413,7 +2457,8 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a984579cc7619f27154bd1d568145fd92_icgraph.png" border="0" usemap="#meshlib_8h_a984579cc7619f27154bd1d568145fd92_icgraph" alt=""/></div>
-<!-- MAP 27 -->
+<map name="meshlib_8h_a984579cc7619f27154bd1d568145fd92_icgraph" id="meshlib_8h_a984579cc7619f27154bd1d568145fd92_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#a868068a5187f98b5e9e08096accf6b51" title="Reads a mesh from a PLY file. " alt="" coords="195,5,304,32"/><area shape="rect" id="node4" href="meshops_8c.html#aa94db2c3e1e6d343053b625cf365b667" title="Combines a given mesh with another given mesh. " alt="" coords="175,56,324,83"/><area shape="rect" id="node3" href="meshlib_8h.html#a5ec72a190e4d5e0af42897718babceb6" title="Reads a mesh from an OFF/PLY/ASC/XYZ file. " alt="" coords="372,5,480,32"/></map>
 </div>
 </p>
 
@@ -2507,7 +2552,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a39f93b50de8e3700757c2f75e49d2004_cgraph.png" border="0" usemap="#meshlib_8h_a39f93b50de8e3700757c2f75e49d2004_cgraph" alt=""/></div>
-<!-- MAP 28 -->
+<map name="meshlib_8h_a39f93b50de8e3700757c2f75e49d2004_cgraph" id="meshlib_8h_a39f93b50de8e3700757c2f75e49d2004_cgraph">
+<area shape="rect" id="node2" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="196,5,388,32"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="436,31,523,57"/></map>
 </div>
 </p>
 
@@ -2540,7 +2586,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a5ec72a190e4d5e0af42897718babceb6_cgraph.png" border="0" usemap="#meshlib_8h_a5ec72a190e4d5e0af42897718babceb6_cgraph" alt=""/></div>
-<!-- MAP 29 -->
+<map name="meshlib_8h_a5ec72a190e4d5e0af42897718babceb6_cgraph" id="meshlib_8h_a5ec72a190e4d5e0af42897718babceb6_cgraph">
+<area shape="rect" id="node2" href="meshload_8c.html#ad7ed7c1491a7e936e2abe3b7b70e7604" title="Reads a mesh from an OFF file. " alt="" coords="165,86,271,113"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="537,73,624,99"/><area shape="rect" id="node5" href="meshload_8c.html#a7fd576f15ed99a38c622fe0bd67ae941" title="Reads a mesh from a PLY file. " alt="" coords="163,162,273,189"/><area shape="rect" id="node7" href="meshload_8c.html#aa9d606b2ffc2cdcabf118835cd6eac4c" title="Read a mesh from an ASC/XYZ file. " alt="" coords="161,35,275,62"/><area shape="rect" id="node4" href="meshcreate_8c.html#ac84ad979c868a2fb0f1a89aa2c56e2a7" title="Creates a new mesh. " alt="" coords="323,123,489,150"/><area shape="rect" id="node6" href="meshcreate_8c.html#a1ba27c7bc0013170910d8305cb28d1e7" title="Frees a mesh. " alt="" coords="345,174,467,201"/></map>
 </div>
 </p>
 
@@ -2573,7 +2620,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_ae2124240e6a8a21b86d603c7e7556c23_cgraph.png" border="0" usemap="#meshlib_8h_ae2124240e6a8a21b86d603c7e7556c23_cgraph" alt=""/></div>
-<!-- MAP 30 -->
+<map name="meshlib_8h_ae2124240e6a8a21b86d603c7e7556c23_cgraph" id="meshlib_8h_ae2124240e6a8a21b86d603c7e7556c23_cgraph">
+<area shape="rect" id="node2" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="373,5,460,32"/><area shape="rect" id="node3" href="meshcreate_8c.html#ac84ad979c868a2fb0f1a89aa2c56e2a7" title="Creates a new mesh. " alt="" coords="159,31,325,57"/></map>
 </div>
 </p>
 
@@ -2581,7 +2629,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_ae2124240e6a8a21b86d603c7e7556c23_icgraph.png" border="0" usemap="#meshlib_8h_ae2124240e6a8a21b86d603c7e7556c23_icgraph" alt=""/></div>
-<!-- MAP 31 -->
+<map name="meshlib_8h_ae2124240e6a8a21b86d603c7e7556c23_icgraph" id="meshlib_8h_ae2124240e6a8a21b86d603c7e7556c23_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#a5ec72a190e4d5e0af42897718babceb6" title="Reads a mesh from an OFF/PLY/ASC/XYZ file. " alt="" coords="159,5,267,32"/></map>
 </div>
 </p>
 
@@ -2614,7 +2663,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a868068a5187f98b5e9e08096accf6b51_cgraph.png" border="0" usemap="#meshlib_8h_a868068a5187f98b5e9e08096accf6b51_cgraph" alt=""/></div>
-<!-- MAP 32 -->
+<map name="meshlib_8h_a868068a5187f98b5e9e08096accf6b51_cgraph" id="meshlib_8h_a868068a5187f98b5e9e08096accf6b51_cgraph">
+<area shape="rect" id="node2" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="377,5,464,32"/><area shape="rect" id="node3" href="meshcreate_8c.html#ac84ad979c868a2fb0f1a89aa2c56e2a7" title="Creates a new mesh. " alt="" coords="163,31,329,57"/><area shape="rect" id="node4" href="meshcreate_8c.html#a1ba27c7bc0013170910d8305cb28d1e7" title="Frees a mesh. " alt="" coords="185,81,307,108"/></map>
 </div>
 </p>
 
@@ -2622,7 +2672,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a868068a5187f98b5e9e08096accf6b51_icgraph.png" border="0" usemap="#meshlib_8h_a868068a5187f98b5e9e08096accf6b51_icgraph" alt=""/></div>
-<!-- MAP 33 -->
+<map name="meshlib_8h_a868068a5187f98b5e9e08096accf6b51_icgraph" id="meshlib_8h_a868068a5187f98b5e9e08096accf6b51_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#a5ec72a190e4d5e0af42897718babceb6" title="Reads a mesh from an OFF/PLY/ASC/XYZ file. " alt="" coords="163,5,271,32"/></map>
 </div>
 </p>
 
@@ -2655,7 +2706,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a268e449d6ad74d76479f81787cc5a0d1_cgraph.png" border="0" usemap="#meshlib_8h_a268e449d6ad74d76479f81787cc5a0d1_cgraph" alt=""/></div>
-<!-- MAP 34 -->
+<map name="meshlib_8h_a268e449d6ad74d76479f81787cc5a0d1_cgraph" id="meshlib_8h_a268e449d6ad74d76479f81787cc5a0d1_cgraph">
+<area shape="rect" id="node2" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="381,5,468,32"/><area shape="rect" id="node3" href="meshcreate_8c.html#ac84ad979c868a2fb0f1a89aa2c56e2a7" title="Creates a new mesh. " alt="" coords="167,31,333,57"/></map>
 </div>
 </p>
 
@@ -2663,7 +2715,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a268e449d6ad74d76479f81787cc5a0d1_icgraph.png" border="0" usemap="#meshlib_8h_a268e449d6ad74d76479f81787cc5a0d1_icgraph" alt=""/></div>
-<!-- MAP 35 -->
+<map name="meshlib_8h_a268e449d6ad74d76479f81787cc5a0d1_icgraph" id="meshlib_8h_a268e449d6ad74d76479f81787cc5a0d1_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#a5ec72a190e4d5e0af42897718babceb6" title="Reads a mesh from an OFF/PLY/ASC/XYZ file. " alt="" coords="167,5,275,32"/></map>
 </div>
 </p>
 
@@ -2865,7 +2918,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_aa2d9aff74a0f802bf49473a924c49b03_cgraph.png" border="0" usemap="#meshlib_8h_aa2d9aff74a0f802bf49473a924c49b03_cgraph" alt=""/></div>
-<!-- MAP 36 -->
+<map name="meshlib_8h_aa2d9aff74a0f802bf49473a924c49b03_cgraph" id="meshlib_8h_aa2d9aff74a0f802bf49473a924c49b03_cgraph">
+<area shape="rect" id="node2" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="1085,245,1277,272"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="1325,169,1412,196"/><area shape="rect" id="node4" href="meshclean_8c.html#a31827c8c149de0a425f4a01273e6649f" title="Removes triangles with zero area. " alt="" coords="244,213,411,254"/><area shape="rect" id="node10" href="meshclean_8c.html#ab61a5ef5bc07cf16f1c76fa7433e842e" title="Removes unreferenced vertices. " alt="" coords="665,297,848,338"/><area shape="rect" id="node5" href="meshclean_8c.html#a4e00579ab3c9986cb115c784e49a009c" title="Removes triangles with area smaller than a given value. " alt="" coords="459,162,617,203"/><area shape="rect" id="node6" href="meshcalc_8c.html#aef39a14ecf45fc9b784784c65e71bd24" title="Computes area of a triangle. " alt="" coords="673,43,840,69"/><area shape="rect" id="node8" href="meshcalc_8c.html#a9045bc76d71af1b7c5e3e87cd5d0287f" title="Computes face adjacent faces of a given mesh. " alt="" coords="665,169,848,196"/><area shape="rect" id="node7" href="meshcalc_8c.html#a0549a35b7d8e1eed4e896d172cff42ce" title="Computes the cross product of two 3&#45;d vectors. " alt="" coords="896,43,1037,69"/><area shape="rect" id="node9" href="meshcalc_8c.html#a33344dbe1f237324724722258b425d8a" title="Computes edges of a given mesh. " alt="" coords="903,195,1030,221"/></map>
 </div>
 </p>
 
@@ -2909,7 +2963,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_ae8dc074787a804bdfa8b3776fb34e955_cgraph.png" border="0" usemap="#meshlib_8h_ae8dc074787a804bdfa8b3776fb34e955_cgraph" alt=""/></div>
-<!-- MAP 37 -->
+<map name="meshlib_8h_ae8dc074787a804bdfa8b3776fb34e955_cgraph" id="meshlib_8h_ae8dc074787a804bdfa8b3776fb34e955_cgraph">
+<area shape="rect" id="node2" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="624,77,816,104"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="864,128,951,155"/><area shape="rect" id="node4" href="meshclean_8c.html#ab61a5ef5bc07cf16f1c76fa7433e842e" title="Removes unreferenced vertices. " alt="" coords="219,95,401,137"/><area shape="rect" id="node5" href="meshcalc_8c.html#a33344dbe1f237324724722258b425d8a" title="Computes edges of a given mesh. " alt="" coords="449,179,576,205"/><area shape="rect" id="node6" href="meshcalc_8c.html#a9045bc76d71af1b7c5e3e87cd5d0287f" title="Computes face adjacent faces of a given mesh. " alt="" coords="219,212,401,239"/></map>
 </div>
 </p>
 
@@ -2953,7 +3008,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a52526baa809ff92ae1a91a198b8bf635_cgraph.png" border="0" usemap="#meshlib_8h_a52526baa809ff92ae1a91a198b8bf635_cgraph" alt=""/></div>
-<!-- MAP 38 -->
+<map name="meshlib_8h_a52526baa809ff92ae1a91a198b8bf635_cgraph" id="meshlib_8h_a52526baa809ff92ae1a91a198b8bf635_cgraph">
+<area shape="rect" id="node2" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="872,126,959,153"/><area shape="rect" id="node3" href="meshcalc_8c.html#aef39a14ecf45fc9b784784c65e71bd24" title="Computes area of a triangle. " alt="" coords="220,50,387,77"/><area shape="rect" id="node5" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="632,101,824,127"/><area shape="rect" id="node6" href="meshcalc_8c.html#a9045bc76d71af1b7c5e3e87cd5d0287f" title="Computes face adjacent faces of a given mesh. " alt="" coords="212,151,395,178"/><area shape="rect" id="node4" href="meshcalc_8c.html#a0549a35b7d8e1eed4e896d172cff42ce" title="Computes the cross product of two 3&#45;d vectors. " alt="" coords="443,50,584,77"/><area shape="rect" id="node7" href="meshcalc_8c.html#a33344dbe1f237324724722258b425d8a" title="Computes edges of a given mesh. " alt="" coords="450,151,577,178"/></map>
 </div>
 </p>
 
@@ -2961,7 +3017,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a52526baa809ff92ae1a91a198b8bf635_icgraph.png" border="0" usemap="#meshlib_8h_a52526baa809ff92ae1a91a198b8bf635_icgraph" alt=""/></div>
-<!-- MAP 39 -->
+<map name="meshlib_8h_a52526baa809ff92ae1a91a198b8bf635_icgraph" id="meshlib_8h_a52526baa809ff92ae1a91a198b8bf635_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="212,5,379,47"/><area shape="rect" id="node3" href="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="427,13,617,39"/></map>
 </div>
 </p>
 
@@ -2994,7 +3051,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a4379103b6a6f7bea892042e2835048af_cgraph.png" border="0" usemap="#meshlib_8h_a4379103b6a6f7bea892042e2835048af_cgraph" alt=""/></div>
-<!-- MAP 40 -->
+<map name="meshlib_8h_a4379103b6a6f7bea892042e2835048af_cgraph" id="meshlib_8h_a4379103b6a6f7bea892042e2835048af_cgraph">
+<area shape="rect" id="node2" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="651,29,737,56"/><area shape="rect" id="node3" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="411,29,603,56"/><area shape="rect" id="node4" href="meshcalc_8c.html#a33344dbe1f237324724722258b425d8a" title="Computes edges of a given mesh. " alt="" coords="236,80,363,107"/></map>
 </div>
 </p>
 
@@ -3002,7 +3060,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a4379103b6a6f7bea892042e2835048af_icgraph.png" border="0" usemap="#meshlib_8h_a4379103b6a6f7bea892042e2835048af_icgraph" alt=""/></div>
-<!-- MAP 41 -->
+<map name="meshlib_8h_a4379103b6a6f7bea892042e2835048af_icgraph" id="meshlib_8h_a4379103b6a6f7bea892042e2835048af_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955" title="Removes ear faces and connecting vertices. " alt="" coords="249,5,414,32"/><area shape="rect" id="node3" href="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="236,56,427,83"/></map>
 </div>
 </p>
 
@@ -3035,7 +3094,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a654d367f5a2926200bd36718086a414a_cgraph.png" border="0" usemap="#meshlib_8h_a654d367f5a2926200bd36718086a414a_cgraph" alt=""/></div>
-<!-- MAP 42 -->
+<map name="meshlib_8h_a654d367f5a2926200bd36718086a414a_cgraph" id="meshlib_8h_a654d367f5a2926200bd36718086a414a_cgraph">
+<area shape="rect" id="node2" href="meshclean_8c.html#a4e00579ab3c9986cb115c784e49a009c" title="Removes triangles with area smaller than a given value. " alt="" coords="220,68,379,109"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="1087,126,1173,153"/><area shape="rect" id="node4" href="meshcalc_8c.html#aef39a14ecf45fc9b784784c65e71bd24" title="Computes area of a triangle. " alt="" coords="435,50,601,77"/><area shape="rect" id="node6" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="847,101,1039,127"/><area shape="rect" id="node7" href="meshcalc_8c.html#a9045bc76d71af1b7c5e3e87cd5d0287f" title="Computes face adjacent faces of a given mesh. " alt="" coords="427,151,609,178"/><area shape="rect" id="node5" href="meshcalc_8c.html#a0549a35b7d8e1eed4e896d172cff42ce" title="Computes the cross product of two 3&#45;d vectors. " alt="" coords="657,50,799,77"/><area shape="rect" id="node8" href="meshcalc_8c.html#a33344dbe1f237324724722258b425d8a" title="Computes edges of a given mesh. " alt="" coords="665,151,791,178"/></map>
 </div>
 </p>
 
@@ -3043,7 +3103,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a654d367f5a2926200bd36718086a414a_icgraph.png" border="0" usemap="#meshlib_8h_a654d367f5a2926200bd36718086a414a_icgraph" alt=""/></div>
-<!-- MAP 43 -->
+<map name="meshlib_8h_a654d367f5a2926200bd36718086a414a_icgraph" id="meshlib_8h_a654d367f5a2926200bd36718086a414a_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="220,13,411,39"/></map>
 </div>
 </p>
 
@@ -3094,7 +3155,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a0dc7ff83680410b8d1e19ecb10a87f26_cgraph.png" border="0" usemap="#meshlib_8h_a0dc7ff83680410b8d1e19ecb10a87f26_cgraph" alt=""/></div>
-<!-- MAP 44 -->
+<map name="meshlib_8h_a0dc7ff83680410b8d1e19ecb10a87f26_cgraph" id="meshlib_8h_a0dc7ff83680410b8d1e19ecb10a87f26_cgraph">
+<area shape="rect" id="node2" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="453,36,645,63"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="693,62,780,88"/><area shape="rect" id="node4" href="meshcalc_8c.html#a1951454adfa3fbf3890e78a74376460b" title="Computes face normals of a given mesh. " alt="" coords="465,138,634,164"/><area shape="rect" id="node5" href="meshcalc_8c.html#aa0509db908476112994079289963184d" title="Computes vertex normals of a given mesh. " alt="" coords="227,87,405,114"/></map>
 </div>
 </p>
 
@@ -3138,7 +3200,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a1351f04d409c0a79d8eaad83accdf7e3_cgraph.png" border="0" usemap="#meshlib_8h_a1351f04d409c0a79d8eaad83accdf7e3_cgraph" alt=""/></div>
-<!-- MAP 45 -->
+<map name="meshlib_8h_a1351f04d409c0a79d8eaad83accdf7e3_cgraph" id="meshlib_8h_a1351f04d409c0a79d8eaad83accdf7e3_cgraph">
+<area shape="rect" id="node2" href="meshcalc_8c.html#aa0509db908476112994079289963184d" title="Computes vertex normals of a given mesh. " alt="" coords="148,56,327,83"/><area shape="rect" id="node5" href="meshcalc_8c.html#a1951454adfa3fbf3890e78a74376460b" title="Computes face normals of a given mesh. " alt="" coords="386,107,555,133"/><area shape="rect" id="node3" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="375,5,567,32"/><area shape="rect" id="node4" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="615,56,701,83"/></map>
 </div>
 </p>
 
@@ -3164,7 +3227,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a6e0331552bd7f095fffad720fe970e28_cgraph.png" border="0" usemap="#meshlib_8h_a6e0331552bd7f095fffad720fe970e28_cgraph" alt=""/></div>
-<!-- MAP 46 -->
+<map name="meshlib_8h_a6e0331552bd7f095fffad720fe970e28_cgraph" id="meshlib_8h_a6e0331552bd7f095fffad720fe970e28_cgraph">
+<area shape="rect" id="node2" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="200,5,287,32"/></map>
 </div>
 </p>
 
@@ -3172,7 +3236,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a6e0331552bd7f095fffad720fe970e28_icgraph.png" border="0" usemap="#meshlib_8h_a6e0331552bd7f095fffad720fe970e28_icgraph" alt=""/></div>
-<!-- MAP 47 -->
+<map name="meshlib_8h_a6e0331552bd7f095fffad720fe970e28_icgraph" id="meshlib_8h_a6e0331552bd7f095fffad720fe970e28_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#a16c629a7d44254469d9a268913dd8bf6" title="Sets rotation from a matrix. " alt="" coords="209,5,381,32"/><area shape="rect" id="node3" href="meshlib_8h.html#ad77915392ebb41eb7aaebce626a896e5" title="Sets rotation from angle axis. " alt="" coords="200,56,391,83"/></map>
 </div>
 </p>
 
@@ -3248,7 +3313,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_ad77915392ebb41eb7aaebce626a896e5_cgraph.png" border="0" usemap="#meshlib_8h_ad77915392ebb41eb7aaebce626a896e5_cgraph" alt=""/></div>
-<!-- MAP 48 -->
+<map name="meshlib_8h_ad77915392ebb41eb7aaebce626a896e5_cgraph" id="meshlib_8h_ad77915392ebb41eb7aaebce626a896e5_cgraph">
+<area shape="rect" id="node2" href="meshtransform_8c.html#a6b79d595773fbb6a574e1ed8fa67674c" title="Creates a new rotation. " alt="" coords="244,5,391,32"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="439,5,525,32"/></map>
 </div>
 </p>
 
@@ -3292,7 +3358,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a16c629a7d44254469d9a268913dd8bf6_cgraph.png" border="0" usemap="#meshlib_8h_a16c629a7d44254469d9a268913dd8bf6_cgraph" alt=""/></div>
-<!-- MAP 49 -->
+<map name="meshlib_8h_a16c629a7d44254469d9a268913dd8bf6_cgraph" id="meshlib_8h_a16c629a7d44254469d9a268913dd8bf6_cgraph">
+<area shape="rect" id="node2" href="meshtransform_8c.html#a6b79d595773fbb6a574e1ed8fa67674c" title="Creates a new rotation. " alt="" coords="225,5,372,32"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="420,5,507,32"/></map>
 </div>
 </p>
 
@@ -3461,7 +3528,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a2c288f1e4371fe6c4678a68856efa9a4_icgraph.png" border="0" usemap="#meshlib_8h_a2c288f1e4371fe6c4678a68856efa9a4_icgraph" alt=""/></div>
-<!-- MAP 50 -->
+<map name="meshlib_8h_a2c288f1e4371fe6c4678a68856efa9a4_icgraph" id="meshlib_8h_a2c288f1e4371fe6c4678a68856efa9a4_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#a5fb992a4c6115aa8fbcbe1dfb4dfca57" title="Creates a cuboid mesh. " alt="" coords="223,5,389,47"/><area shape="rect" id="node3" href="meshlib_8h.html#a1352aa6157e2eeb135702f3eeb676a4c" title="Creates an ellipsoid mesh. " alt="" coords="223,71,389,112"/><area shape="rect" id="node4" href="meshlib_8h.html#a3122dbf2e31052b6ff79c788ce952d5e" title="Creates a cylinder mesh. " alt="" coords="223,136,389,177"/><area shape="rect" id="node5" href="meshlib_8h.html#ab3679d0b7a036ce633c0f8cc78975562" title="Creates a cone mesh. " alt="" coords="205,202,407,229"/></map>
 </div>
 </p>
 
@@ -3505,7 +3573,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a8ece88db914e1befbd892c0cd02b3ec0_cgraph.png" border="0" usemap="#meshlib_8h_a8ece88db914e1befbd892c0cd02b3ec0_cgraph" alt=""/></div>
-<!-- MAP 51 -->
+<map name="meshlib_8h_a8ece88db914e1befbd892c0cd02b3ec0_cgraph" id="meshlib_8h_a8ece88db914e1befbd892c0cd02b3ec0_cgraph">
+<area shape="rect" id="node2" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="816,69,903,95"/><area shape="rect" id="node3" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="576,43,768,70"/><area shape="rect" id="node4" href="meshcalc_8c.html#a9045bc76d71af1b7c5e3e87cd5d0287f" title="Computes face adjacent faces of a given mesh. " alt="" coords="171,145,353,171"/><area shape="rect" id="node5" href="meshcalc_8c.html#a33344dbe1f237324724722258b425d8a" title="Computes edges of a given mesh. " alt="" coords="401,94,528,121"/></map>
 </div>
 </p>
 
@@ -3585,7 +3654,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_ad367b48ff3342d3ae56aea6e2300afe4_cgraph.png" border="0" usemap="#meshlib_8h_ad367b48ff3342d3ae56aea6e2300afe4_cgraph" alt=""/></div>
-<!-- MAP 52 -->
+<map name="meshlib_8h_ad367b48ff3342d3ae56aea6e2300afe4_cgraph" id="meshlib_8h_ad367b48ff3342d3ae56aea6e2300afe4_cgraph">
+<area shape="rect" id="node2" href="meshwrite_8c.html#a99f4a6724ea07424ab16f28de628816d" title="Write a mesh to an OFF file. " alt="" coords="168,5,276,32"/><area shape="rect" id="node4" href="meshwrite_8c.html#a3416e45fffcc287df6be33a2b60eb694" title="Write a mesh to an PLY file. " alt="" coords="166,56,278,83"/><area shape="rect" id="node5" href="meshwrite_8c.html#a8af48a03b82f119eb880af77aa3100f5" title="Write a mesh to an XYZ file. " alt="" coords="164,107,280,133"/><area shape="rect" id="node3" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="328,56,415,83"/></map>
 </div>
 </p>
 
@@ -3629,7 +3699,8 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_aa12f99c7d343b68c070a56cb6717bff0_cgraph.png" border="0" usemap="#meshlib_8h_aa12f99c7d343b68c070a56cb6717bff0_cgraph" alt=""/></div>
-<!-- MAP 53 -->
+<map name="meshlib_8h_aa12f99c7d343b68c070a56cb6717bff0_cgraph" id="meshlib_8h_aa12f99c7d343b68c070a56cb6717bff0_cgraph">
+<area shape="rect" id="node2" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="161,5,248,32"/></map>
 </div>
 </p>
 
@@ -3637,7 +3708,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_aa12f99c7d343b68c070a56cb6717bff0_icgraph.png" border="0" usemap="#meshlib_8h_aa12f99c7d343b68c070a56cb6717bff0_icgraph" alt=""/></div>
-<!-- MAP 54 -->
+<map name="meshlib_8h_aa12f99c7d343b68c070a56cb6717bff0_icgraph" id="meshlib_8h_aa12f99c7d343b68c070a56cb6717bff0_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#ad367b48ff3342d3ae56aea6e2300afe4" title="Write a mesh to an OFF/PLY/ASC/XYZ file. " alt="" coords="161,5,272,32"/></map>
 </div>
 </p>
 
@@ -3681,7 +3753,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a720d89b615c369149b4bfe6998db8c19_cgraph.png" border="0" usemap="#meshlib_8h_a720d89b615c369149b4bfe6998db8c19_cgraph" alt=""/></div>
-<!-- MAP 55 -->
+<map name="meshlib_8h_a720d89b615c369149b4bfe6998db8c19_cgraph" id="meshlib_8h_a720d89b615c369149b4bfe6998db8c19_cgraph">
+<area shape="rect" id="node2" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="165,5,252,32"/></map>
 </div>
 </p>
 
@@ -3689,7 +3762,8 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a720d89b615c369149b4bfe6998db8c19_icgraph.png" border="0" usemap="#meshlib_8h_a720d89b615c369149b4bfe6998db8c19_icgraph" alt=""/></div>
-<!-- MAP 56 -->
+<map name="meshlib_8h_a720d89b615c369149b4bfe6998db8c19_icgraph" id="meshlib_8h_a720d89b615c369149b4bfe6998db8c19_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#ad367b48ff3342d3ae56aea6e2300afe4" title="Write a mesh to an OFF/PLY/ASC/XYZ file. " alt="" coords="165,5,276,32"/></map>
 </div>
 </p>
 
@@ -3733,7 +3807,8 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a346b5bf71edbe4d4fcf3ad4f5eedb57a_cgraph.png" border="0" usemap="#meshlib_8h_a346b5bf71edbe4d4fcf3ad4f5eedb57a_cgraph" alt=""/></div>
-<!-- MAP 57 -->
+<map name="meshlib_8h_a346b5bf71edbe4d4fcf3ad4f5eedb57a_cgraph" id="meshlib_8h_a346b5bf71edbe4d4fcf3ad4f5eedb57a_cgraph">
+<area shape="rect" id="node2" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="169,5,256,32"/></map>
 </div>
 </p>
 
@@ -3741,18 +3816,23 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshlib_8h_a346b5bf71edbe4d4fcf3ad4f5eedb57a_icgraph.png" border="0" usemap="#meshlib_8h_a346b5bf71edbe4d4fcf3ad4f5eedb57a_icgraph" alt=""/></div>
-<!-- MAP 58 -->
+<map name="meshlib_8h_a346b5bf71edbe4d4fcf3ad4f5eedb57a_icgraph" id="meshlib_8h_a346b5bf71edbe4d4fcf3ad4f5eedb57a_icgraph">
+<area shape="rect" id="node2" href="meshlib_8h.html#ad367b48ff3342d3ae56aea6e2300afe4" title="Write a mesh to an OFF/PLY/ASC/XYZ file. " alt="" coords="169,5,280,32"/></map>
 </div>
 </p>
 
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Sat Jun 25 2016 20:34:08 for MeshLib by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.9.1
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="meshlib_8h.html">meshlib.h</a></li>
+    <li class="footer">Generated on Sat Jun 25 2016 21:07:04 for MeshLib by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
+  </ul>
+</div>
 </body>
 </html>
