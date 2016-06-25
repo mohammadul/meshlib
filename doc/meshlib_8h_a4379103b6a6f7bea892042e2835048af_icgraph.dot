@@ -1,0 +1,11 @@
+digraph "mesh_remove_unreferenced_vertices"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mesh_remove_unreferenced\l_vertices",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mesh_remove_ear_faces",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955",tooltip="Removes ear faces and connecting vertices. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mesh_remove_close_vertices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03",tooltip="Removes close vertices. "];
+}

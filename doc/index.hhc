@@ -365,6 +365,7 @@
       <UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_load_file"><param name="Local" value="meshload_8c.html#a9ab21849ad22b76fa1e6990953d1c0c9"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_load_off"><param name="Local" value="meshload_8c.html#ad7ed7c1491a7e936e2abe3b7b70e7604"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_load_ply"><param name="Local" value="meshload_8c.html#a7fd576f15ed99a38c622fe0bd67ae941"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_load_xyz"><param name="Local" value="meshload_8c.html#aa9d606b2ffc2cdcabf118835cd6eac4c"><param name="ImageNumber" value="11"></OBJECT>
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="meshops.c"><param name="Local" value="meshops_8c.html"><param name="ImageNumber" value="1"></OBJECT>

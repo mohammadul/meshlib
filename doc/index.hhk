@@ -152,13 +152,10 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__color.html#a6b4c4f51277e55f446d391c37cddefb5"><param name="Name" value="a"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__color.html#a2e7c049f67d83f9256689499081402c3"><param name="Name" value="b"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__color.html#a6516fb078d0fbc28038c853f0e13fd0b"><param name="Name" value="g"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a08b43c438233143d8d59e2e054b81656"><param name="Name" value="meshlib.h"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ab7a7e8df440ef5af95d7281522238a42"><param name="Name" value="MESH_COLOR"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a08b43c438233143d8d59e2e054b81656"><param name="Name" value="mesh_color"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a08b43c438233143d8d59e2e054b81656"><param name="Name" value="meshlib.h"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__color.html#a17f5d51d709dc9e127433d2adfa9db39"><param name="Name" value="r"></OBJECT>
-  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structmesh__color.html"><param name="Name" value="mesh_color"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa94db2c3e1e6d343053b625cf365b667"><param name="Name" value="mesh_combine_mesh"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa94db2c3e1e6d343053b625cf365b667"><param name="Name" value="meshlib.h"></OBJECT>
@@ -289,6 +286,10 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshload_8c.html#ad7ed7c1491a7e936e2abe3b7b70e7604"><param name="Name" value="meshload.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a7fd576f15ed99a38c622fe0bd67ae941"><param name="Name" value="mesh_load_ply"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a7fd576f15ed99a38c622fe0bd67ae941"><param name="Name" value="meshlib.h"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshload_8c.html#a7fd576f15ed99a38c622fe0bd67ae941"><param name="Name" value="meshload.c"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa9d606b2ffc2cdcabf118835cd6eac4c"><param name="Name" value="mesh_load_xyz"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa9d606b2ffc2cdcabf118835cd6eac4c"><param name="Name" value="meshlib.h"></OBJECT>
@@ -536,8 +537,8 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af420236be7cf0f6bfbf5490b3cb10a5d"><param name="Name" value="INTDATA"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af4a4de856063b98556b6e970e6f08534"><param name="Name" value="INTDATA2"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ac6d0c51b811e288b54edaeb5ab1013cd"><param name="Name" value="INTDATA3"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9413491d19cf2a99664383897225b9bb"><param name="Name" value="mesh"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ae66c461fcee2e9e588ead04f54df256a"><param name="Name" value="MESH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9413491d19cf2a99664383897225b9bb"><param name="Name" value="mesh"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af05f990f741a51b46d624863bfd0dcb0"><param name="Name" value="mesh_adjface"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a67a42af2e201c092cab659766179c92a"><param name="Name" value="mesh_bilateral_filter"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a33344dbe1f237324724722258b425d8a"><param name="Name" value="mesh_calc_edges"></OBJECT>
@@ -630,14 +631,14 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a59d5fdfa40e0dd73606ac136fdc5485c"><param name="Name" value="mesh_rotation_set_matrix"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a8e0581288a873837118b83af4c726d54"><param name="Name" value="mesh_scale"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#af66fdd34570fb6e7c76efab62264e251"><param name="Name" value="mesh_skip_line"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5b394608b01c8d182355b717338fd6c6"><param name="Name" value="mesh_struct"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a2837a9c9710c4e17183123d242cce610"><param name="Name" value="MESH_STRUCT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5b394608b01c8d182355b717338fd6c6"><param name="Name" value="mesh_struct"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a46646f436f6694748212ecebb9624fab"><param name="Name" value="mesh_struct2"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a0b2caff7c119e584d6375c9ce2e212d0"><param name="Name" value="MESH_STRUCT2"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#abe194aa562df1e4054289239edfbbd01"><param name="Name" value="mesh_struct3"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa29739a323e87b2a0dccda8e88c01ff8"><param name="Name" value="MESH_STRUCT3"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ad020327b499f8823e045aa4d7f3a81d9"><param name="Name" value="MESH_TRANSFORM"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aee11e15f007c66eabfbf6cdf38b31c37"><param name="Name" value="mesh_transform"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#ad020327b499f8823e045aa4d7f3a81d9"><param name="Name" value="MESH_TRANSFORM"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5518adcc0f841186e58faf26b2dc2f44"><param name="Name" value="mesh_translate"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a537d8f9891947f3ba511bee8e91c6c37"><param name="Name" value="mesh_translate_vector"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a5e58b6921287fa9b679a87f78c2d3ffa"><param name="Name" value="MESH_TWOPI"></OBJECT>
@@ -647,8 +648,8 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#acf60bd292ae446dbed84cd352e29e876"><param name="Name" value="MESH_VERTEX"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a7d34f64cd039e9d792583b151ef929a4"><param name="Name" value="mesh_vertex"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#aa7f930546a505bb966e3ed85e8e5a176"><param name="Name" value="mesh_vertex_rotate"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9a605289ad71c4d427a7fb6f220e8dc9"><param name="Name" value="mesh_vface"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a700f0a8e376a3a2a006d7cda397611d9"><param name="Name" value="MESH_VFACE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a9a605289ad71c4d427a7fb6f220e8dc9"><param name="Name" value="mesh_vface"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a1f043cb0fb01d7685a480c995d1bdd7a"><param name="Name" value="mesh_write_file"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a99f4a6724ea07424ab16f28de628816d"><param name="Name" value="mesh_write_off"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshlib_8h.html#a3416e45fffcc287df6be33a2b60eb694"><param name="Name" value="mesh_write_ply"></OBJECT>
@@ -658,6 +659,7 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshload_8c.html#a9ab21849ad22b76fa1e6990953d1c0c9"><param name="Name" value="mesh_load_file"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshload_8c.html#ad7ed7c1491a7e936e2abe3b7b70e7604"><param name="Name" value="mesh_load_off"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="meshload_8c.html#a7fd576f15ed99a38c622fe0bd67ae941"><param name="Name" value="mesh_load_ply"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="meshload_8c.html#aa9d606b2ffc2cdcabf118835cd6eac4c"><param name="Name" value="mesh_load_xyz"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="meshops_8c.html"><param name="Name" value="meshops.c"></OBJECT>

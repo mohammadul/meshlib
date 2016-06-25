@@ -1,0 +1,34 @@
+digraph "mesh_remove_close_vertices"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mesh_remove_close_vertices",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mesh_calc_vertex_adjacency",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49",tooltip="Computes vertex adjacent faces of a given mesh. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="mesh_error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a",tooltip="Displays error message and exits. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mesh_remove_zero_area\l_faces",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$meshclean_8c.html#a31827c8c149de0a425f4a01273e6649f",tooltip="Removes triangles with zero area. "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mesh_remove_triangles\l_with_small_area",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$meshclean_8c.html#a4e00579ab3c9986cb115c784e49a009c",tooltip="Removes triangles with area smaller than a given value. "];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mesh_calc_triangle_area",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$meshcalc_8c.html#aef39a14ecf45fc9b784784c65e71bd24",tooltip="Computes area of a triangle. "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mesh_cross_vector3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$meshcalc_8c.html#a0549a35b7d8e1eed4e896d172cff42ce",tooltip="Computes the cross product of two 3-d vectors. "];
+  Node5 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mesh_calc_face_adjacency",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$meshcalc_8c.html#a9045bc76d71af1b7c5e3e87cd5d0287f",tooltip="Computes face adjacent faces of a given mesh. "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mesh_calc_edges",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$meshcalc_8c.html#a33344dbe1f237324724722258b425d8a",tooltip="Computes edges of a given mesh. "];
+  Node9 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="mesh_remove_unreferenced\l_vertices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$meshclean_8c.html#ab61a5ef5bc07cf16f1c76fa7433e842e",tooltip="Removes unreferenced vertices. "];
+  Node10 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
