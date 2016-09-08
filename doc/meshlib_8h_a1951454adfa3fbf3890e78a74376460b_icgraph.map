@@ -1,6 +1,0 @@
-<map id="mesh_calc_face_normals" name="mesh_calc_face_normals">
-<area shape="rect" id="node2" href="$meshlib_8h.html#a405c87043523042797a9bf50956b2946" title="Draws a given mesh in OpenGL context in flat shading. " alt="" coords="246,5,373,32"/>
-<area shape="rect" id="node3" href="$meshlib_8h.html#a67a42af2e201c092cab659766179c92a" title="Mesh bilateral filter. " alt="" coords="241,56,378,83"/>
-<area shape="rect" id="node4" href="$meshlib_8h.html#aba5939a212e5f499ca645b375ed9bdee" title="Restricted Mesh Laplacian filter. " alt="" coords="223,107,396,149"/>
-<area shape="rect" id="node5" href="$meshlib_8h.html#a2158fccfd52f0d78b8c00f8c7e45b43b" title="Rotates a mesh by a given rotation. " alt="" coords="262,173,357,200"/>
-</map>

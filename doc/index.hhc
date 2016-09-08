@@ -126,6 +126,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_remove_boundary_vertices"><param name="Local" value="meshclean_8c.html#a73e603171346670dd4cf530c823a4c82"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_remove_close_vertices"><param name="Local" value="meshclean_8c.html#a64ea7e69fd4e877c4dd1f6def430f8bf"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_remove_ear_faces"><param name="Local" value="meshclean_8c.html#ac6d62e107ff0c8b94daebd40c471b963"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_remove_non_manifold_vertices"><param name="Local" value="meshclean_8c.html#a2bc81ce7f8fc23afd031bc9c033a5ddb"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_remove_triangles_with_small_area"><param name="Local" value="meshclean_8c.html#a4e00579ab3c9986cb115c784e49a009c"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_remove_unreferenced_vertices"><param name="Local" value="meshclean_8c.html#ab61a5ef5bc07cf16f1c76fa7433e842e"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_remove_zero_area_faces"><param name="Local" value="meshclean_8c.html#a31827c8c149de0a425f4a01273e6649f"><param name="ImageNumber" value="11"></OBJECT>
@@ -137,6 +138,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_create_mesh_new_cuboid"><param name="Local" value="meshcreate_8c.html#a95ad08fb9ab6a6357a37f26abdfa23b6"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_create_mesh_new_cylinder"><param name="Local" value="meshcreate_8c.html#a8133aaea0158d9185bbb8a710310dace"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_create_mesh_new_ellipsoid"><param name="Local" value="meshcreate_8c.html#a03655a48821a87b88533b167b4231a10"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_create_mesh_new_grid"><param name="Local" value="meshcreate_8c.html#a3975c72a8f1e7d6f3051d182214597b4"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_free_mesh"><param name="Local" value="meshcreate_8c.html#a1ba27c7bc0013170910d8305cb28d1e7"><param name="ImageNumber" value="11"></OBJECT>
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="meshdraw.c"><param name="Local" value="meshdraw_8c.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -321,6 +323,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_create_mesh_new_cuboid"><param name="Local" value="meshlib_8h.html#a5fb992a4c6115aa8fbcbe1dfb4dfca57"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_create_mesh_new_cylinder"><param name="Local" value="meshlib_8h.html#a3122dbf2e31052b6ff79c788ce952d5e"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_create_mesh_new_ellipsoid"><param name="Local" value="meshlib_8h.html#a1352aa6157e2eeb135702f3eeb676a4c"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_create_mesh_new_grid"><param name="Local" value="meshlib_8h.html#a3975c72a8f1e7d6f3051d182214597b4"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_cross_normal"><param name="Local" value="meshlib_8h.html#a59ff1e2b1f8e80de817f5a2e45b784e8"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_cross_vector3"><param name="Local" value="meshlib_8h.html#a967c2ca067794d26e26fff51d1d53d46"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_draw_mesh"><param name="Local" value="meshlib_8h.html#ad978f0782db8619aa40df569daa60163"><param name="ImageNumber" value="11"></OBJECT>
@@ -344,6 +347,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_remove_boundary_vertices"><param name="Local" value="meshlib_8h.html#aa55d052e5cbfdd62025a2af51694bf3c"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_remove_close_vertices"><param name="Local" value="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_remove_ear_faces"><param name="Local" value="meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_remove_non_manifold_vertices"><param name="Local" value="meshlib_8h.html#ae10d71a558d1f39cab13a8856a0bdd08"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_remove_triangles_with_small_area"><param name="Local" value="meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_remove_unreferenced_vertices"><param name="Local" value="meshlib_8h.html#a4379103b6a6f7bea892042e2835048af"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_remove_zero_area_faces"><param name="Local" value="meshlib_8h.html#a654d367f5a2926200bd36718086a414a"><param name="ImageNumber" value="11"></OBJECT>

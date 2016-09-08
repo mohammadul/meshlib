@@ -1,5 +1,9 @@
 var NAVTREEINDEX1 =
 {
+"structmesh__edge.html":[3,0,3],
+"structmesh__edge.html#aeeceb69e996daf39b137c12667c81e2d":[3,0,3,0],
+"structmesh__edge.html#afd5e7c2b8dc8587237571756edca42be":[3,0,3,1],
+"structmesh__face.html":[3,0,4],
 "structmesh__face.html#a9c29fd6fe8b23cffbe97ffb523dc115e":[3,0,4,0],
 "structmesh__face.html#afad1537444969f303a406dc60677d5a7":[3,0,4,1],
 "structmesh__rotation.html":[3,0,5],

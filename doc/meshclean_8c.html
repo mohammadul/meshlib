@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="meshlib.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">MeshLib
-   &#160;<span id="projectnumber">1.4.1.0</span>
+   &#160;<span id="projectnumber">1.4.2.0</span>
    </div>
    <div id="projectbrief">A simple Mesh Library written in C</div>
   </td>
@@ -121,7 +121,7 @@ Include dependency graph for meshclean.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshclean_8c__incl.png" border="0" usemap="#meshclean_8c" alt=""/></div>
 <map name="meshclean_8c" id="meshclean_8c">
-<area shape="rect" id="node3" href="meshlib_8h.html" title="This header file contains declarations of all functions of meshlib. " alt="" coords="197,80,331,107"/></map>
+<area shape="rect" id="node3" href="meshlib_8h.html" title="This header file contains declarations of all functions of meshlib. " alt="" coords="146,80,281,107"/></map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -147,11 +147,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a64ea7e69fd4e877c4dd1f6def430f8bf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="meshclean_8c.html#a64ea7e69fd4e877c4dd1f6def430f8bf">mesh_remove_close_vertices</a> (<a class="el" href="meshlib_8h.html#ae66c461fcee2e9e588ead04f54df256a">MESH</a> m, <a class="el" href="meshlib_8h.html#ac8fa5737ce74c0ed2b9b07431a76528b">FLOATDATA</a> r)</td></tr>
 <tr class="memdesc:a64ea7e69fd4e877c4dd1f6def430f8bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes close vertices.  <a href="#a64ea7e69fd4e877c4dd1f6def430f8bf">More...</a><br /></td></tr>
 <tr class="separator:a64ea7e69fd4e877c4dd1f6def430f8bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc81ce7f8fc23afd031bc9c033a5ddb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="meshclean_8c.html#a2bc81ce7f8fc23afd031bc9c033a5ddb">mesh_remove_non_manifold_vertices</a> (<a class="el" href="meshlib_8h.html#ae66c461fcee2e9e588ead04f54df256a">MESH</a> m)</td></tr>
+<tr class="separator:a2bc81ce7f8fc23afd031bc9c033a5ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This file contains functions pertaining to different mesh cleaning algorithms. </p>
 <dl class="section author"><dt>Author</dt><dd>Sk. Mohammadul Haque </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>1.4.1.0 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.4.2.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2013, 2014, 2015, 2016 Sk. Mohammadul Haque. </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="aa0b039d809b08622cefeba9e7a091a05"></a>
@@ -316,6 +318,31 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a2bc81ce7f8fc23afd031bc9c033a5ddb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mesh_remove_non_manifold_vertices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="meshlib_8h.html#ae66c461fcee2e9e588ead04f54df256a">MESH</a>&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="meshclean_8c_a2bc81ce7f8fc23afd031bc9c033a5ddb_cgraph.png" border="0" usemap="#meshclean_8c_a2bc81ce7f8fc23afd031bc9c033a5ddb_cgraph" alt=""/></div>
+<map name="meshclean_8c_a2bc81ce7f8fc23afd031bc9c033a5ddb_cgraph" id="meshclean_8c_a2bc81ce7f8fc23afd031bc9c033a5ddb_cgraph">
+<area shape="rect" id="node2" href="meshcalc_8c.html#a33344dbe1f237324724722258b425d8a" title="Computes edges of a given mesh. " alt="" coords="469,56,596,83"/><area shape="rect" id="node3" href="meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="644,5,836,32"/><area shape="rect" id="node4" href="mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="884,81,971,108"/><area shape="rect" id="node5" href="meshcalc_8c.html#a9045bc76d71af1b7c5e3e87cd5d0287f" title="Computes face adjacent faces of a given mesh. " alt="" coords="239,107,421,133"/></map>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a4e00579ab3c9986cb115c784e49a009c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -364,7 +391,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshclean_8c_a4e00579ab3c9986cb115c784e49a009c_icgraph.png" border="0" usemap="#meshclean_8c_a4e00579ab3c9986cb115c784e49a009c_icgraph" alt=""/></div>
 <map name="meshclean_8c_a4e00579ab3c9986cb115c784e49a009c_icgraph" id="meshclean_8c_a4e00579ab3c9986cb115c784e49a009c_icgraph">
-<area shape="rect" id="node2" href="meshlib_8h.html#a31827c8c149de0a425f4a01273e6649f" title="Removes triangles with zero area. " alt="" coords="212,5,379,47"/><area shape="rect" id="node3" href="meshlib_8h.html#a64ea7e69fd4e877c4dd1f6def430f8bf" title="Removes close vertices. " alt="" coords="427,13,617,39"/></map>
+<area shape="rect" id="node2" href="meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="212,5,379,47"/><area shape="rect" id="node3" href="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="427,13,617,39"/></map>
 </div>
 </p>
 
@@ -407,7 +434,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshclean_8c_ab61a5ef5bc07cf16f1c76fa7433e842e_icgraph.png" border="0" usemap="#meshclean_8c_ab61a5ef5bc07cf16f1c76fa7433e842e_icgraph" alt=""/></div>
 <map name="meshclean_8c_ab61a5ef5bc07cf16f1c76fa7433e842e_icgraph" id="meshclean_8c_ab61a5ef5bc07cf16f1c76fa7433e842e_icgraph">
-<area shape="rect" id="node2" href="meshlib_8h.html#ac6d62e107ff0c8b94daebd40c471b963" title="Removes ear faces and connecting vertices. " alt="" coords="249,5,414,32"/><area shape="rect" id="node3" href="meshlib_8h.html#a64ea7e69fd4e877c4dd1f6def430f8bf" title="Removes close vertices. " alt="" coords="236,56,427,83"/></map>
+<area shape="rect" id="node2" href="meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955" title="Removes ear faces and connecting vertices. " alt="" coords="249,5,414,32"/><area shape="rect" id="node3" href="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="236,56,427,83"/></map>
 </div>
 </p>
 
@@ -450,7 +477,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="meshclean_8c_a31827c8c149de0a425f4a01273e6649f_icgraph.png" border="0" usemap="#meshclean_8c_a31827c8c149de0a425f4a01273e6649f_icgraph" alt=""/></div>
 <map name="meshclean_8c_a31827c8c149de0a425f4a01273e6649f_icgraph" id="meshclean_8c_a31827c8c149de0a425f4a01273e6649f_icgraph">
-<area shape="rect" id="node2" href="meshlib_8h.html#a64ea7e69fd4e877c4dd1f6def430f8bf" title="Removes close vertices. " alt="" coords="220,13,411,39"/></map>
+<area shape="rect" id="node2" href="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="220,13,411,39"/></map>
 </div>
 </p>
 
@@ -462,7 +489,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="meshclean_8c.html">meshclean.c</a></li>
-    <li class="footer">Generated on Sat Jun 25 2016 21:06:59 for MeshLib by
+    <li class="footer">Generated on Fri Sep 9 2016 01:16:07 for MeshLib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

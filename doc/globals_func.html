@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="meshlib.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">MeshLib
-   &#160;<span id="projectnumber">1.4.1.0</span>
+   &#160;<span id="projectnumber">1.4.2.0</span>
    </div>
    <div id="projectbrief">A simple Mesh Library written in C</div>
   </td>
@@ -185,6 +185,10 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 : <a class="el" href="meshlib_8h.html#a1352aa6157e2eeb135702f3eeb676a4c">meshlib.h</a>
 , <a class="el" href="meshcreate_8c.html#a03655a48821a87b88533b167b4231a10">meshcreate.c</a>
 </li>
+<li>mesh_create_mesh_new_grid()
+: <a class="el" href="meshcreate_8c.html#a3975c72a8f1e7d6f3051d182214597b4">meshcreate.c</a>
+, <a class="el" href="meshlib_8h.html#a3975c72a8f1e7d6f3051d182214597b4">meshlib.h</a>
+</li>
 <li>mesh_cross_normal()
 : <a class="el" href="meshcalc_8c.html#ae9d034f71e466e55380390f3b90d90eb">meshcalc.c</a>
 , <a class="el" href="meshlib_8h.html#a59ff1e2b1f8e80de817f5a2e45b784e8">meshlib.h</a>
@@ -242,12 +246,12 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 , <a class="el" href="meshlib_8h.html#a5ec72a190e4d5e0af42897718babceb6">meshlib.h</a>
 </li>
 <li>mesh_load_off()
-: <a class="el" href="meshload_8c.html#ad7ed7c1491a7e936e2abe3b7b70e7604">meshload.c</a>
-, <a class="el" href="meshlib_8h.html#ae2124240e6a8a21b86d603c7e7556c23">meshlib.h</a>
+: <a class="el" href="meshlib_8h.html#ae2124240e6a8a21b86d603c7e7556c23">meshlib.h</a>
+, <a class="el" href="meshload_8c.html#ad7ed7c1491a7e936e2abe3b7b70e7604">meshload.c</a>
 </li>
 <li>mesh_load_ply()
-: <a class="el" href="meshlib_8h.html#a868068a5187f98b5e9e08096accf6b51">meshlib.h</a>
-, <a class="el" href="meshload_8c.html#a7fd576f15ed99a38c622fe0bd67ae941">meshload.c</a>
+: <a class="el" href="meshload_8c.html#a7fd576f15ed99a38c622fe0bd67ae941">meshload.c</a>
+, <a class="el" href="meshlib_8h.html#a868068a5187f98b5e9e08096accf6b51">meshlib.h</a>
 </li>
 <li>mesh_load_xyz()
 : <a class="el" href="meshload_8c.html#aa9d606b2ffc2cdcabf118835cd6eac4c">meshload.c</a>
@@ -258,8 +262,8 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 , <a class="el" href="meshlib_8h.html#a57fd402fc871397b81680b993052a3b2">meshlib.h</a>
 </li>
 <li>mesh_read_word_only()
-: <a class="el" href="meshtext_8c.html#a463e7a8f2e6ef7d70894150bf4205d40">meshtext.c</a>
-, <a class="el" href="meshlib_8h.html#a1b13bd0c657511250b1aafbbd6fee36b">meshlib.h</a>
+: <a class="el" href="meshlib_8h.html#a1b13bd0c657511250b1aafbbd6fee36b">meshlib.h</a>
+, <a class="el" href="meshtext_8c.html#a463e7a8f2e6ef7d70894150bf4205d40">meshtext.c</a>
 </li>
 <li>mesh_remove_boundary_faces()
 : <a class="el" href="meshclean_8c.html#aa0b039d809b08622cefeba9e7a091a05">meshclean.c</a>
@@ -270,24 +274,28 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 , <a class="el" href="meshlib_8h.html#aa55d052e5cbfdd62025a2af51694bf3c">meshlib.h</a>
 </li>
 <li>mesh_remove_close_vertices()
-: <a class="el" href="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03">meshlib.h</a>
-, <a class="el" href="meshclean_8c.html#a64ea7e69fd4e877c4dd1f6def430f8bf">meshclean.c</a>
+: <a class="el" href="meshclean_8c.html#a64ea7e69fd4e877c4dd1f6def430f8bf">meshclean.c</a>
+, <a class="el" href="meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03">meshlib.h</a>
 </li>
 <li>mesh_remove_ear_faces()
-: <a class="el" href="meshclean_8c.html#ac6d62e107ff0c8b94daebd40c471b963">meshclean.c</a>
-, <a class="el" href="meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955">meshlib.h</a>
+: <a class="el" href="meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955">meshlib.h</a>
+, <a class="el" href="meshclean_8c.html#ac6d62e107ff0c8b94daebd40c471b963">meshclean.c</a>
+</li>
+<li>mesh_remove_non_manifold_vertices()
+: <a class="el" href="meshclean_8c.html#a2bc81ce7f8fc23afd031bc9c033a5ddb">meshclean.c</a>
+, <a class="el" href="meshlib_8h.html#ae10d71a558d1f39cab13a8856a0bdd08">meshlib.h</a>
 </li>
 <li>mesh_remove_triangles_with_small_area()
-: <a class="el" href="meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635">meshlib.h</a>
-, <a class="el" href="meshclean_8c.html#a4e00579ab3c9986cb115c784e49a009c">meshclean.c</a>
+: <a class="el" href="meshclean_8c.html#a4e00579ab3c9986cb115c784e49a009c">meshclean.c</a>
+, <a class="el" href="meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635">meshlib.h</a>
 </li>
 <li>mesh_remove_unreferenced_vertices()
-: <a class="el" href="meshlib_8h.html#a4379103b6a6f7bea892042e2835048af">meshlib.h</a>
-, <a class="el" href="meshclean_8c.html#ab61a5ef5bc07cf16f1c76fa7433e842e">meshclean.c</a>
+: <a class="el" href="meshclean_8c.html#ab61a5ef5bc07cf16f1c76fa7433e842e">meshclean.c</a>
+, <a class="el" href="meshlib_8h.html#a4379103b6a6f7bea892042e2835048af">meshlib.h</a>
 </li>
 <li>mesh_remove_zero_area_faces()
-: <a class="el" href="meshlib_8h.html#a654d367f5a2926200bd36718086a414a">meshlib.h</a>
-, <a class="el" href="meshclean_8c.html#a31827c8c149de0a425f4a01273e6649f">meshclean.c</a>
+: <a class="el" href="meshclean_8c.html#a31827c8c149de0a425f4a01273e6649f">meshclean.c</a>
+, <a class="el" href="meshlib_8h.html#a654d367f5a2926200bd36718086a414a">meshlib.h</a>
 </li>
 <li>mesh_restricted_laplacian_filter()
 : <a class="el" href="meshfilter_8c.html#aba5939a212e5f499ca645b375ed9bdee">meshfilter.c</a>
@@ -298,32 +306,32 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 , <a class="el" href="meshtransform_8c.html#a2158fccfd52f0d78b8c00f8c7e45b43b">meshtransform.c</a>
 </li>
 <li>mesh_rotation_create()
-: <a class="el" href="meshlib_8h.html#a6e0331552bd7f095fffad720fe970e28">meshlib.h</a>
-, <a class="el" href="meshtransform_8c.html#a6b79d595773fbb6a574e1ed8fa67674c">meshtransform.c</a>
+: <a class="el" href="meshtransform_8c.html#a6b79d595773fbb6a574e1ed8fa67674c">meshtransform.c</a>
+, <a class="el" href="meshlib_8h.html#a6e0331552bd7f095fffad720fe970e28">meshlib.h</a>
 </li>
 <li>mesh_rotation_free()
 : <a class="el" href="meshlib_8h.html#a7c9bc2edd9a8de874b16f11bc7c9e87a">meshlib.h</a>
 , <a class="el" href="meshtransform_8c.html#a324714477b0e712312b9de480f9cabab">meshtransform.c</a>
 </li>
 <li>mesh_rotation_set_angleaxis()
-: <a class="el" href="meshtransform_8c.html#a2e273243f268fc5bf52f71cbb9e50935">meshtransform.c</a>
-, <a class="el" href="meshlib_8h.html#ad77915392ebb41eb7aaebce626a896e5">meshlib.h</a>
+: <a class="el" href="meshlib_8h.html#ad77915392ebb41eb7aaebce626a896e5">meshlib.h</a>
+, <a class="el" href="meshtransform_8c.html#a2e273243f268fc5bf52f71cbb9e50935">meshtransform.c</a>
 </li>
 <li>mesh_rotation_set_matrix()
-: <a class="el" href="meshtransform_8c.html#a59d5fdfa40e0dd73606ac136fdc5485c">meshtransform.c</a>
-, <a class="el" href="meshlib_8h.html#a16c629a7d44254469d9a268913dd8bf6">meshlib.h</a>
+: <a class="el" href="meshlib_8h.html#a16c629a7d44254469d9a268913dd8bf6">meshlib.h</a>
+, <a class="el" href="meshtransform_8c.html#a59d5fdfa40e0dd73606ac136fdc5485c">meshtransform.c</a>
 </li>
 <li>mesh_scale()
-: <a class="el" href="meshlib_8h.html#a7b790b459f39d5fd27e60f5d71c92a4c">meshlib.h</a>
-, <a class="el" href="meshtransform_8c.html#a8e0581288a873837118b83af4c726d54">meshtransform.c</a>
+: <a class="el" href="meshtransform_8c.html#a8e0581288a873837118b83af4c726d54">meshtransform.c</a>
+, <a class="el" href="meshlib_8h.html#a7b790b459f39d5fd27e60f5d71c92a4c">meshlib.h</a>
 </li>
 <li>mesh_skip_line()
-: <a class="el" href="meshlib_8h.html#aacea2302894adaa323a42b0317b7e56e">meshlib.h</a>
-, <a class="el" href="meshtext_8c.html#af66fdd34570fb6e7c76efab62264e251">meshtext.c</a>
+: <a class="el" href="meshtext_8c.html#af66fdd34570fb6e7c76efab62264e251">meshtext.c</a>
+, <a class="el" href="meshlib_8h.html#aacea2302894adaa323a42b0317b7e56e">meshlib.h</a>
 </li>
 <li>mesh_translate()
-: <a class="el" href="meshtransform_8c.html#a5518adcc0f841186e58faf26b2dc2f44">meshtransform.c</a>
-, <a class="el" href="meshlib_8h.html#ad69be6ff08941b95f9115c0e2bd51150">meshlib.h</a>
+: <a class="el" href="meshlib_8h.html#ad69be6ff08941b95f9115c0e2bd51150">meshlib.h</a>
+, <a class="el" href="meshtransform_8c.html#a5518adcc0f841186e58faf26b2dc2f44">meshtransform.c</a>
 </li>
 <li>mesh_translate_vector()
 : <a class="el" href="meshtransform_8c.html#a2922bc63296fdeeeeee474f7f82132d3">meshtransform.c</a>
@@ -334,12 +342,12 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 , <a class="el" href="meshcalc_8c.html#a06e10c143dceded0ee4831fbcb80c901">meshcalc.c</a>
 </li>
 <li>mesh_vertex_rotate()
-: <a class="el" href="meshlib_8h.html#a97f3b6aa3dbdd358796270ff6f940a97">meshlib.h</a>
-, <a class="el" href="meshtransform_8c.html#aa7f930546a505bb966e3ed85e8e5a176">meshtransform.c</a>
+: <a class="el" href="meshtransform_8c.html#aa7f930546a505bb966e3ed85e8e5a176">meshtransform.c</a>
+, <a class="el" href="meshlib_8h.html#a97f3b6aa3dbdd358796270ff6f940a97">meshlib.h</a>
 </li>
 <li>mesh_write_file()
-: <a class="el" href="meshlib_8h.html#ad367b48ff3342d3ae56aea6e2300afe4">meshlib.h</a>
-, <a class="el" href="meshwrite_8c.html#a1f043cb0fb01d7685a480c995d1bdd7a">meshwrite.c</a>
+: <a class="el" href="meshwrite_8c.html#a1f043cb0fb01d7685a480c995d1bdd7a">meshwrite.c</a>
+, <a class="el" href="meshlib_8h.html#ad367b48ff3342d3ae56aea6e2300afe4">meshlib.h</a>
 </li>
 <li>mesh_write_off()
 : <a class="el" href="meshlib_8h.html#aa12f99c7d343b68c070a56cb6717bff0">meshlib.h</a>
@@ -350,8 +358,8 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 , <a class="el" href="meshlib_8h.html#a720d89b615c369149b4bfe6998db8c19">meshlib.h</a>
 </li>
 <li>mesh_write_xyz()
-: <a class="el" href="meshwrite_8c.html#a8af48a03b82f119eb880af77aa3100f5">meshwrite.c</a>
-, <a class="el" href="meshlib_8h.html#a346b5bf71edbe4d4fcf3ad4f5eedb57a">meshlib.h</a>
+: <a class="el" href="meshlib_8h.html#a346b5bf71edbe4d4fcf3ad4f5eedb57a">meshlib.h</a>
+, <a class="el" href="meshwrite_8c.html#a8af48a03b82f119eb880af77aa3100f5">meshwrite.c</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -359,7 +367,7 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jun 25 2016 21:07:07 for MeshLib by
+    <li class="footer">Generated on Fri Sep 9 2016 01:16:08 for MeshLib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

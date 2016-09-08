@@ -1,4 +1,4 @@
 <map id="mesh_remove_unreferenced_vertices" name="mesh_remove_unreferenced_vertices">
-<area shape="rect" id="node2" href="$meshlib_8h.html#ac6d62e107ff0c8b94daebd40c471b963" title="Removes ear faces and connecting vertices. " alt="" coords="249,5,414,32"/>
-<area shape="rect" id="node3" href="$meshlib_8h.html#a64ea7e69fd4e877c4dd1f6def430f8bf" title="Removes close vertices. " alt="" coords="236,56,427,83"/>
+<area shape="rect" id="node2" href="$meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955" title="Removes ear faces and connecting vertices. " alt="" coords="249,5,414,32"/>
+<area shape="rect" id="node3" href="$meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="236,56,427,83"/>
 </map>
