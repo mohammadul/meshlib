@@ -7,7 +7,7 @@
 <area shape="rect" id="node11" href="$meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="716,365,875,406"/>
 <area shape="rect" id="node13" href="$meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="1151,372,1341,399"/>
 <area shape="rect" id="node14" href="$meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955" title="Removes ear faces and connecting vertices. " alt="" coords="713,655,878,681"/>
-<area shape="rect" id="node15" href="$meshlib_8h.html#ae10d71a558d1f39cab13a8856a0bdd08" title="mesh_remove_non_manifold\l_vertices" alt="" coords="703,525,888,566"/>
+<area shape="rect" id="node15" href="$meshlib_8h.html#ae10d71a558d1f39cab13a8856a0bdd08" title="Removes non&#45;manifold vertices. " alt="" coords="703,525,888,566"/>
 <area shape="rect" id="node16" href="$meshlib_8h.html#a4379103b6a6f7bea892042e2835048af" title="Removes unreferenced vertices. " alt="" coords="472,731,655,773"/>
 <area shape="rect" id="node17" href="$meshlib_8h.html#a39f93b50de8e3700757c2f75e49d2004" title="Mesh Laplacian filter. " alt="" coords="263,781,406,808"/>
 <area shape="rect" id="node3" href="$meshlib_8h.html#add68bdf1873d73632658e6d9e754d23b" title="Draws a given mesh in OpenGL context in smoothing shading. " alt="" coords="475,5,652,32"/>

@@ -9,7 +9,7 @@
 <area shape="rect" id="node13" href="$meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="873,427,1032,468"/>
 <area shape="rect" id="node15" href="$meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="1308,490,1499,517"/>
 <area shape="rect" id="node16" href="$meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955" title="Removes ear faces and connecting vertices. " alt="" coords="870,880,1035,906"/>
-<area shape="rect" id="node17" href="$meshlib_8h.html#ae10d71a558d1f39cab13a8856a0bdd08" title="mesh_remove_non_manifold\l_vertices" alt="" coords="860,710,1045,751"/>
+<area shape="rect" id="node17" href="$meshlib_8h.html#ae10d71a558d1f39cab13a8856a0bdd08" title="Removes non&#45;manifold vertices. " alt="" coords="860,710,1045,751"/>
 <area shape="rect" id="node18" href="$meshlib_8h.html#a4379103b6a6f7bea892042e2835048af" title="Removes unreferenced vertices. " alt="" coords="629,931,812,972"/>
 <area shape="rect" id="node19" href="$meshlib_8h.html#a8c226207891410dbc60108c649a1f63d" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="140,605,332,632"/>
 <area shape="rect" id="node20" href="$meshlib_8h.html#a39f93b50de8e3700757c2f75e49d2004" title="Mesh Laplacian filter. " alt="" coords="409,890,552,917"/>
