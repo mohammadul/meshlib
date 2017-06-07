@@ -1,0 +1,6 @@
+<map id="mesh_read_word_only" name="mesh_read_word_only">
+<area shape="rect" id="node2" href="$meshlib_8h.html#ae2124240e6a8a21b86d603c7e7556c23" title="Reads a mesh from an OFF file. " alt="" coords="208,5,313,32"/>
+<area shape="rect" id="node4" href="$meshlib_8h.html#a268e449d6ad74d76479f81787cc5a0d1" title="Read a mesh from an ASC/XYZ file. " alt="" coords="204,56,317,83"/>
+<area shape="rect" id="node5" href="$meshlib_8h.html#a868068a5187f98b5e9e08096accf6b51" title="Reads a mesh from a PLY file. " alt="" coords="206,107,315,133"/>
+<area shape="rect" id="node3" href="$meshlib_8h.html#a5ec72a190e4d5e0af42897718babceb6" title="Reads a mesh from an OFF/PLY/ASC/XYZ file. " alt="" coords="365,56,473,83"/>
+</map>

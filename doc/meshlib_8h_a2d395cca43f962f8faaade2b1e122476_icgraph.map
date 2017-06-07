@@ -1,0 +1,4 @@
+<map id="mesh_isnumeric" name="mesh_isnumeric">
+<area shape="rect" id="node2" href="$meshlib_8h.html#a268e449d6ad74d76479f81787cc5a0d1" title="Read a mesh from an ASC/XYZ file. " alt="" coords="171,5,284,32"/>
+<area shape="rect" id="node3" href="$meshlib_8h.html#a5ec72a190e4d5e0af42897718babceb6" title="Reads a mesh from an OFF/PLY/ASC/XYZ file. " alt="" coords="332,5,440,32"/>
+</map>

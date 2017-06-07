@@ -119,6 +119,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_find2"><param name="Local" value="meshcalc_8c.html#aeaebe5f81ad3e5b63c95ba0c439915eb"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_find3"><param name="Local" value="meshcalc_8c.html#a869eb0946ce7dc06e072d3467b00f139"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_upsample"><param name="Local" value="meshcalc_8c.html#a06e10c143dceded0ee4831fbcb80c901"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_upsample_tarea_adaptive"><param name="Local" value="meshcalc_8c.html#a40d2338e1edba248a870aee23d5950a4"><param name="ImageNumber" value="11"></OBJECT>
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="meshclean.c"><param name="Local" value="meshclean_8c.html"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
@@ -362,6 +363,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_translate"><param name="Local" value="meshlib_8h.html#ad69be6ff08941b95f9115c0e2bd51150"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_translate_vector"><param name="Local" value="meshlib_8h.html#a2c288f1e4371fe6c4678a68856efa9a4"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_upsample"><param name="Local" value="meshlib_8h.html#a8ece88db914e1befbd892c0cd02b3ec0"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_upsample_tarea_adaptive"><param name="Local" value="meshlib_8h.html#a62f99b2dfc74e7e7470cd234637b79d3"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_vertex_rotate"><param name="Local" value="meshlib_8h.html#a97f3b6aa3dbdd358796270ff6f940a97"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_write_file"><param name="Local" value="meshlib_8h.html#ad367b48ff3342d3ae56aea6e2300afe4"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="mesh_write_off"><param name="Local" value="meshlib_8h.html#aa12f99c7d343b68c070a56cb6717bff0"><param name="ImageNumber" value="11"></OBJECT>

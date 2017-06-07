@@ -1,18 +1,19 @@
 <map id="mesh_calc_vertex_adjacency" name="mesh_calc_vertex_adjacency">
-<area shape="rect" id="node2" href="$meshlib_8h.html#a2a4546adf022e432511c0d4e3d04b800" title="Computes vertex normals of a given mesh. " alt="" coords="245,111,424,137"/>
+<area shape="rect" id="node2" href="$meshlib_8h.html#a2a4546adf022e432511c0d4e3d04b800" title="Computes vertex normals of a given mesh. " alt="" coords="245,108,424,135"/>
 <area shape="rect" id="node5" href="$meshlib_8h.html#a4450e694fecd7e0ff24eea4b8c3c6e04" title="Mesh bilateral filter. " alt="" coords="495,157,632,184"/>
 <area shape="rect" id="node6" href="$meshlib_8h.html#a0dc7ff83680410b8d1e19ecb10a87f26" title="Restricted Mesh Laplacian filter. " alt="" coords="477,209,650,250"/>
-<area shape="rect" id="node8" href="$meshlib_8h.html#a3ad22077dc3514557cff41dcff5d7684" title="Computes edges of a given mesh. " alt="" coords="271,553,398,580"/>
-<area shape="rect" id="node10" href="$meshlib_8h.html#a8ece88db914e1befbd892c0cd02b3ec0" title="Upsamples a given mesh. " alt="" coords="737,473,854,500"/>
-<area shape="rect" id="node11" href="$meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="716,365,875,406"/>
-<area shape="rect" id="node13" href="$meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="1151,372,1341,399"/>
-<area shape="rect" id="node14" href="$meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955" title="Removes ear faces and connecting vertices. " alt="" coords="713,655,878,681"/>
-<area shape="rect" id="node15" href="$meshlib_8h.html#ae10d71a558d1f39cab13a8856a0bdd08" title="Removes non&#45;manifold vertices. " alt="" coords="703,525,888,566"/>
-<area shape="rect" id="node16" href="$meshlib_8h.html#a4379103b6a6f7bea892042e2835048af" title="Removes unreferenced vertices. " alt="" coords="472,731,655,773"/>
-<area shape="rect" id="node17" href="$meshlib_8h.html#a39f93b50de8e3700757c2f75e49d2004" title="Mesh Laplacian filter. " alt="" coords="263,781,406,808"/>
+<area shape="rect" id="node8" href="$meshlib_8h.html#a3ad22077dc3514557cff41dcff5d7684" title="Computes edges of a given mesh. " alt="" coords="271,528,398,555"/>
+<area shape="rect" id="node10" href="$meshlib_8h.html#a8ece88db914e1befbd892c0cd02b3ec0" title="Upsamples a given mesh. " alt="" coords="737,431,854,457"/>
+<area shape="rect" id="node11" href="$meshlib_8h.html#a62f99b2dfc74e7e7470cd234637b79d3" title="Upsamples a given mesh upto a given triangle area threshold. " alt="" coords="719,365,872,406"/>
+<area shape="rect" id="node12" href="$meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="716,665,875,706"/>
+<area shape="rect" id="node14" href="$meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="1151,789,1341,816"/>
+<area shape="rect" id="node15" href="$meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955" title="Removes ear faces and connecting vertices. " alt="" coords="713,731,878,757"/>
+<area shape="rect" id="node16" href="$meshlib_8h.html#ae10d71a558d1f39cab13a8856a0bdd08" title="Removes non&#45;manifold vertices. " alt="" coords="703,521,888,562"/>
+<area shape="rect" id="node17" href="$meshlib_8h.html#a4379103b6a6f7bea892042e2835048af" title="Removes unreferenced vertices. " alt="" coords="472,782,655,823"/>
+<area shape="rect" id="node18" href="$meshlib_8h.html#a39f93b50de8e3700757c2f75e49d2004" title="Mesh Laplacian filter. " alt="" coords="263,899,406,925"/>
 <area shape="rect" id="node3" href="$meshlib_8h.html#add68bdf1873d73632658e6d9e754d23b" title="Draws a given mesh in OpenGL context in smoothing shading. " alt="" coords="475,5,652,32"/>
 <area shape="rect" id="node4" href="$meshlib_8h.html#a4b336e5fc521aaab154924258999d8bd" title="Draws a given mesh in OpenGL context as pointcloud. " alt="" coords="483,56,644,83"/>
 <area shape="rect" id="node7" href="$meshlib_8h.html#a1351f04d409c0a79d8eaad83accdf7e3" title="Rotates a mesh by a given rotation. " alt="" coords="516,107,611,133"/>
 <area shape="rect" id="node9" href="$meshlib_8h.html#aa9bb55af4acb5abf0f24ed6779e4aef8" title="Computes face adjacent faces of a given mesh. " alt="" coords="472,528,655,555"/>
-<area shape="rect" id="node12" href="$meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="936,365,1103,406"/>
+<area shape="rect" id="node13" href="$meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="936,694,1103,735"/>
 </map>

@@ -1,10 +1,11 @@
 <map id="mesh_calc_edges" name="mesh_calc_edges">
-<area shape="rect" id="node2" href="$meshlib_8h.html#aa9bb55af4acb5abf0f24ed6779e4aef8" title="Computes face adjacent faces of a given mesh. " alt="" coords="180,79,363,105"/>
+<area shape="rect" id="node2" href="$meshlib_8h.html#aa9bb55af4acb5abf0f24ed6779e4aef8" title="Computes face adjacent faces of a given mesh. " alt="" coords="180,129,363,156"/>
 <area shape="rect" id="node3" href="$meshlib_8h.html#a8ece88db914e1befbd892c0cd02b3ec0" title="Upsamples a given mesh. " alt="" coords="445,5,562,32"/>
-<area shape="rect" id="node7" href="$meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955" title="Removes ear faces and connecting vertices. " alt="" coords="421,188,586,215"/>
-<area shape="rect" id="node8" href="$meshlib_8h.html#ae10d71a558d1f39cab13a8856a0bdd08" title="Removes non&#45;manifold vertices. " alt="" coords="411,122,596,163"/>
-<area shape="rect" id="node9" href="$meshlib_8h.html#a4379103b6a6f7bea892042e2835048af" title="Removes unreferenced vertices. " alt="" coords="180,231,363,273"/>
-<area shape="rect" id="node4" href="$meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="424,57,583,98"/>
-<area shape="rect" id="node5" href="$meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="644,115,811,157"/>
-<area shape="rect" id="node6" href="$meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="859,181,1049,208"/>
+<area shape="rect" id="node4" href="$meshlib_8h.html#a62f99b2dfc74e7e7470cd234637b79d3" title="Upsamples a given mesh upto a given triangle area threshold. " alt="" coords="427,57,580,98"/>
+<area shape="rect" id="node8" href="$meshlib_8h.html#ae8dc074787a804bdfa8b3776fb34e955" title="Removes ear faces and connecting vertices. " alt="" coords="421,253,586,280"/>
+<area shape="rect" id="node9" href="$meshlib_8h.html#ae10d71a558d1f39cab13a8856a0bdd08" title="Removes non&#45;manifold vertices. " alt="" coords="411,187,596,229"/>
+<area shape="rect" id="node10" href="$meshlib_8h.html#a4379103b6a6f7bea892042e2835048af" title="Removes unreferenced vertices. " alt="" coords="180,282,363,323"/>
+<area shape="rect" id="node5" href="$meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="424,122,583,163"/>
+<area shape="rect" id="node6" href="$meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="644,181,811,222"/>
+<area shape="rect" id="node7" href="$meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="859,247,1049,273"/>
 </map>

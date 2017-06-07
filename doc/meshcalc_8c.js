@@ -12,5 +12,6 @@ var meshcalc_8c =
     [ "mesh_find", "meshcalc_8c.html#a5315609898ff753ce007e8e849f30d45", null ],
     [ "mesh_find2", "meshcalc_8c.html#aeaebe5f81ad3e5b63c95ba0c439915eb", null ],
     [ "mesh_find3", "meshcalc_8c.html#a869eb0946ce7dc06e072d3467b00f139", null ],
-    [ "mesh_upsample", "meshcalc_8c.html#a06e10c143dceded0ee4831fbcb80c901", null ]
+    [ "mesh_upsample", "meshcalc_8c.html#a06e10c143dceded0ee4831fbcb80c901", null ],
+    [ "mesh_upsample_tarea_adaptive", "meshcalc_8c.html#a40d2338e1edba248a870aee23d5950a4", null ]
 ];

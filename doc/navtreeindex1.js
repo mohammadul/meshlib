@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"structmesh__color.html#a6516fb078d0fbc28038c853f0e13fd0b":[3,0,2,2],
+"structmesh__color.html#a6b4c4f51277e55f446d391c37cddefb5":[3,0,2,0],
 "structmesh__edge.html":[3,0,3],
 "structmesh__edge.html#aeeceb69e996daf39b137c12667c81e2d":[3,0,3,0],
 "structmesh__edge.html#afd5e7c2b8dc8587237571756edca42be":[3,0,3,1],

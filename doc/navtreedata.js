@@ -27,7 +27,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"structmesh__edge.html"
+"structmesh__color.html#a6516fb078d0fbc28038c853f0e13fd0b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

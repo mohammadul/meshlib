@@ -133,6 +133,7 @@ var meshlib_8h =
     [ "mesh_translate", "meshlib_8h.html#ad69be6ff08941b95f9115c0e2bd51150", null ],
     [ "mesh_translate_vector", "meshlib_8h.html#a2c288f1e4371fe6c4678a68856efa9a4", null ],
     [ "mesh_upsample", "meshlib_8h.html#a8ece88db914e1befbd892c0cd02b3ec0", null ],
+    [ "mesh_upsample_tarea_adaptive", "meshlib_8h.html#a62f99b2dfc74e7e7470cd234637b79d3", null ],
     [ "mesh_vertex_rotate", "meshlib_8h.html#a97f3b6aa3dbdd358796270ff6f940a97", null ],
     [ "mesh_write_file", "meshlib_8h.html#ad367b48ff3342d3ae56aea6e2300afe4", null ],
     [ "mesh_write_off", "meshlib_8h.html#aa12f99c7d343b68c070a56cb6717bff0", null ],

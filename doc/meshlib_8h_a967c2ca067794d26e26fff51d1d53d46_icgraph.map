@@ -1,6 +1,7 @@
 <map id="mesh_cross_vector3" name="mesh_cross_vector3">
-<area shape="rect" id="node2" href="$meshlib_8h.html#a6c3029f3728f53b2272ee96d5bda6c83" title="Computes area of a triangle. " alt="" coords="195,13,361,39"/>
-<area shape="rect" id="node3" href="$meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="409,5,568,47"/>
-<area shape="rect" id="node4" href="$meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="616,5,783,47"/>
-<area shape="rect" id="node5" href="$meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="831,13,1021,39"/>
+<area shape="rect" id="node2" href="$meshlib_8h.html#a6c3029f3728f53b2272ee96d5bda6c83" title="Computes area of a triangle. " alt="" coords="195,46,361,73"/>
+<area shape="rect" id="node3" href="$meshlib_8h.html#a62f99b2dfc74e7e7470cd234637b79d3" title="Upsamples a given mesh upto a given triangle area threshold. " alt="" coords="412,5,565,47"/>
+<area shape="rect" id="node4" href="$meshlib_8h.html#a52526baa809ff92ae1a91a198b8bf635" title="Removes triangles with area smaller than a given value. " alt="" coords="409,71,568,112"/>
+<area shape="rect" id="node5" href="$meshlib_8h.html#a654d367f5a2926200bd36718086a414a" title="Removes triangles with zero area. " alt="" coords="616,71,783,112"/>
+<area shape="rect" id="node6" href="$meshlib_8h.html#aa2d9aff74a0f802bf49473a924c49b03" title="Removes close vertices. " alt="" coords="831,78,1021,105"/>
 </map>

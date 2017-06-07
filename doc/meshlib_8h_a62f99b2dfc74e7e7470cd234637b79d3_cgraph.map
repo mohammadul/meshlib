@@ -1,0 +1,8 @@
+<map id="mesh_upsample_tarea_adaptive" name="mesh_upsample_tarea_adaptive">
+<area shape="rect" id="node2" href="$mesherror_8c.html#ae7b8a7a865a69704e4ed00410111749a" title="Displays error message and exits. " alt="" coords="867,136,953,162"/>
+<area shape="rect" id="node3" href="$meshcalc_8c.html#aef39a14ecf45fc9b784784c65e71bd24" title="Computes area of a triangle. " alt="" coords="215,60,381,86"/>
+<area shape="rect" id="node5" href="$meshcalc_8c.html#ad78c5f26376ffe75b391e7af55e70e49" title="Computes vertex adjacent faces of a given mesh. " alt="" coords="627,110,819,137"/>
+<area shape="rect" id="node6" href="$meshcalc_8c.html#a9045bc76d71af1b7c5e3e87cd5d0287f" title="Computes face adjacent faces of a given mesh. " alt="" coords="207,212,389,238"/>
+<area shape="rect" id="node7" href="$meshcalc_8c.html#a33344dbe1f237324724722258b425d8a" title="Computes edges of a given mesh. " alt="" coords="445,161,571,188"/>
+<area shape="rect" id="node4" href="$meshcalc_8c.html#a0549a35b7d8e1eed4e896d172cff42ce" title="Computes the cross product of two 3&#45;d vectors. " alt="" coords="437,60,579,86"/>
+</map>
